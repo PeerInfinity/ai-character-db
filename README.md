@@ -1,6 +1,8 @@
 # AI Character Database
 
-A manually curated collection of AI characters from fiction, sourced from TV Tropes and other sources with detailed analysis.
+A database of AI characters from fiction, sourced from TV Tropes and other sources with detailed analysis.
+
+**🌐 Browse Database:** [https://peerinfinity.github.io/ai-character-db/](https://peerinfinity.github.io/ai-character-db/)
 
 ## Project Overview
 
@@ -40,6 +42,8 @@ Each character entry includes:
   "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/...",
   "work_type": "Movie|TV Show|Book|etc.",
   "work_name": "Name of the work",
+  "publication_year": 1984,
+  "character_type": "Robot|Android|Digital AI|etc.",
   "character_name": "AI character name",
   "character_description": "Description of the character",
   "ai_qualification": "Pass|Fail|Ambiguous",

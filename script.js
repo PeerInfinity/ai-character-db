@@ -297,7 +297,9 @@ function displayEntries() {
             (entry.character_name || '').toLowerCase().includes(query) ||
             (entry.work_name || '').toLowerCase().includes(query) ||
             (entry.character_description || '').toLowerCase().includes(query) ||
-            (entry.work_type || '').toLowerCase().includes(query)
+            (entry.work_type || '').toLowerCase().includes(query) ||
+            (entry.character_type || '').toLowerCase().includes(query) ||
+            (entry.publication_year ? String(entry.publication_year).includes(query) : false)
         );
     }
 
@@ -398,9 +400,14 @@ function generateEntryHTML(entry) {
         ratingClass = ratingValue.toLowerCase();
     }
 
+    // Format work name with optional year
+    const workNameWithYear = entry.publication_year
+        ? `${entry.work_name} (${entry.publication_year})`
+        : entry.work_name;
+
     const workLink = entry.work_url ?
-        `<a href="${entry.work_url}" target="_blank">${entry.work_name}</a>` :
-        entry.work_name;
+        `<a href="${entry.work_url}" target="_blank">${workNameWithYear}</a>` :
+        workNameWithYear;
 
     // Generate source URLs display (numbered links)
     let sourceUrlsDisplay = '';
@@ -415,10 +422,15 @@ function generateEntryHTML(entry) {
     const benevolenceRating = getBenevolence(entry);
     const alignmentRating = getAlignment(entry);
 
+    // Format character name with optional type
+    const characterNameWithType = entry.character_type
+        ? `${entry.character_name} <span class="character-type">(${entry.character_type})</span>`
+        : entry.character_name;
+
     return `
         <div class="entry ${ratingClass}">
             <div class="entry-header">
-                <div class="entry-title">${entry.character_name}</div>
+                <div class="entry-title">${characterNameWithType}</div>
                 <div class="entry-badge ${ratingClass}">${ratingValue}</div>
             </div>
 
@@ -668,7 +680,7 @@ function shuffleWorkTypes() {
 // Load skipped entries
 async function loadSkippedEntries() {
     try {
-        const response = await fetch('skipped_entries.json');
+        const response = await fetch('skipped-entries.json');
         const data = await response.json();
         skippedEntries = data.skipped_entries || [];
 

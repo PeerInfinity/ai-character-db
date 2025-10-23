@@ -363,6 +363,13 @@ h1 {
     color: var(--text-primary);
 }
 
+.character-type {
+    font-size: 0.7em;
+    font-weight: normal;
+    color: var(--text-secondary);
+    opacity: 0.8;
+}
+
 .entry-badge {
     padding: 6px 14px;
     border-radius: 20px;

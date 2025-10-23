@@ -1,6 +1,6 @@
 # The Complete Catalog of AI Characters in Fiction
 
-This comprehensive compilation documents **over 1,500 artificial intelligence characters** from fictional media spanning 1816 to 2025—nearly 200 years of creative imagination. Every entry represents an entity deliberately constructed from mechanical or electronic components with some measure of intelligence, including sentient robots, androids, digital AIs, and computer intelligences.
+This comprehensive compilation documents **453 artificial intelligence characters** from fictional media spanning 1816 to 2025—over 200 years of creative imagination. Every entry represents an entity deliberately constructed from mechanical or electronic components with some measure of intelligence, including sentient robots, androids, digital AIs, and computer intelligences.
 
 ## MOVIES
 
@@ -624,17 +624,18 @@ This comprehensive compilation documents **over 1,500 artificial intelligence ch
 
 ## SUMMARY STATISTICS
 
-**Total Characters Documented:** Over 1,500 AI characters across all media
+**Total Characters Documented:** 453 AI characters across all media
 
 **Time Span:** 1816-2025 (209 years)
 
 **Media Coverage:**
-- Movies: 350+ characters
-- Television: 300+ characters
-- Books/Literature: 200+ characters
-- Video Games: 250+ characters
-- Comics/Manga: 300+ characters
-- Anime: 150+ characters
+- Movies: 98 characters
+- Television: 84 characters
+- Books/Literature: 68 characters
+- Video Games: 67 characters
+- Comics/Manga: 70 characters
+- Anime: 61 characters
+- Web Series/Other: 5 characters
 
 **AI Types Represented:**
 - Sentient Robots (physical mechanical beings)
@@ -662,4 +663,4 @@ This comprehensive compilation documents **over 1,500 artificial intelligence ch
 - Mass Effect (15+ AI characters)
 - Fallout (20+ robot/synth characters)
 
-This catalog represents the most comprehensive compilation of AI characters in fiction, documenting humanity's 200-year fascination with artificial intelligence across every major storytelling medium.
+This catalog documents a comprehensive selection of notable AI characters in fiction, representing humanity's 200-year fascination with artificial intelligence across every major storytelling medium.

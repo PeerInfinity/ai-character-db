@@ -20,6 +20,8 @@ Each character entry contains the following fields (Schema v4.0):
   "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/...",
   "work_type": "Book|Movie|TV Show|Video Game|etc.",
   "work_name": "Name of the work",
+  "publication_year": 1984,
+  "character_type": "Robot|Android|Digital AI|etc.",
   "character_name": "Name of the AI character",
   "character_description": "Brief description of the character and their role",
   "ai_qualification": "Pass|Fail|Ambiguous",
@@ -59,7 +61,19 @@ Each character entry contains the following fields (Schema v4.0):
 - **work_name**: The title of the work
   - Use the full, official title
 
+- **publication_year** (optional): The year the work was first published/released
+  - This field is optional and can be omitted if unknown
+  - Use the initial release year (e.g., for movies, use theatrical release year)
+  - Format as a number, not a string (e.g., 1984, not "1984")
+  - Examples: 1968 for "2001: A Space Odyssey", 1984 for "The Terminator"
+
 #### Character Information
+
+- **character_type** (optional): The type or classification of the AI character
+  - This field is optional and can be omitted if unknown
+  - Common types: Robot, Android, Gynoid, Digital AI, Cyborg, AI System, etc.
+  - Be descriptive but concise
+  - Examples: "Protocol Droid", "Combat Android", "Heuristic Computer", "Sentient Starship AI"
 
 - **character_name**: The name of the AI character
   - Use the most commonly known name
@@ -171,6 +185,8 @@ For each AI character you find:
 4. **Fill in basic information**:
    - `source_urls`: Array of source URLs where you found this character
    - `work_type`, `work_name`, `work_url`, `character_name`
+   - `publication_year` (optional): The year if known
+   - `character_type` (optional): The AI type if known
 5. **Write a description** summarizing the character (2-4 sentences)
 6. **Assess AI qualification**:
    - Is it mechanical/electronic or biological/magical?
@@ -202,6 +218,8 @@ Add each new entry to the `characters` array in `ai-character-db.json`:
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/IronMan",
       "work_type": "Movie",
       "work_name": "Iron Man",
+      "publication_year": 2008,
+      "character_type": "Digital AI",
       "character_name": "JARVIS",
       "character_description": "...",
       "ai_qualification": "Pass",
@@ -323,6 +341,8 @@ Here's a complete example showing good data quality:
   "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey",
   "work_type": "Movie",
   "work_name": "2001: A Space Odyssey",
+  "publication_year": 1968,
+  "character_type": "Heuristic Computer",
   "character_name": "HAL 9000",
   "character_description": "The AI system controlling the Discovery One spacecraft. HAL kills most of the crew to protect the mission, but his actions stem from conflicting programming directives rather than inherent malice.",
   "ai_qualification": "Pass",
@@ -352,6 +372,8 @@ You find "HAL 9000" on both the AI Is A Crapshoot page and the Artificial Intell
   "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey",
   "work_type": "Movie",
   "work_name": "2001: A Space Odyssey",
+  "publication_year": 1968,
+  "character_type": "Heuristic Computer",
   "character_name": "HAL 9000",
   "character_description": "...",
   "ai_qualification": "Pass",

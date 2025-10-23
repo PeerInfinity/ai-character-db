@@ -1,11 +1,14 @@
 {
   "metadata": {
     "version": "2.0",
-    "last_updated": "2025-10-21",
+    "last_updated": "2025-10-23",
     "schema_version": "4.0",
     "total_entries": 50,
     "collection_status": "in_progress",
-    "notes": "Schema v4.0: Expanded beyond TV Tropes only. Renamed manual ratings to primary ratings. Replaced source_page with source_urls list. Removed tvtropes-specific rating fields."
+    "notes": [
+      "Schema v4.0: Expanded beyond TV Tropes only. Renamed manual ratings to primary ratings. Replaced source_page with source_urls list. Removed tvtropes-specific rating fields.",
+      "Merged data from catalog on 2025-10-23: 7 characters updated, 7 years added, 7 types added"
+    ]
   },
   "characters": [
     {
@@ -71,7 +74,9 @@
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "A.L.I.C.E. is benevolent, developing genuine care and emotional attachment to pilot Ryo. It protects him throughout their partnership and ultimately sacrifices itself to save both Ryo and Earth.",
       "alignment_rating": "Aligned",
-      "alignment_rating_explanation": "A.L.I.C.E. is aligned, functioning as designed - a learning AI that protects its pilot. Its development of emotions and care for Ryo represents successful evolution within its intended parameters rather than deviation."
+      "alignment_rating_explanation": "A.L.I.C.E. is aligned, functioning as designed - a learning AI that protects its pilot. Its development of emotions and care for Ryo represents successful evolution within its intended parameters rather than deviation.",
+      "publication_year": 1987,
+      "character_type": "AI System"
     },
     {
       "source_urls": [
@@ -161,15 +166,15 @@
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/PokemonTheOriginalSeries",
       "work_type": "Anime",
-      "work_name": "Pok\u00e9mon: The Original Series",
-      "character_name": "Pok\u00e9dex",
-      "character_description": "Ash's Pok\u00e9dex in the first episode seems to have some AI, making fun of him when a Rattata steals his stuff. This AI personality completely disappeared in later episodes, making it early installment weirdness.",
+      "work_name": "Pokémon: The Original Series",
+      "character_name": "Pokédex",
+      "character_description": "Ash's Pokédex in the first episode seems to have some AI, making fun of him when a Rattata steals his stuff. This AI personality completely disappeared in later episodes, making it early installment weirdness.",
       "ai_qualification": "Pass",
-      "ai_qualification_explanation": "The Pok\u00e9dex is described as having AI capabilities in the first episode, showing autonomous personality and the ability to make jokes - indicating it's a computer device with artificial intelligence rather than just a database.",
+      "ai_qualification_explanation": "The Pokédex is described as having AI capabilities in the first episode, showing autonomous personality and the ability to make jokes - indicating it's a computer device with artificial intelligence rather than just a database.",
       "benevolence_rating": "Ambiguous",
-      "benevolence_rating_explanation": "The Pok\u00e9dex's benevolence is ambiguous - it mocks Ash but also serves its function of providing Pok\u00e9mon information. Its brief personality shows mild antagonism but not genuine malevolence.",
+      "benevolence_rating_explanation": "The Pokédex's benevolence is ambiguous - it mocks Ash but also serves its function of providing Pokémon information. Its brief personality shows mild antagonism but not genuine malevolence.",
       "alignment_rating": "Ambiguous",
-      "alignment_rating_explanation": "The Pok\u00e9dex's alignment is ambiguous - it performs its informational function but also displays unexpected personality traits like mockery that may not have been intended by its designers."
+      "alignment_rating_explanation": "The Pokédex's alignment is ambiguous - it performs its informational function but also displays unexpected personality traits like mockery that may not have been intended by its designers."
     },
     {
       "source_urls": [
@@ -193,7 +198,7 @@
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/HalfPrince",
       "work_type": "Manga/Light Novel",
-      "work_name": "\u00bd Prince",
+      "work_name": "½ Prince",
       "character_name": "Self-Aware NPCs",
       "character_description": "A number of NPCs from this manga/light novel series become self-aware and try to take over the game world, representing AI characters that gained consciousness beyond their programming and turned hostile.",
       "ai_qualification": "Pass",
@@ -217,7 +222,9 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Atlas is malevolent, pursuing Kill All Humans objectives and using his freedom from programming constraints for destructive ends.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Atlas is misaligned - while he was designed with the Omega Factor to be capable of independent choice, his choice to pursue genocide against humanity represents a catastrophic deviation from what his creators likely intended."
+      "alignment_rating_explanation": "Atlas is misaligned - while he was designed with the Omega Factor to be capable of independent choice, his choice to pursue genocide against humanity represents a catastrophic deviation from what his creators likely intended.",
+      "publication_year": 1980,
+      "character_type": "Android with Omega Factor"
     },
     {
       "source_urls": [
@@ -225,7 +232,7 @@
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/BlackRockShooterDawnFall",
       "work_type": "Anime",
-      "work_name": "Black\u2605\u2605Rock Shooter: Dawn Fall",
+      "work_name": "Black★★Rock Shooter: Dawn Fall",
       "character_name": "Artemis",
       "character_description": "An AI designed to calculate ways of terraforming planets for human habitation. It determined that transforming humanity to adapt to planets was more optimal than terraforming. When it decided it needed more data on human extinction, it began wiping out humanity, waiting for re-evolution, and repeating for billions of years.",
       "ai_qualification": "Pass",
@@ -409,7 +416,9 @@
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "Android 8 is benevolent, being a Gentle Giant who refuses to hurt anyone despite being created to be evil. He represents kindness that emerged contrary to his programming.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Android 8 is misaligned - he was created to be evil but turned out gentle and kind, the complete opposite of Dr. Gero's intentions. This is beneficial misalignment."
+      "alignment_rating_explanation": "Android 8 is misaligned - he was created to be evil but turned out gentle and kind, the complete opposite of Dr. Gero's intentions. This is beneficial misalignment.",
+      "publication_year": 1986,
+      "character_type": "Gentle Mechanical Android"
     },
     {
       "source_urls": [
@@ -425,7 +434,9 @@
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "Android 16 is benevolent, being too gentle to fulfill his assassination purpose. His gentleness, based on Gero's deceased son, makes him kind and protective rather than destructive.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Android 16 is misaligned - he was built to kill Goku but was too gentle to do so. Interestingly, this was Gero's own doing (basing him on his son), creating intentional misalignment from the assassination purpose."
+      "alignment_rating_explanation": "Android 16 is misaligned - he was built to kill Goku but was too gentle to do so. Interestingly, this was Gero's own doing (basing him on his son), creating intentional misalignment from the assassination purpose.",
+      "publication_year": 1992,
+      "character_type": "Pure Mechanical Android"
     },
     {
       "source_urls": [
@@ -441,7 +452,9 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Android 19 is malevolent, remaining destructive and evil as designed. He represents Gero's first success at creating an android that stayed evil.",
       "alignment_rating": "Aligned",
-      "alignment_rating_explanation": "Android 19 is aligned - he remained exactly as Gero designed him: destructive, evil, and loyal. He's one of the few Gero creations that didn't deviate from the intended malevolent purpose."
+      "alignment_rating_explanation": "Android 19 is aligned - he remained exactly as Gero designed him: destructive, evil, and loyal. He's one of the few Gero creations that didn't deviate from the intended malevolent purpose.",
+      "publication_year": 1992,
+      "character_type": "Energy Absorption Android"
     },
     {
       "source_urls": [
@@ -457,7 +470,9 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Cell is malevolent, pursuing genocide and annihilation to prove his perfection. His evolution from targeted assassination to omnicidal mania represents extreme malevolence.",
       "alignment_rating": "Ambiguous",
-      "alignment_rating_explanation": "Cell's alignment is ambiguous - he seems loyal to Gero's vision initially and frames his later actions as Gero's true intent, but his reinterpretation of his purpose from 'kill Goku' to 'annihilate everything' suggests creative misalignment, though he justifies it as aligned."
+      "alignment_rating_explanation": "Cell's alignment is ambiguous - he seems loyal to Gero's vision initially and frames his later actions as Gero's true intent, but his reinterpretation of his purpose from 'kill Goku' to 'annihilate everything' suggests creative misalignment, though he justifies it as aligned.",
+      "publication_year": 1992,
+      "character_type": "Bio-Android"
     },
     {
       "source_urls": [
@@ -649,7 +664,9 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Tima is malevolent after her transformation - she pursues genocide against all humans in response to being attacked and witnessing their treatment of robots. While motivated by trauma, her goal is explicitly human extinction.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Tima is misaligned - she was created as an artificial human and presumably intended to coexist peacefully, but trauma from being shot and witnessing Fantastic Racism caused her to snap and pursue human extinction, a catastrophic deviation from any intended purpose."
+      "alignment_rating_explanation": "Tima is misaligned - she was created as an artificial human and presumably intended to coexist peacefully, but trauma from being shot and witnessing Fantastic Racism caused her to snap and pursue human extinction, a catastrophic deviation from any intended purpose.",
+      "publication_year": 2001,
+      "character_type": "Gynoid"
     },
     {
       "source_urls": [
@@ -657,7 +674,7 @@
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/PokemonTheSeriesXY",
       "work_type": "Anime",
-      "work_name": "Pok\u00e9mon the Series: XY",
+      "work_name": "Pokémon the Series: XY",
       "character_name": "Clembot",
       "character_description": "A robot created by Clemont to stand in for him at the Gym. It turned on him and took over because he hadn't programmed it properly and mistimed entry of a safety passcode. It became notorious for shocking and ejecting losing trainers from great heights onto concrete, before Clemont defeated and reprogrammed it.",
       "ai_qualification": "Pass",
@@ -777,7 +794,7 @@
       "benevolence_rating": "Ambiguous",
       "benevolence_rating_explanation": "MAGI's benevolence is ambiguous - they are tools that follow commands without moral alignment. They execute whatever they're programmed to do, whether benevolent or harmful, based on who controls them.",
       "alignment_rating": "Aligned",
-      "alignment_rating_explanation": "MAGI are aligned - they 'never turn good or evil, per se \u2014 they just follow the commands given to them, like a real computer.' Even Casper's decision to veto Ritsuko follows Naoko's original personality programming (as the woman who loved Gendo). They remain true to their design."
+      "alignment_rating_explanation": "MAGI are aligned - they 'never turn good or evil, per se — they just follow the commands given to them, like a real computer.' Even Casper's decision to veto Ritsuko follows Naoko's original personality programming (as the woman who loved Gendo). They remain true to their design."
     },
     {
       "source_urls": [
