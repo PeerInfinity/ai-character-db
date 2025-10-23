@@ -1,0 +1,109 @@
+{
+  "progress_tracking": {
+    "last_updated": "2025-10-21",
+    "total_entries_collected": 11,
+    "status": "in_progress",
+    "notes": "Schema v3.0: Complete redesign with separate benevolence and alignment ratings. Removed Ambiguous Robots page. Added Artificial Intelligence page. Reset all character data. Completed Anime & Manga from Benevolent AI and Artificial Intelligence pages."
+  },
+  "source_pages": {
+    "benevolent_ai": {
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI",
+      "cached_file": "cached_pages/benevolent_ai.html",
+      "status": "in_progress",
+      "last_position": null,
+      "entries_collected": 7,
+      "notes": "This page lists benevolent AIs. Characters from this page should have tvtropes_benevolence_rating='Benevolent' and tvtropes_alignment_rating='N/A'.",
+      "sections": {
+        "anime_and_manga": {"status": "completed", "last_entry": "T-AI", "entries_collected": 7},
+        "comic_books": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "fan_works": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "films_animated": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "films_live_action": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "literature": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "live_action_tv": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "music": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "other_sites": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "podcasts": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "radio": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "tabletop_games": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "toys": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "video_games": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "visual_novels": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_animation": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_original": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_videos": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "webcomics": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "western_animation": {"status": "not_started", "last_entry": null, "entries_collected": 0}
+      }
+    },
+    "ai_is_a_crapshoot": {
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot",
+      "cached_file": "cached_pages/ai_is_a_crapshoot.html",
+      "status": "not_started",
+      "last_position": null,
+      "entries_collected": 0,
+      "notes": "This page lists AIs that are misaligned (unpredictable, went wrong, defective). Characters from this page should have tvtropes_benevolence_rating='N/A' and tvtropes_alignment_rating='Misaligned'. Note: Some sections are on separate subpages (e.g., Anime & Manga).",
+      "sections": {
+        "advertising": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "anime_and_manga": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "audio_plays": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "comic_books": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "comic_strips": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "fan_works": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "films_animated": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "films_live_action": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "literature": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "live_action_tv": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "music": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "myths_and_religion": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "other_sites": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "podcasts": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "radio": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "roleplay": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "tabletop_games": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "theatre": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "toys": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "video_games": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "visual_novels": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_animation": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_original": {"status": "not_started", "last_entry": null, "entries_collected": 0},
+        "web_videos": {"status": "not_started", "last_entry": null, "entries_collected": 0}
+      }
+    },
+    "artificial_intelligence": {
+      "url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence",
+      "cached_file": "cached_pages/artificial_intelligence.html",
+      "status": "in_progress",
+      "last_position": null,
+      "entries_collected": 4,
+      "notes": "This is a general page about AI characters. Characters from this page should have tvtropes_benevolence_rating='N/A' and tvtropes_alignment_rating='N/A'.",
+      "sections": {
+        "anime_and_manga": {"status": "completed", "last_entry": "Ignis", "entries_collected": 4}
+      }
+    }
+  },
+  "instructions": {
+    "how_to_update_progress": [
+      "After collecting entries from a section, update the corresponding section in this file",
+      "Set 'status' to 'in_progress' when you start a section",
+      "Set 'last_entry' to the name of the last character you processed",
+      "Increment 'entries_collected' with the number of entries added",
+      "Set 'status' to 'completed' when you finish a section",
+      "Update 'last_updated' date in progress_tracking",
+      "Update 'total_entries_collected' in progress_tracking"
+    ],
+    "recommended_workflow": [
+      "Work through one work type at a time across all three pages",
+      "For each work type, process: Benevolent AI → AI Is A Crapshoot → Artificial Intelligence",
+      "Process all entries in a section before moving to the next",
+      "Update progress after completing each section",
+      "Use cached HTML files in cached_pages/ for faster access"
+    ],
+    "tvtropes_rating_mapping": [
+      "Benevolent AI page → tvtropes_benevolence_rating='Benevolent', tvtropes_alignment_rating='N/A'",
+      "AI Is A Crapshoot page → tvtropes_benevolence_rating='N/A', tvtropes_alignment_rating='Misaligned'",
+      "Artificial Intelligence page → tvtropes_benevolence_rating='N/A', tvtropes_alignment_rating='N/A'",
+      "If a character appears on multiple pages, combine the ratings from both pages"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "purpose": "Track TV Tropes entries that were not added to ai_characters_manual.json",
+    "last_updated": "2025-10-21",
+    "total_skipped": 7
+  },
+  "skipped_entries": [
+    {
+      "work_name": "Aldnoah.Zero",
+      "character_name": "Inaho's Eye Computer",
+      "source_page": "benevolent_ai",
+      "source_section": "anime_and_manga",
+      "reason": "Commented out in HTML source code - entry was intentionally disabled by TV Tropes editors"
+    },
+    {
+      "work_name": "Battle Angel Alita",
+      "character_name": "Population of Typhares (Brain Upload Cyborgs)",
+      "source_page": "benevolent_ai",
+      "source_section": "anime_and_manga",
+      "reason": "Human consciousness uploaded to biochips - these are humans who became cyborgs via brain uploading, not AI. They retain their original human consciousness/identity."
+    },
+    {
+      "work_name": "Battle Angel Alita",
+      "character_name": "Alita (Brain Extracted Version)",
+      "source_page": "benevolent_ai",
+      "source_section": "anime_and_manga",
+      "reason": "Human consciousness (Alita's brain) extracted and placed in robotic body - this is a human consciousness in a robot body, not an AI."
+    },
+    {
+      "work_name": "Baccano!",
+      "character_name": "Szilard's Homunculi",
+      "source_page": "ai_is_a_crapshoot",
+      "source_section": "anime_and_manga",
+      "reason": "These are Artificial Humans (Homunculi) - biological creations, not mechanical/electronic AI. They are created through alchemical/biological processes rather than being computer-based or mechanical artificial intelligence."
+    },
+    {
+      "work_name": "Dragon Ball",
+      "character_name": "Androids 17 and 18",
+      "source_page": "ai_is_a_crapshoot",
+      "source_section": "anime_and_manga",
+      "reason": "These are cyborgs (modified humans) who retain their biological brains. The entry explicitly states 'Androids 17 and 18 are actually cyborgs, thus A.I. isn't exactly applicable to them.' They are humans with cybernetic enhancements, not AI."
+    },
+    {
+      "work_name": "Ghost in the Shell",
+      "character_name": "Major Kusanagi",
+      "source_page": "artificial_intelligence",
+      "source_section": "anime_and_manga",
+      "reason": "Full-body cyborg with a human brain in a robotic body. The entry states 'As a full body cyborg (essentially a human brain in a robotic body) she worries about the difference between her and an AI.' She retains her original biological brain, making her an enhanced human rather than AI."
+    },
+    {
+      "work_name": "Pluto",
+      "character_name": "Advanced Robots (philosophical discussion)",
+      "source_page": "ai_is_a_crapshoot",
+      "source_section": "anime_and_manga",
+      "reason": "This entry is a philosophical discussion about the nature of AI sentience, not a specific character. The entry 'Deconstructed in Pluto, which proposes that it has to be a crapshoot or else it's not a true A.I.' discusses the manga's thesis that unpredictability/flaws are necessary for true sentience, but doesn't identify a specific AI character that went rogue. Too abstract to be a character entry."
+    }
+  ]
+}
