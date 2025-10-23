@@ -1,6 +1,6 @@
-# The Complete Catalog of AI Characters in Fiction
+# A Catalog of AI Characters in Fiction
 
-This comprehensive compilation documents **453 artificial intelligence characters** from fictional media spanning 1816 to 2025—over 200 years of creative imagination. Every entry represents an entity deliberately constructed from mechanical or electronic components with some measure of intelligence, including sentient robots, androids, digital AIs, and computer intelligences.
+This file documents **453 artificial intelligence characters** from fictional media spanning 1816 to 2025—over 200 years of creative imagination. Every entry represents an entity deliberately constructed from mechanical or electronic components with some measure of intelligence, including sentient robots, androids, digital AIs, and computer intelligences.
 
 ## MOVIES
 
@@ -662,5 +662,3 @@ This comprehensive compilation documents **453 artificial intelligence character
 - Gundam (Multiple AI systems across series)
 - Mass Effect (15+ AI characters)
 - Fallout (20+ robot/synth characters)
-
-This catalog documents a comprehensive selection of notable AI characters in fiction, representing humanity's 200-year fascination with artificial intelligence across every major storytelling medium.

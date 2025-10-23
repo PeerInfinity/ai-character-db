@@ -1,5 +1,4 @@
 let allCharacters = [];
-let skippedEntries = [];
 let filters = {
     sortBy: 'benevolence',
     aiQualification: 'any',
@@ -583,14 +582,6 @@ function collapseAllWorkTypes() {
     });
 }
 
-// Toggle skipped entries section
-function toggleSkippedEntries() {
-    const section = document.getElementById('skipped-section');
-    if (section) {
-        section.classList.toggle('collapsed');
-    }
-}
-
 // Shuffle array using Fisher-Yates algorithm
 function shuffleArray(array) {
     const shuffled = [...array];
@@ -677,62 +668,5 @@ function shuffleWorkTypes() {
     });
 }
 
-// Load skipped entries
-async function loadSkippedEntries() {
-    try {
-        const response = await fetch('skipped-entries.json');
-        const data = await response.json();
-        skippedEntries = data.skipped_entries || [];
-
-        // Update count
-        document.getElementById('skipped-count').textContent =
-            `(${skippedEntries.length} ${skippedEntries.length === 1 ? 'entry' : 'entries'})`;
-
-        // Display skipped entries
-        displaySkippedEntries();
-    } catch (error) {
-        console.error('Error loading skipped entries:', error);
-        document.getElementById('skipped-content').innerHTML =
-            '<div class="no-results">Error loading skipped entries.</div>';
-    }
-}
-
-// Display skipped entries
-function displaySkippedEntries() {
-    const container = document.getElementById('skipped-content');
-
-    if (skippedEntries.length === 0) {
-        container.innerHTML = '<div class="no-results">No skipped entries found.</div>';
-        return;
-    }
-
-    let html = '';
-    skippedEntries.forEach(entry => {
-        html += `
-            <div class="skipped-entry">
-                <div class="skipped-entry-title">${entry.character_name}</div>
-                <div class="skipped-meta">
-                    <div class="skipped-meta-item">
-                        <span class="skipped-meta-label">Work:</span> ${entry.work_name}
-                    </div>
-                    <div class="skipped-meta-item">
-                        <span class="skipped-meta-label">Source Page:</span> ${entry.source_page}
-                    </div>
-                    <div class="skipped-meta-item">
-                        <span class="skipped-meta-label">Section:</span> ${entry.source_section}
-                    </div>
-                </div>
-                <div class="skipped-reason">
-                    <div class="skipped-reason-label">Reason for Exclusion:</div>
-                    ${entry.reason}
-                </div>
-            </div>
-        `;
-    });
-
-    container.innerHTML = html;
-}
-
 // Initialize
 loadData();
-loadSkippedEntries();

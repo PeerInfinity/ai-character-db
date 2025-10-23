@@ -28,8 +28,9 @@ This project collects and analyzes AI characters from various sources, evaluatin
   - Expand/collapse all controls
 
 ### Documentation
-- **collection-guide.md** - Data format and field descriptions
-- **ai-character-catalog.md** - Markdown catalog of all characters
+- **[collection-guide.md](collection-guide.md)** - Data format and field descriptions
+- **[scripts.md](scripts.md)** - Guide for using the merge and fix scripts
+- **[ai-character-catalog.md](ai-character-catalog.md)** - A list of AI characters
 - **README.md** - This file
 
 ## Data Schema (v4.0)

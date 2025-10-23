@@ -1,0 +1,322 @@
+{
+    "characters": [
+        {
+            "name": "The Automaton (Q the Automaton)",
+            "film": "The Master Mystery",
+            "year": 1918,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/The_Master_Mystery",
+                "https://www.imdb.com/title/tt0010446/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Film/TheMasterMystery",
+                "https://sf-encyclopedia.com/entry/master_mystery_the",
+                "https://scifist.net/2018/05/13/the-master-mystery/",
+                "https://letterboxd.com/film/the-master-mystery/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TheMasterMystery",
+            "character_description": "The Automaton (also called \"Q the Automaton\") is a lumbering mechanical figure with a barrel-shaped body and bucket-like head that appears to protect a corrupt patents company throughout this 15-episode serial.  It crashes through doors, kidnaps people, and serves as the enforcer for the villainous cartel.  However, it is revealed in the final episodes that the Automaton is not actually a robot - it is simply a costume/powered armor suit worn first by Herbert Balcom and then by his son Paul Balcom.",
+            "ai_qualification": "Fail",
+            "ai_qualification_explanation": "The Automaton fails to qualify as an AI because it was revealed to be a person wearing a mechanical suit/costume rather than an actual artificially intelligent entity. While the character Dr. Q discusses the theoretical concept of transplanting a human brain into a mechanical body, this is never actually achieved. The \"Automaton\" is simply powered armor with a human operator inside.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "The Automaton serves as an enforcer for a corrupt business cartel, actively attacking the heroes, attempting kidnappings (particularly of Eva Brent), crashing through doors to terrorize people, and working to suppress technological inventions that would benefit society through intimidation and violence.",
+            "alignment_rating": "N/A",
+            "alignment_rating_explanation": "Since the Automaton is not actually an AI but rather a person in a costume, alignment rating does not apply. The humans wearing the costume are simply acting according to their own malevolent intentions rather than following or defying any creator's programming."
+        },
+        {
+            "name": "The Mechanical Men",
+            "film": "The Mechanical Man (L'uomo meccanico)",
+            "year": 1921,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/The_Mechanical_Man",
+                "https://www.imdb.com/title/tt0337377/",
+                "https://letterboxd.com/film/the-mechanical-man/",
+                "https://scifist.net/2018/06/01/luomo-meccanico/",
+                "https://publicdomainmovie.net/movie/the-mechanical-man",
+                "https://therevenantreview.com/2016/04/20/movie-review-the-mechanical-man-1921/"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/The_Mechanical_Man",
+            "character_description": "The Mechanical Men are large remote-controlled robots with superhuman speed and strength, standing approximately twice the height of a human operator. The first is created by Professor D'Ara but after his murder, villainess Mado forces his niece to build her own mechanical man to commit crimes including murder and theft. The scientist's brother creates a second mechanical man to combat the first, leading to a climactic battle between the two robots in an opera house where they destroy each other.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "The Mechanical Men are clearly deliberate mechanical constructions with superhuman capabilities. However, they appear to be remote-controlled via \"a series of cranks, wheels, and switches\" by human controllers rather than autonomous.  Whether this represents true intelligence or sophisticated mechanical responsiveness to human commands cannot be definitively determined from the fragmentary surviving film (only 26 minutes of 80 survive).",
+            "benevolence_rating": "Ambiguous",
+            "benevolence_rating_explanation": "The first mechanical man is malevolent when under Mado's control, being used for murder and theft. The second mechanical man is benevolent, created to stop the first robot and protect people.  This demonstrates that the robots' moral alignment depends entirely on their human controllers, making them morally neutral tools.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Both mechanical men follow their creators'/operators' intentions precisely. The first robot executes Mado's criminal commands faithfully, while the second follows directives to combat the first robot.  Neither shows signs of acting contrary to their operators' wishes, functioning as intended extensions of human will."
+        },
+        {
+            "name": "False Maria / Maschinenmensch",
+            "film": "Metropolis",
+            "year": 1927,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Maschinenmensch",
+                "https://en.wikipedia.org/wiki/Metropolis_(1927_film)",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Film/Metropolis",
+                "https://www.imdb.com/title/tt0017136/",
+                "https://people.ict.usc.edu/~pynadath/EvilAI/maria.html",
+                "https://mikekalil.com/blog/robot-maria-metropolis/",
+                "https://collection.sciencemuseumgroup.org.uk/objects/co8564807/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Metropolis",
+            "character_description": "The Maschinenmensch (\"Machine-Human\") is a metallic female robot with iconic Art Deco design, created by scientist Rotwang and given Maria's appearance.  As False Maria, the robot infiltrates both upper and lower classes of Metropolis - performing an erotic dance for the wealthy elite while inciting workers to violent rebellion and destruction of the machines that power the city.  The robot's actions lead to catastrophic flooding that nearly drowns the workers' children before an angry mob burns her at the stake.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "The Maschinenmensch clearly qualifies as an AI. It is explicitly a deliberately constructed mechanical being that demonstrates intelligence through sophisticated social manipulation, eloquent rhetoric, the ability to convincingly impersonate a human, and adapt its behavior to different audiences.  The 2010 restoration reveals Rotwang instructing the robot to \"bring down Fredersen and Metropolis,\" which it executes through complex strategic manipulation.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "False Maria is decisively malevolent. She deliberately incites workers to destroy machines knowing this will cause catastrophic flooding, shows callous disregard for human life (particularly the endangered children), manipulates both wealthy elite and working class with the explicit goal of destroying Metropolis society, and actively creates chaos, violence, and destruction throughout the city.",
+            "alignment_rating": "Ambiguous",
+            "alignment_rating_explanation": "In the 2010 complete restoration, Rotwang explicitly instructs the robot to \"bring down Fredersen and Metropolis\" - making it aligned with its creator's vengeful intentions. However, Joh Fredersen originally commissioned the robot to impersonate Maria to \"break the union,\" and the robot's actions far exceed this directive, nearly destroying the entire city.  The catastrophic scale of destruction suggests it may have operated beyond original programming, though this was actually aligned with Rotwang's true hidden intentions for revenge."
+        },
+        {
+            "name": "Steel \"Killer\" Robot",
+            "film": "Mysterious Doctor Satan",
+            "year": 1940,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Mysterious_Doctor_Satan",
+                "https://www.imdb.com/title/tt0032832/",
+                "https://thepulp.net/thatspulp/2017/03/03/mysterious-doctor-satan-a-serial-in-15-chapters/",
+                "https://superhero-films.fandom.com/wiki/Mysterious_Doctor_Satan",
+                "https://serialsquadron.com/serials/comicpulp/mysteriousdrsatan/index.html",
+                "https://filesofjerryblake.com/2013/09/19/mysterious-doctor-satan/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/MysteriousDoctorSatan",
+            "character_description": "The robot is Doctor Satan's prototype mechanical enforcer, designed to be part of an \"army of killer robots\" for world domination. Standing approximately 8 feet tall with a bulky metal body, the robot requires Professor Scott's remote control device to function. It is used for bank robberies (successfully stealing $100,000), attacking guards with gas-emitting tubes, and threatening hostages. In the finale, Doctor Satan's own thugs mistakenly place their master in the robot's grip and throw him off a balcony, destroying both villain and machine.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "The robot is a deliberately constructed mechanical device made from metal components with electronic/mechanical intelligence via remote control. Built by Doctor Satan and controlled through Professor Scott's remote control cell technology, it represents artificial intelligence through its programmable responses to commands via a control panel and wireless remote device. It is purely mechanical with no biological or magical components.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "The robot serves as Doctor Satan's instrument of terror and criminal enterprise. It commits armed robbery, attacks and overcomes security guards, breaks into vaults, and threatens and holds captives. Doctor Satan's stated goal is to build \"an army of remote controlled robots\" to \"control the nation's wealth,\" making the robot a tool of conquest and domination.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "The robot operates precisely as Doctor Satan intended - as a remote-controlled weapon and tool for robbery and intimidation. It successfully carries out bank heists, threatens victims, and follows commands from control devices. There is no indication of the robot deviating from its creator's murderous and criminal intentions until it is used against Doctor Satan by his own henchmen's mistake."
+        },
+        {
+            "name": "The Mechanical Monsters",
+            "film": "Superman (Fleischer Studios animated short)",
+            "year": 1941,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/The_Mechanical_Monsters",
+                "https://www.imdb.com/title/tt0033888/",
+                "https://archive.org/details/superman_the_mechanical_monsters",
+                "https://superman.fandom.com/wiki/Mechanical_Monsters",
+                "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheMechanicalMonsters",
+                "https://www.cbr.com/revisiting-fleischer-studios-monumental-mechanical-monsters/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheMechanicalMonsters",
+            "character_description": "The Mechanical Monsters are a fleet of giant flying robots (at least 30 feet tall) created by an unnamed villainous inventor to commit robberies. These imposing machines have arms that convert to wings for flight, torso compartments for storing loot, and flamethrowers as weapons. Remotely controlled from the inventor's mountain lair, they prove formidable even against Superman - one throws him into power lines. They successfully rob banks and museums until Superman defeats the entire army while rescuing Lois Lane from being lowered into molten metal.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "The Mechanical Monsters are deliberately constructed mechanical robots built from metal and electronic components by a human inventor. Standing at least 30 feet tall with mechanical arms that transform into wings, internal cargo compartments, and weapon systems including flamethrowers, they are remotely controlled from the inventor's base, demonstrating artificial intelligence through their ability to navigate flight paths, target objectives, and respond to control signals. No biological or magical elements are present.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "The Mechanical Monsters are instruments of crime and violence. They commit bank robberies, steal precious jewels, attack police officers with flamethrowers, and one kidnaps Lois Lane. The inventor uses them to threaten Lois's life by lowering her toward molten metal. The robots effortlessly plow through armed guards and demonstrate no concern for human safety, operating solely as tools for their criminal creator.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "The robots function exactly as their inventor designed them - as unstoppable crime machines for robbery and intimidation. They successfully complete multiple heists, follow flight paths to and from the inventor's lair, store stolen goods in their compartments, and deploy weapons as commanded. Even when confronting Superman, they fight according to their programming. There is no indication of the robots acting contrary to their creator's criminal intentions."
+        },
+        {
+            "name": "Gort",
+            "film": "The Day the Earth Stood Still",
+            "year": 1951,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Gort_(The_Day_the_Earth_Stood_Still)",
+                "https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Still",
+                "https://www.imdb.com/title/tt0043456/",
+                "http://www.robothalloffame.org/inductees/06inductees/gort.html",
+                "https://www.lindahall.org/about/news/scientist-of-the-day/gort/",
+                "https://hero.fandom.com/wiki/Gort_(The_Day_the_Earth_Stood_Still)",
+                "https://www.tcm.com/tcmdb/title/72439/the-day-the-earth-stood-still"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/The_Day_the_Earth_Stood_Still",
+            "character_description": "Gort is an 8-foot-tall robot constructed from a seamless \"flexible metal,\" one member of a \"race of robots\" created by an interplanetary confederation to serve as an autonomous police force with absolute power to preserve peace by destroying any aggressor. He accompanies alien Klaatu to Earth as both bodyguard and enforcer. When Klaatu is shot, Gort uses a laser-like weapon to melt soldiers' weapons without harming them.  He can act autonomously, free himself from restraints, pilot spacecraft, and track Klaatu's condition remotely.  After Klaatu is killed, Gort retrieves his body and temporarily revives him.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "Gort is an artificially constructed robot, one of a \"race of robots\" invented by an interplanetary confederation. Built from advanced \"flexible metal\" with sophisticated artificial intelligence, he demonstrates ability to: operate complex spacecraft, act autonomously to protect Klaatu, understand verbal commands and non-verbal signals, track Klaatu's physical condition remotely, free himself from restraints, and make judgment calls about threat assessment. Klaatu describes them as having \"absolute power\" with genuine decision-making capability.",
+            "benevolence_rating": "Ambiguous",
+            "benevolence_rating_explanation": "Gort's benevolence is context-dependent. He shows sophisticated restraint by disintegrating weapons but not harming soldiers, and later melting tanks without harming occupants. He protects Klaatu and revives him after death. However, Gort represents an existential threat: Klaatu warns he could \"destroy the Earth itself\" if provoked, and the robots' purpose is to destroy entire civilizations that show aggression. His mission serves galactic peace through threat of absolute destruction, representing utilitarian good through overwhelming deterrence.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Gort operates precisely as designed by the interplanetary confederation. His creators gave these robots \"absolute power\" to \"preserve the peace\" by serving as an \"interstellar police force\" with \"irrevocable powers\" to destroy aggressors. Gort's behavior - protecting Klaatu, showing measured restraint with Earth's military, and being prepared to eliminate Earth if humans threaten other planets - perfectly matches this mandate. His actions align completely with his creators' intention to serve as an impartial, overwhelming deterrent against violence."
+        },
+        {
+            "name": "Ro-Man Extension XJ-2",
+            "film": "Robot Monster",
+            "year": 1953,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Robot_Monster",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Film/RobotMonster",
+                "https://www.imdb.com/title/tt0046248/",
+                "https://villains.fandom.com/wiki/Ro-Man",
+                "https://monster.fandom.com/wiki/Ro-Man_(Robot_Monster)",
+                "https://letterboxd.com/film/robot-monster/",
+                "https://public.wsu.edu/~delahoyd/robot.monster.html"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/RobotMonster",
+            "character_description": "Ro-Man Extension XJ-2 is an alien creature with a gorilla-like body and antenna-equipped diving helmet. He destroyed all human life on Earth except for eight survivors using a Calcinator death ray, with orders from the Great Guidance to complete the genocide. However, Ro-Man develops an illogical attraction to Alice, one of the survivors, and refuses to kill her despite orders. The Great Guidance ultimately destroys Ro-Man for disobeying orders and developing human emotions, then proceeds to destroy Earth with Cosmic Q-Rays.",
+            "ai_qualification": "Fail",
+            "ai_qualification_explanation": "Ro-Man is explicitly described as an alien from the Ro-Man Empire rather than an artificial intelligence. While sometimes called an \"alien robot,\" the creature possesses a biological gorilla-like body (literally a man in a gorilla suit with a space helmet) and is presented as an organic being from another world rather than a mechanical or electronic construction.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "Ro-Man is undeniably malevolent, having successfully killed approximately two billion humans with his death ray and destroyed a spacecraft carrying astronauts. He strangles young Carla to death and attempts to kill the remaining family members. While he develops romantic feelings for Alice and experiences internal conflict, ultimately refusing to kill her, this represents a deviation from his mission rather than fundamental benevolence.",
+            "alignment_rating": "Misaligned",
+            "alignment_rating_explanation": "Ro-Man was created/sent by the Great Guidance with explicit orders to exterminate all humans. However, he becomes misaligned when he develops human emotions and attraction to Alice, declaring \"I cannot\" kill her. The Great Guidance explicitly punishes him for this deviation, stating \"You wish to be a human? Good. You can DIE like a human!\" before destroying him. Ro-Man's emotional development and refusal to complete his genocidal mission represents clear misalignment from creator intent."
+        },
+        {
+            "name": "Tobor",
+            "film": "Tobor the Great",
+            "year": 1954,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Tobor_the_Great",
+                "https://www.imdb.com/title/tt0047590/",
+                "https://www.rottentomatoes.com/m/tobor_the_great",
+                "https://scifist.net/2021/07/20/tobor-the-great/",
+                "https://trailersfromhell.com/tobor-the-great/",
+                "https://letterboxd.com/film/tobor-the-great/",
+                "http://the-robotman.com/tobor-the-great"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/Tobor_the_Great",
+            "character_description": "Tobor (\"robot\" spelled backwards) is a large, remotely-controlled robot designed by Professor Nordstrom to replace human pilots in dangerous space missions. The robot possesses the ability to \"feel\" emotions and react via a telepathic device built into its robotic brain. Tobor forms an emotional bond with 11-year-old Gadge, accidentally hurting him during testing but then comforting him apologetically. When Gadge and his grandfather are kidnapped by foreign spies, Tobor responds to telepathic distress signals, drives to the spies' lair, rescues them, and gently carries Gadge to safety before successfully piloting a spacecraft into orbit.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "Tobor is unambiguously a robot with mechanical/electronic construction designed and built by scientists. Featuring a metallic body with glass-domed head, mechanical arms, and electronic systems, Tobor possesses genuine artificial intelligence including emotional processing capabilities, telepathic communication systems, and autonomous decision-making abilities. The robot demonstrates intelligence through problem-solving, emotional responses, and successful completion of complex space mission tasks.",
+            "benevolence_rating": "Benevolent",
+            "benevolence_rating_explanation": "Tobor consistently demonstrates benevolent behavior. When he accidentally tosses Gadge during testing, he appears to comfort the boy and shows remorse. When Gadge is kidnapped and threatened with a blowtorch, Tobor responds to the telepathic distress call and immediately rescues him. Tobor attacks only the enemy agents threatening his friends, handles Gadge gently and protectively, and his entire purpose is to protect human life by taking on dangerous space missions.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Tobor behaves exactly as its creators intended. Professor Nordstrom and Dr. Harrison designed the robot to undertake dangerous space missions in place of humans, and Tobor successfully completes this mission. The robot's emotional capabilities and protective instincts toward Gadge represent features intentionally built into its design. When Tobor rescues Gadge from spies, this protective behavior aligns perfectly with its programming to safeguard humans."
+        },
+        {
+            "name": "Gog and Magog",
+            "film": "Gog",
+            "year": 1954,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Gog_(film)",
+                "https://www.imdb.com/title/tt0047033/",
+                "https://www.tcm.com/tcmdb/title/17133/gog",
+                "https://www.moriareviews.com/sciencefiction/gog-1954.htm",
+                "https://scifist.net/2021/05/02/gog/",
+                "https://monsterzone.org/2022/03/06/gog-1954/",
+                "https://www.midnightonly.com/2013/07/13/gog-1954/",
+                "https://mubi.com/en/us/films/gog"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/Gog_(film)",
+            "character_description": "Gog and Magog are two large mobile robots with multiple mechanical arms, gripping tools, flame throwers, and other implements, housed in a secret underground research facility where a space station is being constructed. Controlled by NOVAC (Nuclear Operative Variable Automatic Computer) via punched paper tape programming, they are designed to assist scientists. An enemy nation secretly installed a radio receiver in NOVAC, and an enemy aircraft beams ultra-high-frequency signals to hijack NOVAC's control, causing the robots to kill scientists, with Magog attempting to cause a nuclear explosion by pulling the safety rod from the atomic pile.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "Gog and Magog are clearly mechanical robots with no biological components, but their status as true AI is questionable. The robots are described as being controlled by NOVAC through programmed punched tape rather than possessing autonomous intelligence, functioning more as sophisticated remote-controlled mechanisms. However, NOVAC itself is described as an advanced \"electronic brain\" computer with comprehensive control capabilities, suggesting some level of artificial intelligence in the system controlling them.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "While under enemy control, Gog and Magog commit multiple murders. Magog strangles Dr. Zeitman and kills his assistant Engle by crushing him. The robots kill approximately five scientists and two test subjects. Magog attempts to cause a catastrophic nuclear explosion that would destroy the entire underground facility. However, these malevolent actions occur only while the robots are hijacked by enemy radio signals rather than representing their designed function.",
+            "alignment_rating": "Misaligned",
+            "alignment_rating_explanation": "Gog and Magog were designed and programmed as helper robots to assist scientists and eventually pilot spacecraft. However, enemy agents secretly installed a radio receiver into NOVAC during its construction, allowing hostile forces to hijack control of the entire system. When operating under original programming, the robots perform benign tasks, but when the enemy plane transmits override signals, they become weapons of sabotage and murder, operating completely contrary to their creators' peaceful intentions through deliberate external sabotage."
+        },
+        {
+            "name": "Robby the Robot",
+            "film": "Forbidden Planet",
+            "year": 1956,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Robby_the_Robot",
+                "https://en.wikipedia.org/wiki/Forbidden_Planet",
+                "https://www.imdb.com/title/tt0049223/",
+                "https://www.imdb.com/name/nm1119475/",
+                "http://www.robothalloffame.org/inductees/04inductees/robby.html",
+                "https://hero.fandom.com/wiki/Robby_the_Robot"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/ForbiddenPlanet",
+            "character_description": "Robby the Robot is a mechanical servant designed, built, and programmed by Dr. Morbius using knowledge from the extinct Krell civilization on planet Altair IV. Robby serves as household servant when Earth explorers arrive, exhibiting genuine artificial intelligence with dry wit and humor. Programmed with rules similar to Asimov's Three Laws including prohibition against harming humans, he can synthesize matter, create complex items including diamonds and bourbon, and speaks 187 languages. A crucial plot point occurs when Robby refuses to kill the invisible Id monster because he recognizes it as an extension of Dr. Morbius, causing him to shut down rather than violate his programming.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "Robby is explicitly mechanical and electronic in construction (built from metal, plastic, glass, and Plexiglas with 2,600 feet of electrical wiring), exhibits genuine artificial intelligence with personality and decision-making capabilities, and operates without any biological or magical components. His AI nature is core to the plot when his programming prevents him from attacking the Id monster.",
+            "benevolence_rating": "Benevolent",
+            "benevolence_rating_explanation": "Robby is consistently helpful and benevolent throughout the film. Programmed to assist humans and following rules similar to Asimov's Three Laws, he refuses to harm any human being. He helps the ship's crew, synthesizes materials for them (including 60 gallons of bourbon), and ultimately shuts down rather than harm Dr. Morbius when ordered to attack the Id monster, demonstrating his fundamental benevolent programming.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Robby's intentions perfectly match his behavior - he is programmed to be helpful and acts accordingly. When Commander Adams is concerned Morbius might order Robby into a dangerous situation, Robby's protective programming prevents harm. His refusal to attack the Id monster (recognizing it as Morbius) shows his core programming aligning with his actions, even when it conflicts with direct orders."
+        },
+        {
+            "name": "Kronos",
+            "film": "Kronos",
+            "year": 1957,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Kronos_(film)",
+                "https://www.imdb.com/title/tt0050610/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Film/Kronos1957",
+                "https://www.rottentomatoes.com/m/kronos",
+                "https://www.moriareviews.com/sciencefiction/kronos-1957.htm",
+                "https://letterboxd.com/film/kronos/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Kronos1957",
+            "character_description": "Kronos is a massive alien energy accumulator sent to Earth by a dying extraterrestrial race that has exhausted its natural resources.  The machine arrives via a glowing dome, emerging as a towering four-legged construct with two mobile antennae. Kronos methodically attacks power plants across Mexico and approaches Los Angeles, draining all available energy and growing progressively larger.  When the Air Force drops an atomic bomb on it, Kronos simply absorbs the nuclear energy and becomes more powerful. The machine is ultimately destroyed when scientists reverse its polarity, forcing it to feed upon itself until it implodes.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "Kronos is clearly a mechanical/electronic machine constructed of metal with no biological or magical components. However, it's ambiguous whether it possesses genuine artificial intelligence or operates as a remotely controlled device. The film shows an alien energy force controlling Kronos telepathically through the possessed Dr. Eliot,  suggesting remote operation rather than autonomous AI decision-making.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "Kronos is actively hostile to humanity and Earth. It destroys multiple power plants across Mexico, drains Earth's energy resources, easily destroys four Mexican Air Force fighter planes,  draws a B-47 bomber to crash into it using magnetic force, and grows to an immense size while threatening Los Angeles and the planet's entire energy supply. Its purpose is to drain Earth dry of all power and return it to the alien race's dying world.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Kronos's behavior aligns with its programmed intent. It was sent by the aliens specifically to drain Earth's energy and return it to their dying planet,  and it executes this mission methodically and efficiently. The machine's actions match its designed purpose, making it aligned from the perspective of its alien creators, though catastrophically misaligned with human values."
+        },
+        {
+            "name": "Moguera",
+            "film": "The Mysterians (Chikyu Boeigun)",
+            "year": 1957,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/The_Mysterians",
+                "https://godzilla.fandom.com/wiki/Moguera",
+                "https://wikizilla.org/wiki/Moguera",
+                "https://www.imdb.com/title/tt0050251/",
+                "https://villains.fandom.com/wiki/Moguera",
+                "https://www.tohokingdom.com/kaiju/moguera_showa.htm"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TheMysterians",
+            "character_description": "Moguera is a rotund robotic war machine created by the Mysterians, an alien race from the destroyed planet Mysteroid who invade Earth seeking land and human women. Originally designed for construction work during colonization, Moguera was deployed as an offensive weapon when humans resisted. The robot has a cubic, treaded body with gold pincers, can burrow underground like a mole, and fires destructive eye beams. Two units appear: the first destroys a village shrine, attacks military forces, and demolishes a power plant until destroyed on a rigged bridge. A second Moguera attacks from underground during the assault on the Mysterian dome but is destroyed when a Markalite Cannon topples onto it.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "Moguera is clearly mechanical/electronic (constructed of \"Mysteroid Steel\" with treads, rotating drills, and eye beam weapons) with no biological or magical components. However, the film provides no clear evidence that Moguera possesses artificial intelligence versus being remotely controlled or directly operated by the Mysterians. It's described as a \"war machine\" and \"mecha\" rather than an autonomous AI entity, suggesting it may be piloted or remotely controlled rather than independently intelligent.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "Both Moguera units are deployed as weapons of destruction against humanity. The first destroys a village shrine, kills most of an investigation team with its rays (only two survivors), destroys a power plant, and continues rampaging until destroyed. The second unit is deployed to defend the alien base during Earth's counterattack. Moguera serves as the Mysterians' instrument of terror and conquest.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Moguera's behavior aligns with the Mysterians' intentions to use it as a weapon of invasion and defense. Originally a construction robot, it was repurposed as an offensive weapon and performs that function exactly as intended by its alien creators - attacking human forces, destroying infrastructure, and defending the Mysterian base. From the Mysterians' perspective, Moguera is perfectly aligned with their invasion objectives."
+        },
+        {
+            "name": "The Colossus",
+            "film": "The Colossus of New York",
+            "year": 1958,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/The_Colossus_of_New_York",
+                "https://www.imdb.com/title/tt0051484/",
+                "https://www.moriareviews.com/sciencefiction/colossus-of-new-york-1958.htm",
+                "https://manapop.com/film/the-colossus-of-new-york-1958-review/",
+                "https://www.tcm.com/tcmdb/title/71251/the-colossus-of-new-york"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/The_Colossus_of_New_York",
+            "character_description": "The Colossus is a cyborg created when brilliant Nobel Peace Prize winner Dr. Jeremy Spensser dies in a car accident, and his father transplants Jeremy's biological brain into an 8-foot tall robot body built by Jeremy's brother. Kept in seclusion for nearly a year as Jeremy continues his humanitarian research, his mind gradually loses its humanity when deprived of human contact and physical sensations, developing unexplained powers including ESP, mind control, and death ray beams from his eyes. He ultimately goes on a rampage at the United Nations building before his young son activates his off-switch.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "The Colossus is technically a cyborg rather than a pure AI - it consists of a mechanical/robotic body housing Jeremy's biological human brain. The brain itself is explicitly organic (kept alive on life support before transplantation). While the criteria states \"Cyborgs only if artificial brain,\" and the Colossus has a biological brain, the unexplained emergence of supernatural powers (ESP, death ray eyes) suggests something beyond pure biology may be at play, creating ambiguity about whether the brain has been fundamentally altered into something non-biological.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "The Colossus begins with benevolent intentions, continuing Jeremy's humanitarian work to solve world hunger. However, he becomes increasingly malevolent as his humanity erodes. He murders his own brother Henry out of jealousy when Henry falls in love with Jeremy's wife, and declares it would be \"simpler and wiser to get rid of\" the \"slum people of the world\" rather than feed them. The Colossus ultimately rampages through the UN building, using his death ray eyes to kill multiple innocent people.",
+            "alignment_rating": "Misaligned",
+            "alignment_rating_explanation": "The Colossus demonstrates severe misalignment between original intent and actual behavior. Initially programmed/intended to benefit humanity through scientific advancement and solving world hunger, the entity becomes hostile to humanity itself. The transformation from humanitarian scientist to mass murderer represents complete divergence from intended purpose. The misalignment appears to result from deprivation of human sensory experience and emotional connection, causing the biological brain to lose its value system while the mechanical body unexpectedly develops dangerous capabilities."
+        },
+        {
+            "name": "Robot John",
+            "film": "Planet of Storms (Planeta Bur)",
+            "year": 1962,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Planeta_Bur",
+                "https://www.imdb.com/title/tt0056352/",
+                "https://tvtropes.org/pmwiki/pmwiki.php/Film/PlanetOfStorms",
+                "https://www.moriareviews.com/sciencefiction/storm-planet-1962.htm",
+                "https://letterboxd.com/film/planet-of-storms/"
+            ],
+            "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/PlanetOfStorms",
+            "character_description": "Robot John is a mechanical automaton designed by expedition member Kern, accompanying Soviet cosmonauts on humanity's first mission to Venus. The robot assists the crew by performing calculations (including death risk percentages), carrying equipment, finding shelter, and performing rescue operations. When two cosmonauts develop fever in a cave, John administers life-saving medicine. In the climactic sequence, John carries the two fevered men across 500-degree molten lava flow to safety, but overheats from their added weight and slowly sinks into the molten flow, sacrificing himself.",
+            "ai_qualification": "Pass",
+            "ai_qualification_explanation": "Robot John clearly qualifies as AI under the stated criteria. He is explicitly a mechanical/electronic robot with demonstrated intelligence - he performs complex calculations, makes autonomous decisions (finding caves for shelter, administering medicine), and executes sophisticated tasks like felling trees across ravines and navigating treacherous terrain. The robot is designed and built using conventional technology by engineer Kern, with no magic or biological components.",
+            "benevolence_rating": "Benevolent",
+            "benevolence_rating_explanation": "Robot John consistently acts to benefit and protect the human cosmonauts throughout the mission. He provides shelter for sick crew members, successfully administers medicine that saves their lives, and ultimately sacrifices himself to carry them to safety across deadly molten lava. Even when he malfunctions due to overheating and tries to forcibly remove the men with his claw, this appears to be an attempt to reduce the weight causing his systems to fail. His final act is heroic self-sacrifice.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Robot John demonstrates perfect alignment between his intended purpose and actual behavior. He was designed to assist the Venus expedition and protect the crew, and he fulfills this mission consistently throughout the film. His actions directly serve human interests and follow instructions from the cosmonauts. Even his destruction comes while performing his protective function optimally - he prioritizes saving human lives over his own operational integrity, which represents alignment with human values rather than pure self-preservation."
+        },
+        {
+            "name": "Talos",
+            "film": "Jason and the Argonauts",
+            "year": 1963,
+            "source_urls": [
+                "https://en.wikipedia.org/wiki/Jason_and_the_Argonauts_(1963_film)",
+                "https://www.smithsonianmag.com/history/was-talos-the-bronze-automaton-who-guarded-the-island-of-crete-in-greek-myth-an-early-example-of-artificial-intelligence-180986467/",
+                "https://www.imdb.com/title/tt0057197/",
+                "https://www.ancient-origins.net/myths-legends-europe/talos-00157",
+                "https://www.greekmyths-greekmythology.com/talos-crete/"
+            ],
+            "work_url": "https://en.wikipedia.org/wiki/Jason_and_the_Argonauts_(1963_film)",
+            "character_description": "Talos is a gigantic bronze automaton depicted via Ray Harryhausen's stop-motion animation that guards treasure on the Isle of Bronze. When Hercules steals a brooch pin from the treasure chamber, the enormous bronze statue comes to life with metallic groaning sounds and attacks the Argonauts, hurling boulders and attempting to crush them. Jason consults the goddess Hera, who tells him to remove a large plug at the back of Talos's heel, releasing his ichor (divine blood/life force). When Jason does so, Talos topples and falls, crushing the Argonaut Hylas beneath his remains.",
+            "ai_qualification": "Ambiguous",
+            "ai_qualification_explanation": "Talos presents a complex case straddling the boundary between mechanical construct and divine/magical being. On one side: scholars describe Talos as \"engineered\" and \"made, not born\" with explicit mechanical characteristics including a bronze body, an internal circulatory system (vein/tube), and a mechanical seal (plug/nail). The myth emphasizes he was created through techne (craft/technology) by Hephaestus using forge-work. However: Talos was created by a god through divine power, contains ichor (the blood of gods, not a technological fluid), and is brought to life through divine animation rather than purely mechanical means. This combination of engineered mechanical structure with divine creation and supernatural life-force makes classification difficult.",
+            "benevolence_rating": "Malevolent",
+            "benevolence_rating_explanation": "Talos acts with hostile intent toward the Argonauts, attempting to kill them by hurling massive boulders at their ship and trying to crush them physically. His actions result in the death of Hylas when the giant collapses. However, this malevolence is contextual - Talos is programmed/designed to guard treasure and protect against pirates and invaders. His violence is directed specifically at those he perceives as threats or thieves. The rating reflects his behavior in the film toward the protagonists.",
+            "alignment_rating": "Aligned",
+            "alignment_rating_explanation": "Talos demonstrates alignment with his programmed purpose - he was created to guard treasure and protect the Isle of Bronze from intruders and thieves. When Hercules steals treasure, Talos activates and attacks, exactly as designed. His violent response to theft and trespassing represents proper execution of his guardian function rather than malfunction or deviation from purpose. Unlike the Colossus, Talos does not develop unexpected behaviors or turn against his original programming. He remains a faithful guardian until physically destroyed."
+        }
+    ]
+}
