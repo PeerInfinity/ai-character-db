@@ -4,10 +4,11 @@ This document explains how to use the scripts for managing and merging AI charac
 
 ## Overview
 
-The database uses two main scripts:
+The database uses three main scripts:
 
 1. **merge_json_files.py** - Merges all JSON files and filters entries by quality
 2. **fix_invalid_entries.py** - Fixes entries with old/invalid field names
+3. **resolve_duplicates.py** - Resolves duplicate entries by intelligently merging them
 
 ## Script 1: merge_json_files.py
 
@@ -214,6 +215,125 @@ Fields removed (not in schema):
   benevolence_rating_explanation_additional
 ```
 
+## Script 3: resolve_duplicates.py
+
+### Purpose
+
+Intelligently resolves duplicate character entries by merging information from multiple entries for the same character. This script is designed to handle the output from `duplicate-entries.json` created by `merge_json_files.py`.
+
+### Usage
+
+```bash
+python3 resolve_duplicates.py
+```
+
+### What It Does
+
+1. Reads `duplicate-entries.json`
+2. Groups entries by work_name and character_name
+3. For each group of duplicates:
+   - Merges all unique source URLs from all entries
+   - Selects the longer/more detailed descriptions
+   - Selects the longer/more detailed explanations
+   - Preserves optional fields (character_type, publication_year) when present
+   - Keeps the best information from each duplicate entry
+4. Writes the deduplicated entries back to `duplicate-entries.json`
+5. Run `merge_json_files.py` to merge the resolved entries back into the main database
+
+### Merging Strategy
+
+The script uses intelligent field selection:
+
+**Source URLs:**
+- Combines all unique URLs from all duplicate entries
+- Example: If one entry has `["url1"]` and another has `["url2"]`, result is `["url1", "url2"]`
+
+**Text Fields (descriptions, explanations):**
+- Prefers longer, more detailed content
+- Ensures no information is lost in the merge
+
+**Optional Fields (character_type, publication_year):**
+- Preserves the field if present in any entry
+- Prefers non-empty values over empty ones
+
+**Other Fields:**
+- Keeps the first non-empty value encountered
+
+### Example Merge
+
+**Before (2 duplicate entries):**
+
+Entry 1:
+```json
+{
+  "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+  "work_name": "Ghost in the Shell: Stand Alone Complex",
+  "character_name": "Tachikomas",
+  "character_type": "Spider Tank AI",
+  "character_description": "AI-equipped spider tanks used by Section 9...",
+  "ai_qualification": "Pass",
+  ...
+}
+```
+
+Entry 2:
+```json
+{
+  "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"],
+  "work_name": "Ghost in the Shell: Stand Alone Complex",
+  "character_name": "Tachikomas",
+  "publication_year": 2002,
+  "character_description": "The Tachikomas develop individuality beyond their programming...",
+  "ai_qualification": "Pass",
+  ...
+}
+```
+
+**After (merged):**
+```json
+{
+  "source_urls": [
+    "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI",
+    "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+  ],
+  "work_name": "Ghost in the Shell: Stand Alone Complex",
+  "character_name": "Tachikomas",
+  "character_type": "Spider Tank AI",
+  "publication_year": 2002,
+  "character_description": "The Tachikomas develop individuality beyond their programming...",
+  "ai_qualification": "Pass",
+  ...
+}
+```
+
+### Output
+
+```
+Total entries before deduplication: 150
+Found 71 groups of duplicates
+Merged 2 entries for: Artemis from Black★★Rock Shooter: Dawn Fall
+Merged 2 entries for: Layzner AI from Blue Comet SPT Layzner
+Merged 3 entries for: Tachikomas from Ghost in the Shell: Stand Alone Complex
+...
+Total entries after deduplication: 71
+Wrote deduplicated entries to duplicate-entries.json
+```
+
+### When to Use
+
+Run this script when:
+- `merge_json_files.py` produces a `duplicate-entries.json` with entries in it
+- You have multiple entries for the same character from different sources
+- You want to combine information from multiple duplicate entries rather than manually choosing one
+
+### Workflow
+
+1. Run `merge_json_files.py` to identify duplicates
+2. Check if `duplicate-entries.json` has entries
+3. If yes, run `resolve_duplicates.py` to merge them
+4. Run `merge_json_files.py` again to merge the resolved entries into `ai-character-db.json`
+5. Verify that `duplicate-entries.json` now shows 0 entries
+
 ## Typical Workflow
 
 ### Initial Data Merge
@@ -255,6 +375,24 @@ If you have entries in `incomplete-entries.json`:
    ```bash
    python3 merge_json_files.py
    ```
+
+### Resolving Duplicate Entries
+
+If you have entries in `duplicate-entries.json`:
+
+1. Run the resolve duplicates script:
+   ```bash
+   python3 resolve_duplicates.py
+   ```
+2. This will intelligently merge duplicate entries, combining:
+   - All source URLs from all duplicates
+   - The most detailed descriptions and explanations
+   - Optional fields like character_type and publication_year
+3. Run the merge script again to integrate resolved entries:
+   ```bash
+   python3 merge_json_files.py
+   ```
+4. Verify that `duplicate-entries.json` now shows 0 entries
 
 ## Tips
 
