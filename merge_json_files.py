@@ -6,6 +6,8 @@ Filters entries based on completeness, multi-work conflicts, and duplicates.
 
 import json
 import glob
+import argparse
+import os
 from collections import defaultdict
 from typing import List, Dict, Any, Tuple
 
@@ -212,10 +214,21 @@ def remove_identical_duplicates(entries: List[Dict[str, Any]]) -> List[Dict[str,
     return unique_entries
 
 
-def load_all_json_files() -> List[Dict[str, Any]]:
-    """Load all JSON files in the current directory and extract character entries."""
+def load_all_json_files(include_batches: bool = False) -> List[Dict[str, Any]]:
+    """Load all JSON files in the current directory and extract character entries.
+
+    Args:
+        include_batches: If True, also scan the batches directory and all subdirectories
+    """
     all_entries = []
     json_files = glob.glob("*.json")
+
+    # If include_batches is True, add JSON files from batches directory
+    if include_batches:
+        batches_pattern = os.path.join("batches", "**", "*.json")
+        batch_files = glob.glob(batches_pattern, recursive=True)
+        json_files.extend(batch_files)
+        print(f"Scanning batches directory found {len(batch_files)} additional JSON files")
 
     for file_path in json_files:
         try:
@@ -410,8 +423,20 @@ def save_json(entries: List[Dict[str, Any]], filename: str, add_missing: bool = 
 
 
 def main():
+    parser = argparse.ArgumentParser(
+        description="Merge JSON files containing character data. "
+                    "Filters entries based on completeness, multi-work conflicts, and duplicates."
+    )
+    parser.add_argument(
+        "-b", "--batches",
+        action="store_true",
+        help="Include JSON files from the batches directory and all subdirectories"
+    )
+
+    args = parser.parse_args()
+
     print("Loading all JSON files...")
-    all_entries = load_all_json_files()
+    all_entries = load_all_json_files(include_batches=args.batches)
     print(f"Loaded {len(all_entries)} total entries from all files")
 
     print("\nRemoving identical duplicates...")

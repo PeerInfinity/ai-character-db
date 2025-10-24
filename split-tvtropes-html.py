@@ -3,6 +3,7 @@
 Split TVTropes HTML files into manageable batches of ~50 lines each
 """
 import os
+import re
 import glob
 from pathlib import Path
 
@@ -75,8 +76,21 @@ for input_file in sorted(html_files):
     content_lines = lines[examples_start:examples_end]
 
     # Split long lines at </li><li> boundaries to get one entry per line
+    # Also track section headings while we're at it
     expanded_lines = []
+    section_markers = []  # List of (line_index, section_heading) tuples
+    current_section = None
+
     for line in content_lines:
+        # Check if this line contains a section heading
+        if 'class="folderlabel"' in line and 'onclick="togglefolder' in line:
+            # Extract section name from between &nbsp; tags
+            # Format: <div class="folderlabel" onclick="togglefolder('folder#');">&nbsp;&nbsp;&nbsp;&nbsp;Section Name&nbsp;</div>
+            match = re.search(r'&nbsp;&nbsp;&nbsp;&nbsp;([^&<]+)&nbsp;', line)
+            if match:
+                current_section = match.group(1).strip()
+                section_markers.append((len(expanded_lines), current_section))
+
         # Split at </li><li> to separate list items
         if '</li><li>' in line:
             # Split and preserve both the closing and opening tags
@@ -130,10 +144,25 @@ for input_file in sorted(html_files):
 
         chunk = content_lines[i:end_index]
 
+        # For batch 2+, determine the current section heading at the start of this batch
+        section_heading = None
+        if batch_num > 1:
+            # Find the most recent section marker before or at line i
+            for marker_line, marker_section in section_markers:
+                if marker_line <= i:
+                    section_heading = marker_section
+                else:
+                    break  # section_markers are in order, so we can stop
+
         output_file = f"{output_dir}/{filename_normalized}-batch_{batch_num:02d}.html"
         with open(output_file, 'w', encoding='utf-8') as f:
             # Write minimal HTML wrapper
             f.write('<!DOCTYPE html>\n<html>\n<head>\n<meta charset="utf-8">\n</head>\n<body>\n')
+
+            # For batch 2+, add section heading at the start if we have one
+            if batch_num > 1 and section_heading:
+                f.write(f'<h3>Section: {section_heading}</h3>\n')
+
             # Write chunk
             f.writelines(chunk)
             # Close HTML properly

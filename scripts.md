@@ -18,8 +18,18 @@ Merges all JSON files in the current directory and filters entries based on data
 ### Usage
 
 ```bash
+# Merge JSON files in current directory only
 python3 merge_json_files.py
+
+# Merge JSON files in current directory AND batches subdirectories
+python3 merge_json_files.py --batches
+# or
+python3 merge_json_files.py -b
 ```
+
+### Options
+
+- `-b, --batches` - Include JSON files from the `batches` directory and all of its subdirectories in addition to the current directory
 
 ### What It Does
 
@@ -264,13 +274,15 @@ rm invalid-entries.json incomplete-entries.json multi-work-entries.json duplicat
 # Keep ai-character-db.json as your main database
 ```
 
-**Option 3: Move to subdirectory before processing**
+**Option 3: Use the batches directory**
 ```bash
-mkdir batches
+mkdir -p batches
 mv batch*.json batches/
-cd batches
-python3 ../merge_json_files.py
+# Run from the root directory with --batches flag
+python3 merge_json_files.py --batches
 ```
+
+This option allows you to organize your batch files in subdirectories under `batches/` while keeping the output files in the root directory.
 
 ### Incremental Updates
 

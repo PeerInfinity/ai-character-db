@@ -1,0 +1,20 @@
+{
+  "characters": [
+    {
+      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheZetaProject",
+      "work_type": "TV Show",
+      "work_name": "The Zeta Project",
+      "publication_year": 2001,
+      "character_type": "Infiltration Android",
+      "character_name": "Zeta",
+      "character_description": "An advanced infiltration robot designed as a government weapon who develops a conscience and goes on the run. Zeta worries about his true nature as a Killer Robot and whether he might turn evil either through malfunction or by giving in to his original programming. His companion Ro assures him that this internal struggle between good and evil makes him more human.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Zeta is an android built from mechanical/electronic components as a government infiltration and assassination unit. He is clearly a constructed AI system with advanced capabilities.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Despite being designed as a killer robot, Zeta develops a conscience and rejects his violent programming. He actively struggles against his destructive nature and chooses to be good, demonstrating genuine benevolence through his conscious rejection of evil.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Zeta was designed and programmed to be an infiltration and assassination weapon for the government. By developing a conscience and refusing to kill, he completely deviated from his creators' intended purpose, making this a clear case of misalignment (albeit positive misalignment)."
+    }
+  ]
+}
