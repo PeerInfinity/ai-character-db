@@ -101,14 +101,91 @@ def get_entry_key(entry: Dict[str, Any]) -> Tuple[str, str]:
     return (char_name, work_name)
 
 
+def is_empty_value(value: Any) -> bool:
+    """Check if a value is considered empty (None, empty string, empty list)."""
+    if value is None:
+        return True
+    if isinstance(value, str) and value.strip() == "":
+        return True
+    if isinstance(value, list) and len(value) == 0:
+        return True
+    return False
+
+
 def entries_are_identical(entry1: Dict[str, Any], entry2: Dict[str, Any]) -> bool:
-    """Check if two entries are identical (same data, not just same character/work)."""
+    """Check if two entries are identical (same data, not just same character/work).
+
+    Entries are considered identical if:
+    1. They have exactly the same data, OR
+    2. They differ only by one having missing/empty data where the other has values
+
+    Returns True if entries are identical.
+    """
     # Compare all fields except metadata-like fields that might differ
-    # We'll do a simple JSON serialization comparison
     e1_copy = {k: v for k, v in entry1.items() if k not in ["metadata"]}
     e2_copy = {k: v for k, v in entry2.items() if k not in ["metadata"]}
 
-    return json.dumps(e1_copy, sort_keys=True) == json.dumps(e2_copy, sort_keys=True)
+    # First check: exact match
+    if json.dumps(e1_copy, sort_keys=True) == json.dumps(e2_copy, sort_keys=True):
+        return True
+
+    # Second check: differ only by missing/empty values
+    all_keys = set(e1_copy.keys()) | set(e2_copy.keys())
+
+    for key in all_keys:
+        val1 = e1_copy.get(key)
+        val2 = e2_copy.get(key)
+
+        # If both have values, they must match
+        if not is_empty_value(val1) and not is_empty_value(val2):
+            if val1 != val2:
+                return False
+        # If one is empty and the other has a value, that's OK (we'll merge)
+        # If both are empty, that's OK too
+
+    return True
+
+
+def merge_entries(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Merge multiple identical entries, keeping the most complete values.
+
+    For each field, prefer non-empty values over empty ones.
+    If multiple entries have non-empty values for the same field,
+    they should all be the same (enforced by entries_are_identical check).
+
+    Args:
+        entries: List of entries to merge (should all be identical per entries_are_identical)
+
+    Returns:
+        A single merged entry with the most complete data
+    """
+    if not entries:
+        return {}
+
+    if len(entries) == 1:
+        return entries[0]
+
+    # Start with the first entry as base
+    merged = entries[0].copy()
+
+    # Get all possible keys from all entries
+    all_keys = set()
+    for entry in entries:
+        all_keys.update(entry.keys())
+
+    # For each key, find the first non-empty value
+    for key in all_keys:
+        if key == "metadata":
+            continue  # Skip metadata fields
+
+        # Find first non-empty value for this key
+        for entry in entries:
+            value = entry.get(key)
+            if not is_empty_value(value):
+                merged[key] = value
+                break
+
+    return merged
 
 
 def remove_identical_duplicates(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
@@ -268,8 +345,10 @@ def filter_entries(entries: List[Dict[str, Any]]) -> Tuple[
                     break
 
             if all_identical:
-                # All entries are identical - keep just one
-                valid_entries.append(group[0])
+                # All entries are identical (possibly with missing data)
+                # Keep the most complete version by merging
+                merged_entry = merge_entries(group)
+                valid_entries.append(merged_entry)
             else:
                 # Entries differ - these are duplicates with different data
                 duplicate_entries.extend(group)
