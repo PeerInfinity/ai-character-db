@@ -30,6 +30,7 @@ This project collects and analyzes AI characters from various sources, evaluatin
 ### Documentation
 - **[collection-guide.md](collection-guide.md)** - Data format and field descriptions
 - **[scripts.md](scripts.md)** - Guide for using the merge and fix scripts
+- **[parsing-tvtropes.md](parsing-tvtropes.md)** - Guide for extracting data from TVTropes pages
 - **[ai-character-catalog.md](ai-character-catalog.md)** - A list of AI characters
 - **README.md** - This file
 
