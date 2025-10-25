@@ -1,22 +1,26 @@
 # AI Character Database
 
-A database of AI characters from fiction, sourced from TV Tropes and other sources with detailed analysis.
+A database of AI characters from fiction, sourced from TV Tropes and other sources with detailed ratings and analysis.
 
 **🌐 Browse Database:** [https://peerinfinity.github.io/ai-character-db/](https://peerinfinity.github.io/ai-character-db/)
 
+**📊 Current Size:** 1,198 characters across 37 work types
+
 ## Project Overview
 
-This project collects and analyzes AI characters from various sources, evaluating:
-- **Benevolence**: Benevolent, Malevolent, Ambiguous, or N/A
-- **Alignment**: Aligned, Misaligned, Ambiguous, or N/A (with creator intent)
-- **AI Qualification**: Does it meet the criteria for an artificial intelligence?
+This project collects and analyzes AI characters from various fictional works, evaluating each on three dimensions:
+- **Benevolence**: Is the AI good, evil, or morally ambiguous?
+- **Alignment**: Does it follow its creator's intent, or has it deviated?
+- **AI Qualification**: Is it actually an AI (computational/mechanical) or something else?
 
 ## Current Files
 
 ### Data Files
-- **ai-character-db.json** - Character database (50 entries, schema v4.0)
-- **collection-progress.json** - Tracks collection progress (legacy format)
-- **skipped-entries.json** - Tracks entries that were reviewed but not included
+- **ai-character-db.json** - Main character database (1,198 entries, schema v4.0)
+- **duplicate-entries.json** - Duplicate character entries identified by merge script
+- **incomplete-entries.json** - Entries missing required fields
+- **invalid-entries.json** - Entries with incorrect field names
+- **multi-work-entries.json** - Characters appearing in multiple works
 
 ### Display
 - **index.html** - Interactive web interface
@@ -27,10 +31,18 @@ This project collects and analyzes AI characters from various sources, evaluatin
   - Collapsible sections for descriptions and assessments
   - Expand/collapse all controls
 
+### Scripts
+- **merge_json_files.py** - Merges JSON files and filters by quality
+- **fix_invalid_entries.py** - Fixes entries with old/invalid field names
+- **resolve_duplicates.py** - Intelligently merges duplicate entries
+- **split_tvtropes_html.py** - Extracts character entries from TVTropes HTML
+- **apply_work_type_standardization.py** - Standardizes work type names across database
+
 ### Documentation
 - **[collection-guide.md](collection-guide.md)** - Data format and field descriptions
 - **[scripts.md](scripts.md)** - Guide for using the merge and fix scripts
 - **[parsing-tvtropes.md](parsing-tvtropes.md)** - Guide for extracting data from TVTropes pages
+- **[work-type-standardization.md](work-type-standardization.md)** - Work type normalization guide
 - **[ai-character-catalog.md](ai-character-catalog.md)** - A list of AI characters
 - **README.md** - This file
 
@@ -94,13 +106,47 @@ Data can be collected from various sources:
 
 ## Current Status
 
-**Total Entries**: 50 characters (schema v4.0)
+**Total Entries**: 1,198 characters (schema v4.0)
 **Status**: Active collection in progress
 
-**Sources Covered So Far**:
-- Benevolent AI (Anime & Manga): 7 entries
-- Artificial Intelligence (Anime & Manga): 4 entries
-- AI Is A Crapshoot (Anime & Manga): 39 entries
+### Database Statistics
+
+**By Rating Category**:
+- Benevolence: 491 Malevolent, 354 Benevolent, 317 Ambiguous, 36 N/A
+- Alignment: 646 Misaligned, 311 Aligned, 184 Ambiguous, 57 N/A
+- AI Qualification: 1,111 Pass, 62 Ambiguous, 17 Fail, 8 N/A
+
+**Top Work Types** (37 unique types, standardized):
+- Video Game: 280 entries
+- TV Show: 217 entries
+- Book: 138 entries (includes Literature, Book Series)
+- Movie: 112 entries (includes Film, Animated Movie, Anime Movie, Short Film)
+- Comic Book: 66 entries
+- Webcomic: 56 entries
+- Fan Fiction: 51 entries (includes Fanfic, Fan Work)
+- Anime: 48 entries
+- Tabletop RPG: 31 entries
+- Plus 29 additional work types
+
+### Sources Processed
+
+**TVTropes Pages Completed**:
+- AI Is A Crapshoot
+- Benevolent AI
+- Artificial Intelligence
+
+## Data Processing Workflow
+
+The project uses a multi-script pipeline for processing character data:
+
+1. **split_tvtropes_html.py** - Extracts character entries from TVTropes HTML pages
+2. **merge_json_files.py** - Merges all JSON files and filters by quality
+   - Use `--batches` flag to include files from `/batches/` subdirectories
+   - Produces: `ai-character-db.json`, `duplicate-entries.json`, `incomplete-entries.json`, `invalid-entries.json`, `multi-work-entries.json`
+3. **fix_invalid_entries.py** - Converts old field names to schema v4.0 format
+4. **resolve_duplicates.py** - Intelligently merges duplicate entries
+
+See [scripts.md](scripts.md) for detailed usage instructions.
 
 ## Rating Guidance
 

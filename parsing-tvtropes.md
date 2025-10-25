@@ -79,7 +79,7 @@ Once you have downloaded the HTML files, run the splitting script from the proje
 
 ```bash
 # Make sure you're in the ai-character-db directory
-python3 split-tvtropes-html.py
+python3 split_tvtropes_html.py
 ```
 
 **Note**: The script uses relative paths, so it must be run from the directory containing the `cached-pages/` folder and the script itself.
@@ -233,7 +233,7 @@ grep "Example subpages:" cached-pages/tvtropes-benevolent_ai.html
 # ... (repeat for all subpages)
 
 # 5. Run the splitting script
-python3 split-tvtropes-html.py
+python3 split_tvtropes_html.py
 
 # 6. Verify output
 ls -la batches/tvtropes-benevolent-ai/

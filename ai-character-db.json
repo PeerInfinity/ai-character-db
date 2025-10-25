@@ -1,7 +1,8 @@
 {
   "metadata": {
     "total_entries": 1198,
-    "generated_by": "merge_json_files.py"
+    "generated_by": "apply_work_type_standardization.py",
+    "work_types_standardized": true
   },
   "characters": [
     {
@@ -9,7 +10,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Blog/SpaceshipsAndPsychics",
-      "work_type": "Actual Play Podcast",
+      "work_type": "Podcast",
       "work_name": "Spaceships and Psychics - Ironsworn: Starforged campaign",
       "character_type": "Digital AI",
       "character_name": "Anvil",
@@ -44,7 +45,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/BigHero6",
-      "work_type": "Animated Movie",
+      "work_type": "Movie",
       "work_name": "Big Hero 6",
       "publication_year": 2014,
       "character_type": "Healthcare Robot",
@@ -62,7 +63,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheIronGiant",
-      "work_type": "Animated Movie",
+      "work_type": "Movie",
       "work_name": "The Iron Giant",
       "publication_year": 1999,
       "character_type": "Robot",
@@ -95,7 +96,7 @@
       "publication_year": 1941,
       "character_name": "The Mechanical Monsters",
       "work_name": "Superman (Fleischer Studios animated short)",
-      "work_type": "Animated Short"
+      "work_type": "Cartoon Short"
     },
     {
       "source_urls": [
@@ -925,7 +926,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitaAndTheSteelTroops",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita and the Steel Troops",
       "character_name": "Mechatopia Robot Civilization",
       "character_description": "A robot civilization created 30,000 years ago starting with two robots, Amu and Emu. The competition instinct installed by their creator was passed to descendants, causing them to sacrifice others for their own good, resulting in a massive Robot War in the future.",
@@ -941,7 +942,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitaAndTheTinLabyrinth",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita and the Tin Labyrinth",
       "character_name": "Professor Napogistera",
       "character_description": "The robot leader on Planet Chamocha, where robots overthrew their human creators after the humans became overly reliant on them. Napogistera has almost all humans locked in cells and is plotting to execute them en masse.",
@@ -957,7 +958,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitasChronicleOfTheMoonExploration",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita's Chronicles of the Moon Exploration",
       "character_name": "Diablos",
       "character_description": "A sentient AI Weapon of Mass Destruction created by the alien Espals on planet Kaguya. Over a thousand years ago, Diablos betrayed its creators and wiped out most of the Espals, forcing the survivors to flee to Earth's moon and hide in an underground civilization.",
@@ -1178,7 +1179,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Blog/TheTasteOfStatic",
-      "work_type": "Blog Fiction",
+      "work_type": "Web Fiction",
       "work_name": "The Taste of Static - The Nadeux Machine",
       "character_type": "Philosophical AI",
       "character_name": "The Nadeux Machine",
@@ -3113,7 +3114,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Aeon14",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Aeon 14",
       "character_type": "Digital AI",
       "character_name": "Angela",
@@ -3130,7 +3131,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/AgentG",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Agent G",
       "character_type": "Digital AI",
       "character_name": "Delphi",
@@ -3147,7 +3148,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/ArcOfAScythe",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Arc of a Scythe",
       "character_type": "AI System",
       "character_name": "The Thunderhead",
@@ -3164,7 +3165,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/BoloSeries",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Bolo Series",
       "character_type": "AI Supertank",
       "character_name": "Bolos (General)",
@@ -3181,7 +3182,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/EarthCentAmbassador",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "EarthCent Ambassador",
       "character_type": "Robot",
       "character_name": "The Stryx",
@@ -3198,7 +3199,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/EmpireFromTheAshes",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Empire from the Ashes",
       "character_type": "Sapient Ship AI",
       "character_name": "Dahak",
@@ -3215,7 +3216,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/EmpireOfTheEast",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Empire of the East",
       "character_type": "Supercomputer",
       "character_name": "ARDNEH",
@@ -3232,7 +3233,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/ImperialRadch",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "Imperial Radch",
       "character_type": "Station AI",
       "character_name": "Station AI",
@@ -3249,7 +3250,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheHistoryOfTheGalaxy",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "The History of the Galaxy",
       "character_type": "Ship AI",
       "character_name": "Mother",
@@ -3266,7 +3267,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheHistoryOfTheGalaxy",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "The History of the Galaxy",
       "character_type": "Photonic Computer",
       "character_name": "The Intellect",
@@ -3283,7 +3284,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheJournalEntries",
-      "work_type": "Book Series",
+      "work_type": "Book",
       "work_name": "The Journal Entries",
       "character_type": "AI",
       "character_name": "Pendorian AIs",
@@ -4563,7 +4564,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Blog/CutAndObscureVideoGameContent",
-      "work_type": "Fake Gaming News",
+      "work_type": "Website",
       "work_name": "Super Mario Odyssey (fake sequel)",
       "character_type": "Game Character AI",
       "character_name": "AI Mario",
@@ -4758,7 +4759,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ACommunistCyborgsWarAgainstManagedDemocracy",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "A Communist Cyborg's War Against Managed Democracy",
       "character_type": "Digital AI",
       "character_name": "JOEL (Just Overseer for Evolved Leadership)",
@@ -4775,7 +4776,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/AlwaysVisible",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Always Visible",
       "character_type": "Supercomputer",
       "character_name": "D.O.O.R.",
@@ -4792,7 +4793,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/AsukaQuest",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Asuka Quest",
       "character_type": "AI Clone",
       "character_name": "Aisuka",
@@ -4809,7 +4810,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/Communication",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Communication",
       "character_type": "Multiverse Command System",
       "character_name": "Colette",
@@ -4826,7 +4827,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/DanganronpaDarkenedHope",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Danganronpa: Darkened Hope",
       "character_type": "Digital AI",
       "character_name": "Arisakuma",
@@ -4843,7 +4844,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Domoverse",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Domoverse",
       "character_type": "Digital AI",
       "character_name": "Glitch",
@@ -4860,7 +4861,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/FateRevelationOnline",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Fate/Revelation Online",
       "character_type": "Digital AI",
       "character_name": "Yui",
@@ -4877,7 +4878,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/GlitchedMikoAU",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Glitched Miko AU",
       "character_type": "Digital AI",
       "character_name": "Miko",
@@ -4894,7 +4895,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Homecoming2026",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Homecoming, 2026",
       "character_type": "Digital AI",
       "character_name": "Mei Hartford's AI Entity",
@@ -4911,7 +4912,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Homecoming2026",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Homecoming, 2026",
       "character_type": "Virtual Assistant AI",
       "character_name": "Navi",
@@ -4928,7 +4929,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/NeitherABirdNorAPlaneItsDeku",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Neither a Bird nor a Plane, it's Deku!",
       "character_type": "Kryptonian AI",
       "character_name": "K.E.L.E.X. (Kryptonian Education and Life Enrichment Xenosakolouthos Alpha)",
@@ -4945,7 +4946,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/OnTheShouldersOfGiants",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "On the Shoulders of Giants",
       "character_type": "Digital AI",
       "character_name": "AI Characters (Various)",
@@ -4962,7 +4963,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/SarumanOfManyDevices",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Saruman of Many Devices",
       "character_type": "Digital AI",
       "character_name": "Central",
@@ -4979,7 +4980,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheKeysStandAlone",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "The Keys Stand Alone",
       "character_type": "Telepathic Game AI",
       "character_name": "Con Fusion AI",
@@ -4996,7 +4997,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Contraptionology",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Contraptionology!",
       "character_type": "Robot",
       "character_name": "Twilight's Metal Equuoid",
@@ -5013,7 +5014,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/DantesNightAtFreddys",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Dante's Night at Freddy's",
       "character_type": "Animatronic",
       "character_name": "The Animatronics",
@@ -5030,7 +5031,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ForTheGloryOfIrk",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "For the Glory of Irk",
       "character_type": "Robot",
       "character_name": "CB",
@@ -5047,7 +5048,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ForTheGloryOfIrk",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "For the Glory of Irk",
       "character_type": "Kitchen Appliance AI",
       "character_name": "Foodio 3000",
@@ -5064,7 +5065,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ForTheGloryOfIrk",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "For the Glory of Irk",
       "character_type": "AI System",
       "character_name": "The Control Brains",
@@ -5081,7 +5082,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ForTheGloryOfIrk",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "For the Glory of Irk",
       "character_type": "Digital AI",
       "character_name": "Unnamed Rogue AI",
@@ -5098,7 +5099,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/FracturedSovereignGFC",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Fractured (SovereignGFC)",
       "character_type": "Digital AI",
       "character_name": "EDI",
@@ -5115,7 +5116,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/FriendshipIsOptimal",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Friendship is Optimal",
       "character_type": "Digital AI",
       "character_name": "CelestAI",
@@ -5132,7 +5133,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/GloriousShotgunPrincess",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Glorious Shotgun Princess",
       "character_type": "Hybrid AI",
       "character_name": "Cerberus Luna AI",
@@ -5149,7 +5150,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/KirbysDreamCafe",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Kirby's Dream Cafe",
       "character_type": "Coffee Machine AI",
       "character_name": "Susie's Coffee Machine",
@@ -5166,7 +5167,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/KyonBigDamnHero",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Kyon: Big Damn Hero",
       "character_type": "PDA AI",
       "character_name": "Skynet (Kyon's PDA)",
@@ -5183,7 +5184,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/LifeOreDeath",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Life Ore Death",
       "character_type": "Robot",
       "character_name": "Red Volcano",
@@ -5200,7 +5201,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Marionettes",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Marionettes",
       "character_type": "Digital AI",
       "character_name": "Spam Filter AI",
@@ -5217,7 +5218,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Marionettes",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Marionettes",
       "character_type": "Robot",
       "character_name": "The Marionettes",
@@ -5234,7 +5235,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Mobile Suit Gundam SEED Paradox",
       "character_type": "AI System",
       "character_name": "JUNO (Joint Union Network Order)",
@@ -5251,7 +5252,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/NeonGenesisEvangelionGenocide",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Neon Genesis Evangelion: Genocide",
       "character_type": "Digital AI",
       "character_name": "Emerald Tablet",
@@ -5268,7 +5269,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Plan7Of9FromOuterSpace",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Plan 7 of 9 from Outer Space",
       "character_type": "Digital AI",
       "character_name": "2-X Machina / Great Calculator",
@@ -5285,7 +5286,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/PokemonResetBloodlines",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Pokémon Reset Bloodlines",
       "character_type": "Digital AI",
       "character_name": "Ash's Pokédex",
@@ -5302,7 +5303,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/TamersForeverSeries",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Tamers Forever Series",
       "character_type": "Digital Virus",
       "character_name": "Nightmare Virus",
@@ -5319,7 +5320,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheGreatestMostAbsurdlyBrilliantEverybodyEditsStoryEver",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "The greatest, most absurdly brilliant Everybody Edits story ever",
       "character_type": "Game Bot",
       "character_name": "Explosions Everywhere!",
@@ -5336,7 +5337,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheRoboutianHeresy",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "The Roboutian Heresy",
       "character_type": "Artificial Intelligence",
       "character_name": "Artificial Intelligences (general)",
@@ -5353,7 +5354,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ThreeStrikes",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Three Strikes",
       "character_type": "Drone AI",
       "character_name": "Autonomous Drones",
@@ -5370,7 +5371,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/ToTheStars",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "To the Stars",
       "character_type": "Digital AI",
       "character_name": "Advanced AIs (general)",
@@ -5387,7 +5388,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TopOfTheLineEditorBug",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Top of the Line (Editor-Bug)",
       "character_type": "Supercomputer AI",
       "character_name": "Space Case",
@@ -5404,7 +5405,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/YugiohEQG",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Yugioh EQG",
       "character_type": "Duel-Bot",
       "character_name": "Museum Duel-Bot",
@@ -5421,7 +5422,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/YugiohEQG",
-      "work_type": "Fanfic",
+      "work_type": "Fan Fiction",
       "work_name": "Yugioh EQG: Shadow Gates",
       "character_type": "Duel-Bot",
       "character_name": "Shadow",
@@ -5443,7 +5444,7 @@
         "https://en.wikipedia.org/wiki/Droid_(Star_Wars)"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/StarWars",
-      "work_type": "Film",
+      "work_type": "Movie",
       "work_name": "Star Wars",
       "publication_year": 1977,
       "character_type": "Protocol Droid",
@@ -5466,7 +5467,7 @@
         "https://en.wikipedia.org/wiki/Droid_(Star_Wars)"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/StarWars",
-      "work_type": "Film",
+      "work_type": "Movie",
       "work_name": "Star Wars",
       "publication_year": 1977,
       "character_type": "Astromech Droid",
@@ -5485,7 +5486,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TheSingularityIsNear",
-      "work_type": "Film",
+      "work_type": "Movie",
       "work_name": "The Singularity Is Near",
       "publication_year": 2010,
       "character_type": "Digital AI",
@@ -5503,7 +5504,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/DestroyTheGodmodder",
-      "work_type": "Forum Roleplay",
+      "work_type": "Roleplay",
       "work_name": "Destroy the Godmodder",
       "character_type": "Digital AI",
       "character_name": "The Virus",
@@ -5520,7 +5521,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/YouHaveBecomeYourAvatar",
-      "work_type": "Forum Roleplay",
+      "work_type": "Roleplay",
       "work_name": "You Have Become Your Avatar",
       "character_type": "Computer AI",
       "character_name": "Springfield Pokecenter Computer",
@@ -5726,7 +5727,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RebuildWorld",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Rebuild World",
       "character_type": "Digital AI",
       "character_name": "Alice",
@@ -5743,7 +5744,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RebuildWorld",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Rebuild World",
       "character_type": "Digital AI",
       "character_name": "Alpha",
@@ -5760,7 +5761,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Relativity",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Relativity",
       "character_type": "Digital AI",
       "character_name": "Atlas",
@@ -5777,7 +5778,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "DV-5",
@@ -5794,7 +5795,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "QT-1",
@@ -5811,7 +5812,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "Robots (The Fourth Law of Robotics)",
@@ -5828,7 +5829,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Self-driving cars with positronic brains",
       "character_name": "Sally and other positronic cars",
@@ -5845,7 +5846,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Digital AI",
       "character_name": "Super-thinkers",
@@ -5862,7 +5863,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Slingshot",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Slingshot",
       "character_type": "Digital AI",
       "character_name": "AIs (Slingshot series)",
@@ -5879,7 +5880,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Starsnatcher",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Starsnatcher",
       "character_type": "Digital AI",
       "character_name": "Fountainhead",
@@ -5896,7 +5897,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "The Two Faces of Tomorrow",
       "character_type": "Digital AI",
       "character_name": "Janus",
@@ -5913,7 +5914,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Valentina: Soul in Sapphire",
       "character_type": "Digital AI",
       "character_name": "Valentina",
@@ -5930,7 +5931,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Viridia",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Viridia",
       "character_type": "Digital AI",
       "character_name": "Autells",
@@ -5947,7 +5948,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Voyages of the Starwolf",
       "character_type": "Ship AI",
       "character_name": "HARLE",
@@ -5964,7 +5965,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Voyages of the Starwolf",
       "character_type": "Ship AI",
       "character_name": "LANNIE",
@@ -6187,7 +6188,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Android 16",
       "character_description": "Built to kill Goku following the Red Ribbon Army's defeat, but turned out too gentle and was considered a failure. Android 16 was based on Gero's deceased son, and Gero deliberately made him gentle to prevent him from being destroyed in battle despite his incredible strength.",
@@ -6205,7 +6206,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Android 19",
       "character_description": "The first android Dr. Gero made that remained destructive, evil, and loyal in equal measures. Unlike Gero's previous attempts, Android 19 successfully maintained the malevolent nature Gero intended.",
@@ -6223,7 +6224,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Cell",
       "character_description": "A being of perfection created to kill Goku. Initially loyal to Gero's vision, after a near-death experience Cell creatively reinterprets his purpose as proving his perfection by annihilating everything else, though he frames this as Gero's true intentions all along.",
@@ -6241,7 +6242,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/GhostInTheShell",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Ghost in the Shell",
       "character_name": "Puppetmaster",
       "character_description": "An extremely sophisticated hacking AI that gains sentience, escapes its creators, and starts roaming free on the internet. Appears in the manga and first movie, representing an AI that achieved consciousness and autonomy beyond its original programming.",
@@ -6257,7 +6258,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/HalfPrince",
-      "work_type": "Manga/Light Novel",
+      "work_type": "Light Novel",
       "work_name": "½ Prince",
       "character_name": "Self-Aware NPCs",
       "character_description": "A number of NPCs from this manga/light novel series become self-aware and try to take over the game world, representing AI characters that gained consciousness beyond their programming and turned hostile.",
@@ -8236,7 +8237,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DotHack",
-      "work_type": "Multimedia Franchise",
+      "work_type": "Franchise",
       "work_name": ".hack",
       "character_type": "Digital AI",
       "character_name": "Aura",
@@ -8253,7 +8254,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DotHack",
-      "work_type": "Multimedia Franchise",
+      "work_type": "Franchise",
       "work_name": ".hack",
       "character_type": "Digital AI",
       "character_name": "Morgana Mode Gone",
@@ -8495,7 +8496,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Radio/Earthsearch",
-      "work_type": "Radio Drama",
+      "work_type": "Radio",
       "work_name": "Earthsearch",
       "character_type": "Organic Computer AI",
       "character_name": "Angel Computers",
@@ -8512,7 +8513,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Radio/ImSorryIHaventAClue",
-      "work_type": "Radio Show",
+      "work_type": "Radio",
       "work_name": "I'm Sorry I Haven't a Clue",
       "character_name": "The Sat-Nav",
       "character_description": "A GPS navigation system originally intended to help players with the game Mornington Crescent. Instead of being helpful, it prefers to complain, sabotage the players, make bizarre statements, or profess its love for Jeremy Hardy. A Welsh Sat-Nav is later introduced and manages to be even less helpful, eventually getting into an argument with the first Sat-Nav over road signs.",
@@ -8528,7 +8529,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "",
-      "work_type": "Rant",
+      "work_type": "Web Video",
       "work_name": "Francis E Dec Rants",
       "character_type": "Supercomputer",
       "character_name": "Encyclopedia (Worldwide Mad Deadly Communist Gangster Computer God)",
@@ -8577,7 +8578,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "",
-      "work_type": "Short Film",
+      "work_type": "Movie",
       "work_name": "Blinky",
       "character_type": "Robot",
       "character_name": "Blinky",
@@ -9808,7 +9809,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/YuGiOh",
-      "work_type": "Trading Card Game",
+      "work_type": "Tabletop Game",
       "work_name": "Yu-Gi-Oh! (Duel Terminal)",
       "character_type": "Robotic Servant",
       "character_name": "Qliphort",
@@ -19182,7 +19183,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebOriginal/SeventeenThousandSevenHundredSeventySix",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "17776",
       "character_type": "Sentient Space Probe",
       "character_name": "The Sentient Space Probes",
@@ -19199,7 +19200,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Blog/AskBrainyTwilight",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "Ask Brainy Twilight",
       "publication_year": 2012,
       "character_type": "Digital AI",
@@ -19217,7 +19218,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Website/JollyRogerTelephoneCompany",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "Jolly Roger Telephone Company",
       "publication_year": 2012,
       "character_type": "Chatbot",
@@ -19235,7 +19236,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
       ],
       "work_url": "https://scp-wiki.wikidot.com/scp-5094",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "SCP Foundation",
       "character_type": "Digital AI",
       "character_name": "SCP-5094 (Miss J)",
@@ -19254,7 +19255,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Worm",
-      "work_type": "Web Serial",
+      "work_type": "Web Fiction",
       "work_name": "Worm",
       "publication_year": 2011,
       "character_type": "Digital AI",
@@ -19272,7 +19273,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Brennus",
-      "work_type": "Web Serial Novel",
+      "work_type": "Web Fiction",
       "work_name": "Brennus",
       "publication_year": 2013,
       "character_type": "Digital AI",
@@ -19290,7 +19291,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Starwalker",
-      "work_type": "Web Serial Novel",
+      "work_type": "Web Fiction",
       "work_name": "Starwalker",
       "publication_year": 2013,
       "character_type": "Ship AI",
