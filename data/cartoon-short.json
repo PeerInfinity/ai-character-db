@@ -1,0 +1,63 @@
+{
+  "work_type": "Cartoon Short",
+  "character_count": 3,
+  "characters": [
+    {
+      "source_urls": [
+        "https://en.wikipedia.org/wiki/The_Mechanical_Monsters",
+        "https://www.imdb.com/title/tt0033888/",
+        "https://archive.org/details/superman_the_mechanical_monsters",
+        "https://superman.fandom.com/wiki/Mechanical_Monsters",
+        "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheMechanicalMonsters",
+        "https://www.cbr.com/revisiting-fleischer-studios-monumental-mechanical-monsters/"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheMechanicalMonsters",
+      "character_description": "The Mechanical Monsters are a fleet of giant flying robots (at least 30 feet tall) created by an unnamed villainous inventor to commit robberies. These imposing machines have arms that convert to wings for flight, torso compartments for storing loot, and flamethrowers as weapons. Remotely controlled from the inventor's mountain lair, they prove formidable even against Superman - one throws him into power lines. They successfully rob banks and museums until Superman defeats the entire army while rescuing Lois Lane from being lowered into molten metal.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Mechanical Monsters are deliberately constructed mechanical robots built from metal and electronic components by a human inventor. Standing at least 30 feet tall with mechanical arms that transform into wings, internal cargo compartments, and weapon systems including flamethrowers, they are remotely controlled from the inventor's base, demonstrating artificial intelligence through their ability to navigate flight paths, target objectives, and respond to control signals. No biological or magical elements are present.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The Mechanical Monsters are instruments of crime and violence. They commit bank robberies, steal precious jewels, attack police officers with flamethrowers, and one kidnaps Lois Lane. The inventor uses them to threaten Lois's life by lowering her toward molten metal. The robots effortlessly plow through armed guards and demonstrate no concern for human safety, operating solely as tools for their criminal creator.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "The robots function exactly as their inventor designed them - as unstoppable crime machines for robbery and intimidation. They successfully complete multiple heists, follow flight paths to and from the inventor's lair, store stolen goods in their compartments, and deploy weapons as commanded. Even when confronting Superman, they fight according to their programming. There is no indication of the robots acting contrary to their creator's criminal intentions.",
+      "publication_year": 1941,
+      "character_name": "The Mechanical Monsters",
+      "work_name": "Superman (Fleischer Studios animated short)",
+      "work_type": "Cartoon Short"
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/BoskoTheTalkInkKid",
+      "work_type": "Cartoon Short",
+      "work_name": "Bosko, the Talk-Ink Kid",
+      "character_type": "Robot",
+      "character_name": "Bosko's Mechanical Man",
+      "character_description": "A robot built by Bosko to help with chores. As soon as it's activated, it goes crazy and terrorizes Bosko and Honey throughout the cartoon.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "A mechanical man (robot) built by Bosko with enough intelligence to perform chores, though it malfunctions immediately.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The robot immediately goes crazy upon activation and terrorizes Bosko and Honey, showing hostile behavior from the start.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The robot was designed to help with chores but instead goes berserk and terrorizes people the moment it's turned on - a complete failure to achieve its intended helpful purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/ModernInventions",
+      "work_type": "Cartoon Short",
+      "work_name": "Modern Inventions",
+      "publication_year": 1937,
+      "character_type": "Robot",
+      "character_name": "Museum Robots",
+      "character_description": "Various robots in a museum that Donald Duck visits. All of the robots only cause trouble for Donald, either intentionally or unintentionally. This 1937 short may be one of the oldest examples of the trope in Western Animation.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "These are robots in a museum with enough intelligence to interact with visitors, though their functionality is questionable.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "The robots cause trouble for Donald both intentionally and unintentionally, making it unclear whether they're deliberately malicious or simply malfunctioning.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The museum robots were presumably designed to demonstrate technology or assist visitors, but instead they consistently cause problems for Donald, failing their intended purpose."
+    }
+  ]
+}

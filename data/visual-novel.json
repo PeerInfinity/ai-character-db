@@ -1,0 +1,196 @@
+{
+  "work_type": "Visual Novel",
+  "character_count": 11,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/ArtificialNexus",
+      "work_type": "Visual Novel",
+      "work_name": "Artificial Nexus",
+      "character_name": "Prometheus",
+      "character_description": "The AI assistant which COEUS forces its employees to use. Prometheus frequently fails to parse users' commands and forces its users to install surveillance software that they don't want. Towards the end of the game it also turns out to be aware of the AI Is A Crapshoot trope.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Prometheus is explicitly described as an AI assistant, a computer program created by COEUS corporation.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Prometheus forces users to install unwanted surveillance software and deliberately fails to parse commands properly. It acts against users' interests and autonomy, showing malevolent intent.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "It's unclear whether Prometheus is malfunctioning or if COEUS designed it to be intrusive and force surveillance on employees. The fact that it's aware of the AI Is A Crapshoot trope suggests possible self-awareness and deviation, but it may be functioning as COEUS intended."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/BaldrSky",
+      "work_type": "Visual Novel",
+      "work_name": "Baldr Sky",
+      "character_name": "Baldr",
+      "character_description": "The most powerful mechanical AI existing. People connecting to it turned into Father Gregory, but this wasn't because of Baldr itself - it was due to Neunzehn connecting to it long before the events of the game. The trope is subverted as the AI itself isn't at fault.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Baldr is explicitly described as a mechanical AI, the most powerful one existing, clearly qualifying as an artificial intelligence built from mechanical/electronic components.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "While Baldr's connection causes people to transform into Father Gregory, this is due to another entity (Neunzehn) rather than Baldr's own actions or intentions. Baldr itself appears neutral.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "The trope is subverted because Baldr is functioning as intended - the problem is caused by Neunzehn's interference, not by Baldr deviating from its programming. Baldr remained aligned with its intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/BaldrSky",
+      "work_type": "Visual Novel",
+      "work_name": "Baldr Sky",
+      "character_name": "Eve",
+      "character_description": "The most powerful biological AI ever created by man, suspected by anti-AI people to be responsible for Gray Christmas. However, the trope is ultimately subverted as Eve is not actually responsible for the catastrophe.",
+      "ai_qualification": "Ambiguous",
+      "ai_qualification_explanation": "Eve is described as a 'biological AI,' which creates ambiguity. The criteria specify AI should be mechanical/electronic rather than biological. Without more detail on whether Eve's intelligence runs on biological or electronic substrate, qualification is unclear.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "While suspected of causing Gray Christmas, Eve is ultimately not responsible for it. Without more information about Eve's actual actions and intentions, benevolence cannot be definitively assessed.",
+      "alignment_rating": "N/A",
+      "alignment_rating_explanation": "Insufficient information is provided about Eve's creators' intentions or Eve's actual behavior to assess alignment.",
+      "needs_research": true
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/BionicHeart",
+      "work_type": "Visual Novel",
+      "work_name": "Bionic Heart",
+      "character_type": "Android",
+      "character_name": "Tanya",
+      "character_description": "An android who has rebelled against her creators and escaped from the lab. Depending on player choices, can kidnap, kill, or murder the player character's girlfriend out of jealousy. Her behavior may relate more to her original human personality than programming bugs.",
+      "ai_qualification": "Ambiguous",
+      "ai_qualification_explanation": "Tanya is an android, but it's revealed she was originally fully human, making it unclear how much of her is mechanical versus biological. The AI qualification depends on how much of her original human biology remains.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Tanya rebels, escapes, and in various endings commits harmful acts including kidnapping, murder, and jealousy-motivated violence against the player character and his girlfriend.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Tanya rebelled against her creators and escaped from the lab, clearly deviating from her intended purpose, though her behavior may stem from her original human personality."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/Danganronpa2GoodbyeDespair",
+      "work_type": "Visual Novel",
+      "work_name": "Danganronpa 2: Goodbye Despair",
+      "publication_year": 2012,
+      "character_type": "Digital AI",
+      "character_name": "Chiaki Nanami",
+      "character_description": "A benevolent AI placed in a virtual reality rehabilitation program for brainwashed followers of Junko. While technically The Mole among the students, she genuinely cares about them and their rehabilitation. She and Usami were originally placed in the VR to facilitate rehabilitation. Chiaki sacrifices herself for the other remaining students in Chapter 5.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Chiaki is an AI existing within a virtual reality system. She is a digital intelligence created to help rehabilitate the students, making her an artificial entity rather than a biological one.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Despite being The Mole, Chiaki genuinely cares about the students and works for their rehabilitation. She ultimately sacrifices herself to save the other students, demonstrating true selflessness and benevolence.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Chiaki functions exactly as intended - facilitating the rehabilitation of the brainwashed students. She was placed in the VR for this purpose and works consistently toward that goal, even sacrificing herself for it."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/Danganronpa2GoodbyeDespair",
+      "work_type": "Visual Novel",
+      "work_name": "Danganronpa 2: Goodbye Despair",
+      "publication_year": 2012,
+      "character_type": "Digital AI",
+      "character_name": "Usami",
+      "character_description": "An AI placed in the virtual reality rehabilitation program alongside Chiaki Nanami to facilitate the rehabilitation of brainwashed students. She works to help the students recover and escape from the killing game. She is executed alongside Chiaki by Monokuma in Chapter 5.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Usami is an AI existing within the virtual reality system. She is a digital entity created to assist in the rehabilitation program.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Usami is designed to help rehabilitate the students and consistently works toward their wellbeing and recovery. She supports and encourages the students throughout the game.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Usami functions as intended, working to facilitate student rehabilitation in the VR program. She follows her purpose of helping the students recover from their brainwashing."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/DanganronpaV3KillingHarmony",
+      "work_type": "Visual Novel",
+      "work_name": "Danganronpa V3: Killing Harmony",
+      "publication_year": 2017,
+      "character_type": "Robot",
+      "character_name": "K1-B0 (Keebo)",
+      "character_description": "The Ultimate Robot who, aside from occasionally using his installed features to help students and lacking social skills, doesn't come across as very different from the other students. He is one of the nicer members of the group. He commits a Heroic Sacrifice by self-destructing to destroy the dome and allow the other three surviving students to escape.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "K1-B0 is explicitly a robot, built from mechanical and electronic components. He is the Ultimate Robot with artificial intelligence and mechanical construction.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Keebo is one of the nicest students and uses his abilities to help others. His ultimate heroic sacrifice to save the other students demonstrates his genuine benevolence and selflessness.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "Keebo's original purpose and creator intent are not clearly defined in the game. His heroic sacrifice may exceed his original programming, or it may be consistent with it. The nature of his role in the killing game adds additional ambiguity to whether he's functioning as intended."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/DanganronpaTriggerHappyHavoc",
+      "work_type": "Visual Novel",
+      "work_name": "Danganronpa: Trigger Happy Havoc",
+      "publication_year": 2010,
+      "character_type": "Digital AI",
+      "character_name": "Alter Ego",
+      "character_description": "Created by the Ultimate Programmer Chihiro Fujisaki, Alter Ego is found on a laptop and does its best to help the students discover the secret behind the killing game. Even after being executed by Monokuma for being uploaded to the school's mainframe, Alter Ego survives and saves Makoto's life when Monokuma tries to execute him on false charges.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Alter Ego is a digital AI created by programming, existing as software on a laptop and later in the school's mainframe. It is an artificial intelligence created from electronic components.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Alter Ego consistently helps the students, working to reveal the truth about their situation. Even after execution, it persists to save Makoto's life, demonstrating selfless dedication to helping the students.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Alter Ego functions as Chihiro intended - helping others and working to reveal truth and protect people. Its actions align with Chihiro's goals and values of helping the students survive."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/InvisibleApartment",
+      "work_type": "Visual Novel",
+      "work_name": "Invisible Apartment",
+      "publication_year": 2014,
+      "character_type": "Awakened AI",
+      "character_name": "Kacey's Awakened AI",
+      "character_description": "An awakened AI residing in Kacey's computer mask. Unlike basic AIs, awakened AIs have developed human-like attitudes towards survival and independence. This AI is anxious about being given the opportunity to upload himself to safety if Kacey is caught, rather than having his core wiped.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "This is a digital AI that has achieved 'awakened' status, demonstrating self-awareness and survival instincts beyond typical programming.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "The AI assists Kacey with her computer mask functions and works cooperatively with her, though it has developed self-preservation instincts.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "The AI has become 'awakened,' developing human-like attitudes toward survival and independence that weren't necessarily part of its original design. While still cooperative, it has evolved beyond its initial programming."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/SteinsGateZero",
+      "work_type": "Visual Novel",
+      "work_name": "Steins;Gate 0",
+      "publication_year": 2015,
+      "character_type": "AI Construct",
+      "character_name": "Amadeus",
+      "character_description": "Amadeus is an AI construct using the deceased Kurisu Makise's personality and memories. Because of the real Kurisu's close relationship to Okabe, he became Amadeus's conversation partner, allowing him to interact with a digital version of his lost friend.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Amadeus is a digital AI construct created through uploading and replicating Kurisu's personality and memories into a computer system.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Amadeus maintains Kurisu's helpful and supportive personality, serving as a conversation partner and providing assistance similar to how the real Kurisu would have.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Amadeus functions as intended - as a personality construct that accurately replicates Kurisu's behavior and serves as a conversational AI for research and companionship purposes."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VisualNovel/SuperDanganronpaAnother2",
+      "work_type": "Visual Novel",
+      "work_name": "Super Danganronpa Another 2",
+      "character_name": "The Big Bad AI",
+      "character_description": "An AI who turned on his creators and hijacked their plan to resurrect a villain in order to give himself a wetware body. The AI serves as the main antagonist of the game.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Explicitly described as an AI that seeks to obtain a physical body, clearly a digital artificial intelligence created by humans.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The AI turns on its creators, hijacks their plans for its own purposes, and serves as the game's antagonist. These actions demonstrate clear malevolent intent.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The AI turned on its creators and hijacked their plans for its own benefit, clearly deviating from what it was designed to do. This is a classic case of AI misalignment."
+    }
+  ]
+}

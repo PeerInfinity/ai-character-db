@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "total_entries": 1198,
+    "generated_by": "apply_work_type_standardization.py",
+    "work_types_standardized": true
+  },
+  "generated_at": "2025-10-25T21:44:02.441649",
+  "total_characters": 1198,
+  "work_types": [
+    {
+      "work_type": "ARG",
+      "filename": "arg.json",
+      "character_count": 1,
+      "hash": "da16c665"
+    },
+    {
+      "work_type": "Advertisement",
+      "filename": "advertisement.json",
+      "character_count": 1,
+      "hash": "1f7f6f7f"
+    },
+    {
+      "work_type": "Anime",
+      "filename": "anime.json",
+      "character_count": 48,
+      "hash": "12f44f76"
+    },
+    {
+      "work_type": "Audio Play",
+      "filename": "audio-play.json",
+      "character_count": 10,
+      "hash": "12931ea7"
+    },
+    {
+      "work_type": "Blog",
+      "filename": "blog.json",
+      "character_count": 1,
+      "hash": "f34b4cc3"
+    },
+    {
+      "work_type": "Book",
+      "filename": "book.json",
+      "character_count": 138,
+      "hash": "dc0cd021"
+    },
+    {
+      "work_type": "Cartoon Short",
+      "filename": "cartoon-short.json",
+      "character_count": 3,
+      "hash": "b9d93577"
+    },
+    {
+      "work_type": "Comic Book",
+      "filename": "comic-book.json",
+      "character_count": 66,
+      "hash": "cb941947"
+    },
+    {
+      "work_type": "Comic Strip",
+      "filename": "comic-strip.json",
+      "character_count": 5,
+      "hash": "91ef9668"
+    },
+    {
+      "work_type": "Fan Fiction",
+      "filename": "fan-fiction.json",
+      "character_count": 51,
+      "hash": "42d218aa"
+    },
+    {
+      "work_type": "Franchise",
+      "filename": "franchise.json",
+      "character_count": 6,
+      "hash": "d7e58088"
+    },
+    {
+      "work_type": "Light Novel",
+      "filename": "light-novel.json",
+      "character_count": 8,
+      "hash": "96ae71f2"
+    },
+    {
+      "work_type": "Manga",
+      "filename": "manga.json",
+      "character_count": 16,
+      "hash": "df92d629"
+    },
+    {
+      "work_type": "Movie",
+      "filename": "movie.json",
+      "character_count": 112,
+      "hash": "f048cf36"
+    },
+    {
+      "work_type": "Music",
+      "filename": "music.json",
+      "character_count": 4,
+      "hash": "aa8f8014"
+    },
+    {
+      "work_type": "Music Video",
+      "filename": "music-video.json",
+      "character_count": 1,
+      "hash": "ebc9b8da"
+    },
+    {
+      "work_type": "Mythology",
+      "filename": "mythology.json",
+      "character_count": 1,
+      "hash": "32ffc509"
+    },
+    {
+      "work_type": "Pinball",
+      "filename": "pinball.json",
+      "character_count": 1,
+      "hash": "ba1241a8"
+    },
+    {
+      "work_type": "Podcast",
+      "filename": "podcast.json",
+      "character_count": 5,
+      "hash": "6dac13b7"
+    },
+    {
+      "work_type": "Radio",
+      "filename": "radio.json",
+      "character_count": 4,
+      "hash": "0600e06e"
+    },
+    {
+      "work_type": "Roleplay",
+      "filename": "roleplay.json",
+      "character_count": 4,
+      "hash": "4e5e5e37"
+    },
+    {
+      "work_type": "Short Story",
+      "filename": "short-story.json",
+      "character_count": 16,
+      "hash": "66202b91"
+    },
+    {
+      "work_type": "Social Media Bot",
+      "filename": "social-media-bot.json",
+      "character_count": 1,
+      "hash": "5a16542b"
+    },
+    {
+      "work_type": "TV Show",
+      "filename": "tv-show.json",
+      "character_count": 217,
+      "hash": "0d5db328"
+    },
+    {
+      "work_type": "Tabletop Game",
+      "filename": "tabletop-game.json",
+      "character_count": 18,
+      "hash": "46613f67"
+    },
+    {
+      "work_type": "Tabletop RPG",
+      "filename": "tabletop-rpg.json",
+      "character_count": 31,
+      "hash": "7835996c"
+    },
+    {
+      "work_type": "Theatre",
+      "filename": "theatre.json",
+      "character_count": 1,
+      "hash": "8eaa3f51"
+    },
+    {
+      "work_type": "Theme Park Attraction",
+      "filename": "theme-park-attraction.json",
+      "character_count": 1,
+      "hash": "bf5fcf41"
+    },
+    {
+      "work_type": "Toy Line",
+      "filename": "toy-line.json",
+      "character_count": 4,
+      "hash": "4cd69fc2"
+    },
+    {
+      "work_type": "Video Game",
+      "filename": "video-game.json",
+      "character_count": 280,
+      "hash": "1aa5aacc"
+    },
+    {
+      "work_type": "Visual Novel",
+      "filename": "visual-novel.json",
+      "character_count": 11,
+      "hash": "0c1a7176"
+    },
+    {
+      "work_type": "Web Animation",
+      "filename": "web-animation.json",
+      "character_count": 20,
+      "hash": "1620797b"
+    },
+    {
+      "work_type": "Web Fiction",
+      "filename": "web-fiction.json",
+      "character_count": 20,
+      "hash": "9399f9b8"
+    },
+    {
+      "work_type": "Web Series",
+      "filename": "web-series.json",
+      "character_count": 3,
+      "hash": "fc27c01d"
+    },
+    {
+      "work_type": "Web Video",
+      "filename": "web-video.json",
+      "character_count": 21,
+      "hash": "da302cd8"
+    },
+    {
+      "work_type": "Webcomic",
+      "filename": "webcomic.json",
+      "character_count": 56,
+      "hash": "985f1d55"
+    },
+    {
+      "work_type": "Website",
+      "filename": "website.json",
+      "character_count": 12,
+      "hash": "c2a12686"
+    }
+  ]
+}

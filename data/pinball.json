@@ -1,0 +1,24 @@
+{
+  "work_type": "Pinball",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/MadDaedalus",
+      "work_type": "Pinball",
+      "work_name": "Mad Daedalus",
+      "character_type": "Ship AI",
+      "character_name": "Ariadne",
+      "character_description": "Ariadne is the AI of an alien spaceship that crashed in ancient Greece. This represents an advanced extraterrestrial artificial intelligence system that survived a crash landing on Earth.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Ariadne is explicitly described as the AI of an alien spaceship, representing an artificial intelligence built (by aliens) from mechanical/electronic components capable of managing a spacecraft.",
+      "benevolence_rating": "N/A",
+      "benevolence_rating_explanation": "Insufficient information is provided about Ariadne's behavior, intentions, or interactions to assess benevolence.",
+      "alignment_rating": "N/A",
+      "alignment_rating_explanation": "No information is provided about whether Ariadne behaves as its alien creators intended or what its current status and behavior might be.",
+      "needs_research": true
+    }
+  ]
+}

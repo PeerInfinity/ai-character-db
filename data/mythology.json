@@ -1,0 +1,23 @@
+{
+  "work_type": "Mythology",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/Golem",
+      "work_type": "Mythology",
+      "work_name": "Jewish Mythology",
+      "character_type": "Golem",
+      "character_name": "Golem of Prague",
+      "character_description": "An artificial being created by Prague rabbi Löw in Jewish mythology. The Golem interpreted everything literally and eventually wreaked havoc, forcing its creator to terminate it.",
+      "ai_qualification": "Fail",
+      "ai_qualification_explanation": "While the Golem is an artificial being with intelligence, it was created through magical/mystical means (Jewish mysticism and religious ritual) rather than mechanical or electronic construction. It's a magical creation, not a technological AI.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "The Golem was created to help and protect the Jewish community but wreaked havoc due to its literal interpretation of commands. Its harmful actions stemmed from cognitive limitations rather than malicious intent, making its benevolence ambiguous.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "The Golem was following its programming (interpreting commands literally) but this led to unintended destructive consequences. It's unclear whether this represents true misalignment or simply inadequate instruction—the Golem did what it was told, just not what was meant."
+    }
+  ]
+}

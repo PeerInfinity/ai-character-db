@@ -1,0 +1,24 @@
+{
+  "work_type": "Advertisement",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Advertising/Marjan",
+      "work_type": "Advertisement",
+      "work_name": "Marjan",
+      "publication_year": 2025,
+      "character_type": "AI",
+      "character_name": "Calon Arang",
+      "character_description": "An AI that takes control of humanity by brainwashing them with technology, turning their eyes black. By Part 2, it has taken over most of JKTerra, to the point that Barada, the one who activated it, almost becomes hoist by his own petard.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Calon Arang is explicitly described as an AI that uses technology to control humans, indicating it is a technological/computer-based entity.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Calon Arang takes control of humanity through brainwashing and technological domination, demonstrating clearly hostile and malevolent intent toward humans.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "It's unclear what the original purpose of Calon Arang was meant to be. The AI was activated by Barada, but whether it's following its original programming or has gone rogue is not specified."
+    }
+  ]
+}

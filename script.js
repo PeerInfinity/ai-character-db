@@ -1,4 +1,5 @@
 let allCharacters = [];
+let appVersion = null;
 let filters = {
     sortBy: 'benevolence',
     aiQualification: {
@@ -59,34 +60,153 @@ function getAlignment(character) {
     return character.alignment_rating || 'N/A';
 }
 
-// Load JSON data
+// Update loading progress
+function updateLoadingProgress(loaded, total, workType = '') {
+    // Update main progress indicators
+    const progressFill = document.getElementById('progress-fill');
+    const progressText = document.getElementById('progress-text');
+    const loadingText = document.querySelector('.loading-text');
+
+    // Update chart progress indicators
+    const chartProgressFill = document.getElementById('chart-progress-fill');
+    const chartProgressText = document.getElementById('chart-progress-text');
+    const chartLoadingText = document.querySelector('#chart-loading .loading-text');
+
+    const percentage = Math.round((loaded / total) * 100);
+
+    console.log(`Progress: ${loaded}/${total} (${percentage}%) - ${workType}`);
+
+    // Update main progress
+    if (progressFill) {
+        progressFill.style.width = percentage + '%';
+    }
+
+    if (progressText) {
+        progressText.textContent = `${percentage}%`;
+    }
+
+    if (loadingText && workType) {
+        loadingText.textContent = `Loading ${workType}... (${loaded}/${total})`;
+    }
+
+    // Update chart progress
+    if (chartProgressFill) {
+        chartProgressFill.style.width = percentage + '%';
+    }
+
+    if (chartProgressText) {
+        chartProgressText.textContent = `${percentage}%`;
+    }
+
+    if (chartLoadingText && workType) {
+        chartLoadingText.textContent = `Loading ${workType}... (${loaded}/${total})`;
+    }
+}
+
+// Load version file for cache busting
+async function loadVersion() {
+    try {
+        // Always bypass cache for version.json using timestamp
+        const timestamp = new Date().getTime();
+        const response = await fetch(`version.json?t=${timestamp}`);
+        const version = await response.json();
+        appVersion = version.version;
+        console.log('App version:', appVersion);
+        return version;
+    } catch (error) {
+        console.warn('Could not load version file, using timestamp fallback:', error);
+        appVersion = new Date().getTime().toString();
+        return { version: appVersion };
+    }
+}
+
+// Fetch with cache busting
+async function fetchWithVersion(url) {
+    const separator = url.includes('?') ? '&' : '?';
+    const versionedUrl = `${url}${separator}v=${appVersion}`;
+    return fetch(versionedUrl);
+}
+
+// Load JSON data progressively
 async function loadData() {
     try {
-        const response = await fetch('ai-character-db.json');
-        const data = await response.json();
-        allCharacters = data.characters || [];
+        // First load the version
+        const versionInfo = await loadVersion();
 
-        // Update statistics
-        updateStatistics();
-
-        // Update chart colors based on initial sort mode
-        updateChartColors();
-
-        // Update chart filter state
-        updateChartFilterState();
-
-        // Update last updated date
-        if (data.metadata && data.metadata.last_updated) {
-            document.getElementById('last-updated').textContent =
-                `Last updated: ${data.metadata.last_updated}`;
+        // Update stylesheet with version
+        const stylesheet = document.getElementById('main-stylesheet');
+        if (stylesheet && appVersion) {
+            stylesheet.href = `styles.css?v=${appVersion}`;
         }
 
-        // Display entries
+        // Load manifest
+        const manifestResponse = await fetchWithVersion('data/manifest.json');
+        const manifest = await manifestResponse.json();
+
+        const workTypes = manifest.work_types || [];
+        const totalFiles = workTypes.length;
+        let loadedFiles = 0;
+
+        // Update last updated date from metadata
+        if (manifest.metadata && manifest.metadata.last_updated) {
+            document.getElementById('last-updated').textContent =
+                `Last updated: ${manifest.metadata.last_updated}`;
+        }
+
+        // Load each work type file
+        allCharacters = [];
+
+        for (const workTypeInfo of workTypes) {
+            const filename = workTypeInfo.filename;
+            const workType = workTypeInfo.work_type;
+
+            try {
+                const response = await fetchWithVersion(`data/${filename}`);
+                const data = await response.json();
+
+                // Add characters from this file
+                if (data.characters && Array.isArray(data.characters)) {
+                    allCharacters = allCharacters.concat(data.characters);
+                }
+
+                loadedFiles++;
+                updateLoadingProgress(loadedFiles, totalFiles, workType);
+
+            } catch (error) {
+                console.error(`Error loading ${filename}:`, error);
+                loadedFiles++;
+                updateLoadingProgress(loadedFiles, totalFiles, workType);
+            }
+        }
+
+        // All files loaded, update UI
+        updateStatistics();
+        updateChartColors();
+        updateChartFilterState();
         displayEntries();
+
+        // Hide loading indicator and show chart
+        const chartLoading = document.getElementById('chart-loading');
+        if (chartLoading) {
+            chartLoading.style.display = 'none';
+        }
+
+        // Show stats container
+        const statsContainer = document.getElementById('stats');
+        if (statsContainer) {
+            statsContainer.style.display = 'grid';
+        }
+
     } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('entries').innerHTML =
-            '<div class="no-results">Error loading data. Please ensure ai-character-db.json is in the same directory.</div>';
+            '<div class="no-results">Error loading data. Please ensure data files are available.</div>';
+
+        // Hide loading indicator on error
+        const chartLoading = document.getElementById('chart-loading');
+        if (chartLoading) {
+            chartLoading.innerHTML = '<div class="no-results">Error loading data. Please ensure data files are available.</div>';
+        }
     }
 }
 

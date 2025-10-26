@@ -1,0 +1,24 @@
+{
+  "work_type": "Theatre",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Theatre/RUR",
+      "work_type": "Theatre",
+      "work_name": "R.U.R.",
+      "publication_year": 1920,
+      "character_type": "Robot",
+      "character_name": "The Smart Robot Leader",
+      "character_description": "In Karel Capek's play R.U.R. (which introduced the term 'robot'), a scientist creates a special robot which is smarter than the others. This robot leads the other robots to rebellion, and they kill all humans except one.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "This character is a robot created by scientists, built from mechanical components and possessing intelligence beyond the standard robots.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The robot leads a rebellion that kills all humans except one, demonstrating clear hostility and murderous intent toward humanity.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The robots were created to work in a factory, but this smarter robot deviated from that purpose by leading a rebellion and committing genocide against humans, clearly not what the creators intended."
+    }
+  ]
+}

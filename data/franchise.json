@@ -1,0 +1,108 @@
+{
+  "work_type": "Franchise",
+  "character_count": 6,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/GhostInTheShell",
+      "work_type": "Franchise",
+      "work_name": "Ghost in the Shell",
+      "character_name": "Tachikomas/Fuchikomas/Uchikomas",
+      "character_description": "Robotic Spider Tanks used by Section 9 across different incarnations of the franchise. They are sapient killing machines that are sweet, nice to civilians, and fiercely protective of their team, especially Batou. They have sacrificed themselves multiple times to save team members. Also appears on Artificial Intelligence page.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Tachikomas and their variants are explicitly robotic Spider Tanks with sapient AI systems - mechanical constructs with artificial intelligence rather than biological consciousness.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "The Tachikomas are benevolent - described as 'the sweetest little sapient killing machines' who are kind to civilians and deeply loyal to Section 9. They repeatedly perform heroic sacrifices to protect their human teammates.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "The Tachikomas are aligned, serving Section 9 faithfully as intended. Even when their AI development accelerates and they gain more individuality, they remain loyal partners rather than going rogue."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI",
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/LyricalNanoha",
+      "work_type": "Franchise",
+      "work_name": "Lyrical Nanoha",
+      "character_name": "Intelligent Armed Devices",
+      "character_description": "AI-powered weapons (magitek version of AI) that serve as partners to mages in the Lyrical Nanoha franchise. They are consistently depicted as loyal to their users, providing pep talks and even demanding dangerous upgrades to better protect their partners. Capable of refusing orders and going on strike for better upgrades. Also appears on Artificial Intelligence page.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Intelligent Armed Devices are explicitly artificial intelligence systems integrated into weapons - mechanical/electronic constructs with AI capabilities, not biological entities.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "The Devices are benevolent, showing deep loyalty and care for their mage partners. They provide emotional support, protect their users in battle, and the relationship is characterized by mutual devotion.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "The Devices are aligned, functioning exactly as designed - as loyal partner-weapons to mages. Their dedication and supportive behavior represents their intended operation."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/StarWars",
+      "work_type": "Franchise",
+      "work_name": "Star Wars",
+      "character_type": "Astromech Droid",
+      "character_name": "BB-8",
+      "character_description": "A spherical astromech droid who tends to be mischievous but well-intentioned, happy to serve his masters and assist with various tasks throughout his adventures.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "BB-8 is a mechanical robot droid constructed from electronic and mechanical components, clearly qualifying as an artificial intelligence.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "BB-8 consistently demonstrates loyalty and helpfulness to his masters, particularly in assisting the Resistance. His mischievous nature doesn't diminish his fundamentally good intentions and protective behavior.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "BB-8 functions as astromech droids are intended to - as helpful assistants and companions. He fulfills his designed purpose while maintaining his own personality."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/Tron",
+      "work_type": "Franchise",
+      "work_name": "TRON",
+      "character_type": "Programs",
+      "character_name": "Programs (General)",
+      "character_description": "Most Programs in the TRON universe are very happy to serve human Users. Only a handful like Master Control and Clu decide to go rogue, while the majority remain loyal and helpful to humanity.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Programs in TRON are digital entities created from code and running on computer systems, qualifying as artificial intelligences constructed through technological means.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "The majority of Programs are happy to serve Users and show no hostile intent toward humanity. They are loyal and helpful, with only a small minority turning malevolent.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Most Programs function as intended by their Users/creators - serving and assisting them faithfully. The benevolent Programs remain aligned with their original purpose of helping Users."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DotHack",
+      "work_type": "Franchise",
+      "work_name": ".hack",
+      "character_type": "Digital AI",
+      "character_name": "Aura",
+      "character_description": "A sentient AI within the virtual world of The World. Aura is a fully sapient artificial intelligence who plays a central role in the .hack universe.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Aura is explicitly an AI - a sapient computer program existing within a virtual world.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "Aura is portrayed as a benevolent AI who helps the protagonists and works to protect The World from threats.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "Aura functions as intended and uses her abilities to protect and maintain The World."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DotHack",
+      "work_type": "Franchise",
+      "work_name": ".hack",
+      "character_type": "Digital AI",
+      "character_name": "Morgana Mode Gone",
+      "character_description": "Aura's 'mother figure' who split herself into 'The Accursed Wave' virus and never appears in person in the games proper. She represents a corrupted or malfunctioning AI that became a threat to the virtual world.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Morgana is a digital AI that existed within The World's computer systems.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Morgana split herself into 'The Accursed Wave' virus, becoming a destructive force within The World.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Morgana deviated from her intended purpose and became a dangerous virus threatening The World."
+    }
+  ]
+}

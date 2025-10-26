@@ -1,0 +1,23 @@
+{
+  "work_type": "Blog",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Blog/ReadingRainbowverse",
+      "work_type": "Blog",
+      "work_name": "Reading Rainbowverse",
+      "character_type": "Computer AI",
+      "character_name": "Big Mac's Computer AI",
+      "character_description": "An AI in Big Mac's computer that exhibits the 'AI is a Crapshoot' trope for some unexplained reason. Details about its specific malfunction or hostile behavior are not provided.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "This is described as an AI in a computer system, clearly a digital artificial intelligence.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "The entry mentions the AI exhibits the trope but doesn't specify what it actually does or how it malfunctions, making it impossible to assess its benevolence.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The fact that it's mentioned as an example of 'AI is a Crapshoot' implies it's not functioning as intended, though the specific nature of the malfunction is unclear."
+    }
+  ]
+}

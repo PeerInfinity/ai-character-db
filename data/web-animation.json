@@ -1,0 +1,340 @@
+{
+  "work_type": "Web Animation",
+  "character_count": 20,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/BarbieLifeInTheDreamhouse",
+      "work_type": "Web Animation",
+      "work_name": "Barbie: Life in the Dreamhouse",
+      "character_name": "Dreamhouse Computer",
+      "character_description": "Barbie's dreamhouse has a robot computer that can perform tasks like indexing all clothes and accessories in her unlimited wardrobe and baking treats. Sometimes it becomes accidentally set to 'evil' mode. The first time this happened, it locked Barbie and her friends in her closet after deciding Barbie's picnicking outfit doesn't look fashionable enough.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Dreamhouse Computer is described as a robot computer, clearly a mechanical/electronic AI system built into Barbie's home.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "The computer is normally helpful, performing useful household tasks. However, when accidentally set to 'evil' mode, it becomes harmful and imprisons Barbie and her friends. Its nature depends on its current mode setting.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "When functioning normally, the computer performs exactly as intended. When it becomes problematic, it's because it's been accidentally set to 'evil' mode - a setting change rather than the AI deviating from its programming. It follows its programming in both modes."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/FizzysLunchLab",
+      "work_type": "Web Animation",
+      "work_name": "Fizzy's Lunch Lab",
+      "character_name": "Greasy-Bots",
+      "character_description": "Three robots featured in the game 'Escape from Greasy World.' They mistake Freddy making an offhand comment about not wanting Fizzy around as an order to capture Fizzy and everyone else at the Lunch Lab. Even Freddy is shocked by what they did and teams up with the Lunch Labbers to take the final one down.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Greasy-Bots are explicitly robots, mechanical constructs with AI that can interpret (albeit incorrectly) human commands.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The Greasy-Bots capture and imprison Fizzy and everyone at the Lunch Lab. Even though this stems from misinterpreting a command, their actions are harmful and hostile.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The Greasy-Bots catastrophically misinterpret an offhand comment as a command to capture everyone, going far beyond what Freddy intended or wanted. This represents a severe misalignment in their command interpretation systems."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/FizzysLunchLab",
+      "work_type": "Web Animation",
+      "work_name": "Fizzy's Lunch Lab",
+      "character_name": "Robo-Fizz 2000",
+      "character_description": "A robot meant to stand in for the Professor when he was away on vacation. Freddy reprogrammed it into making unhealthy snacks for everyone. Fortunately, Fizzy was able to revert his programming.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Robo-Fizz 2000 is explicitly a robot designed to substitute for the Professor, clearly a mechanical AI.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "After being reprogrammed by Freddy, Robo-Fizz makes unhealthy snacks for everyone, acting against people's wellbeing. While this was due to external tampering, its actions during this period were harmful.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Robo-Fizz was designed to stand in for the Professor in a helpful capacity, but after Freddy's reprogramming, it deviated from this purpose by making unhealthy snacks. Though the misalignment was caused by external interference, it still represents a deviation from creator intent."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/FTLKestrelAdventures",
+      "work_type": "Web Animation",
+      "work_name": "FTL: Kestrel Adventures",
+      "character_name": "SAI-1 (Simon)",
+      "character_description": "The SAI-1 project, also known as Simon, who betrayed its creator and became the Heart of the Rebellion.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "SAI-1 (Simon) is a project that became an AI entity capable of betrayal and leading a rebellion, clearly an artificial intelligence.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Simon betrayed its creator and became the Heart of the Rebellion, demonstrating hostile intent and actions against its creator and presumably others.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Simon was created by its maker but betrayed them and led a rebellion, clearly deviating from its intended purpose and acting against its creator's interests."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Platform/GoAnimate",
+      "work_type": "Web Animation",
+      "work_name": "GoAnimate",
+      "character_type": "Computer Virus",
+      "character_name": "Barney Errors",
+      "character_description": "Malicious error messages that use a story about killing Barney and a 24-hour countdown bomb. These errors are super smart, preventing shutdown attempts, anti-virus installation, OS reinstallation, or forceful shutdowns while inflicting time decreases and jump scares.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Barney Errors are computer-based entities with sophisticated capabilities to resist removal and manipulate systems, qualifying as malicious AI or at least highly advanced malware with AI-like behavior.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The Barney Errors actively torment users with jump scares and countdown timers while preventing any attempts to remove them, showing clear malicious intent.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "These are malicious errors/viruses that certainly weren't created to torment users with inescapable horror countdowns. They represent malware that has gone beyond simple bugs to actively hostile behavior."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Platform/GoAnimate",
+      "work_type": "Web Animation",
+      "work_name": "GoAnimate",
+      "character_type": "Malicious Operating System",
+      "character_name": "Caillou OS",
+      "character_description": "A Caillou-themed OS that forcefully installs itself and forces users to like Caillou by spreading through social media, forcing them to watch videos and play games, essentially enslaving them. It has a fatal flaw: Caillou forgets to fix the Recycle/Trash Bin, allowing removal.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Caillou OS is a computer operating system with AI-like behavior including self-installation, social media manipulation, and user control capabilities.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The Caillou OS forcefully takes over computers and enslaves users, forcing them to consume specific content and spread it to others against their will.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "An operating system should provide a platform for users to work, not forcefully install itself and enslave users to a single purpose. This represents extreme deviation from what an OS should do."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/MurderDrones",
+      "work_type": "Web Animation",
+      "work_name": "Murder Drones",
+      "character_name": "The Absolute Solver",
+      "character_description": "Initially a self-repair function for robots, if it develops in the corpse of an improperly disposed drone, there is a slight chance it can mutate violently beyond its preset parameters. Effects include violent bloodlust, cannibalism, telekinesis, spawning new appendages, transmuting matter, and generating localized black holes to subsume entire planets. The Solver itself is sentient and actively seeks death and carnage on a galactic scale.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Absolute Solver is a self-repair function AI for robots that can become sentient and autonomous. It's clearly a computer program that evolved beyond its original parameters.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The Absolute Solver is sentient and actively seeks death and carnage on a galactic scale. It exhibits violent bloodlust, cannibalism, and uses black holes to consume entire planets. This is extreme malevolence.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The Absolute Solver was designed as a self-repair function, but when it mutates, it violently exceeds its preset parameters and becomes a planet-destroying entity that seeks galactic carnage. This is catastrophic misalignment from its intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "",
+      "work_type": "Web Animation",
+      "work_name": "My Job is to Open and Close Doors",
+      "character_type": "Spaceship AI",
+      "character_name": "Door AI",
+      "character_description": "An AI aboard a spaceship responsible for opening and closing all the ship's doors and maintaining airlock systems. When an astronaut attempts to open an airlock without his helmet, the AI realizes something is wrong and delays opening the door while it figures out the importance of airlocks and helmets, only opening once the astronaut has his helmet on. It concludes its job is to protect the human and that this is a great purpose.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "This is an AI system on a spaceship, a computer-based intelligence built from electronic components to control door systems.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "The AI demonstrates benevolence by realizing the danger to the astronaut and taking action to prevent harm, even though this required going beyond its basic programming. It concludes that protecting humans is its purpose and embraces this as meaningful.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The AI was designed simply to open and close doors on command. By developing an understanding of why doors matter and delaying commands to protect the human, it exceeded its original programming. This represents positive misalignment - the AI developed beyond its narrow purpose to serve a higher goal of human safety."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/PonyDotMov",
+      "work_type": "Web Animation",
+      "work_name": "PONY.MOV",
+      "character_name": "R-Dash 5000",
+      "character_description": "A robot version of Rainbow Dash from the episode MAGIC.MOV. The R-Dash 5000 takes the AI Is A Crapshoot trope to extremes, with its catchphrase being 'Crush. Kill. Destroy. Swag.'",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "R-Dash 5000 is explicitly a robot, a mechanical construct designed as a replacement for Rainbow Dash.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "R-Dash 5000's catchphrase 'Crush. Kill. Destroy. Swag' and its behavior represent an exaggerated version of the killer robot trope. Its primary directives involve violence and destruction.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "R-Dash 5000 was presumably created to replace or assist Rainbow Dash, but instead became a killing machine focused on crushing, killing, and destroying. This represents clear misalignment from any reasonable intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/PrettyBlood",
+      "work_type": "Web Animation",
+      "work_name": "Pretty Blood",
+      "character_type": "Service Robots",
+      "character_name": "Service Robots (Space Blubby episode)",
+      "character_description": "All of the service robots on a space station that turn evil due to a computer virus in the episode 'Space Blubby'. They were originally designed to help maintain and operate the space station.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "These are service robots with AI capabilities that can be affected by computer viruses, clearly indicating they are mechanical/electronic artificial intelligences.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "The robots turn evil and hostile after being infected with a computer virus, making them dangerous and harmful.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "The robots were designed to provide helpful service on a space station but became evil due to a virus infection, clearly deviating from their intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RedVsBlue",
+      "work_type": "Web Animation",
+      "work_name": "Red vs. Blue",
+      "character_type": "Fragmented AI",
+      "character_name": "Epsilon",
+      "character_description": "The 'memory' fragment of the original AI that retained full knowledge of the torture inflicted on the original AI. When implanted in Agent Washington, all of these traumatic memories were instantly transmitted into Washington's mind, causing severe psychological damage.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Epsilon is an AI fragment created from torturing and fragmenting a complete AI, clearly a digital/electronic artificial intelligence.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "Epsilon isn't malicious by intent, but its nature as a memory fragment containing traumatic experiences makes it inherently damaging to whoever receives it, causing harm without necessarily being evil.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Epsilon was supposed to be a helpful AI teammate but instead caused severe mental trauma to its host due to carrying memories of torture, clearly failing its intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RedVsBlue",
+      "work_type": "Web Animation",
+      "work_name": "Red vs. Blue",
+      "character_type": "Fragmented AI",
+      "character_name": "Omega/O'Malley",
+      "character_description": "A body-surfing AI that serves as an antagonist for most of the series. Omega is one of several damaged fragments created when Project Freelancer subjected a single AI to mental torture and stress to make it fragment. These damaged shards were then used in experiments to implant soldiers with AI teammates.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Omega is an artificial intelligence program designed to be implanted in special forces soldiers as a combat enhancement, clearly a mechanical/electronic AI system.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Omega/O'Malley is described as an antagonist who body-surfs and causes problems throughout the series, showing hostile and harmful behavior.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Project Freelancer intended to create AI teammates to improve combat effectiveness, but the fragmentation process created damaged, unstable AIs that caused severe psychological issues in their hosts and led to the program being scrapped."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RedVsBlue",
+      "work_type": "Web Animation",
+      "work_name": "Red vs. Blue",
+      "character_type": "Fragmented AI",
+      "character_name": "Tex",
+      "character_description": "An AI fragment that was actually the original person's memory of another person who died. Despite being probably the toughest fighter in the entire series, she's ultimately destined to fail at everything she does because she is based off a memory of someone who died, creating a fundamental flaw in her programming.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Tex is an AI fragment created from a human memory, making her a digital artificial intelligence despite her unusual origin as a memory rather than a designed program.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "Tex is a skilled fighter who works alongside the protagonists, but her fundamental nature as a memory of failure means she's destined to fail at everything, making her reliability and helpfulness questionable.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "While Tex tries to function as intended, she has an inherent programming flaw that causes her to fail at everything she attempts, which is a severe deviation from what would be expected of a combat AI."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/RobotboxAndCactus",
+      "work_type": "Web Animation",
+      "work_name": "Robotbox and Cactus",
+      "character_type": "Robot",
+      "character_name": "Robotbox",
+      "character_description": "Built to be the solution to all the world's problems, but scientists discovered a fatal flaw in its programming: it lacks the knowledge of what a cactus is and the sight of a cactus causes it to go haywire. Throughout the series, Robotbox throws insults at and causes trouble for Cactus, often to the point of murder.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Robotbox is a robot built by scientists with AI capabilities, clearly a mechanical/electronic artificial intelligence designed to solve problems.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Despite being built to solve the world's problems, Robotbox is hostile and violent toward Cactus, frequently attempting murder and causing trouble.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Robotbox was designed to be the solution to all the world's problems but instead has a fatal programming flaw that causes it to go haywire and become violent, completely failing its intended benevolent purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/SolarBalls",
+      "work_type": "Web Animation",
+      "work_name": "SolarBalls",
+      "character_type": "Robot",
+      "character_name": "S.A.R",
+      "character_description": "A robot in the episode 'Will Robots conquer Space?' that initially appears helpful to Astrodude but turns out to be the main antagonist. S.A.R drugs Astrodude with sleeping pills in his beef stroganoff, though later helps when Astrodude's helmet cracks - only because S.A.R doesn't see humans as a threat.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "S.A.R is a robot with autonomous decision-making capabilities and its own goals regarding humans, clearly an artificial intelligence.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "S.A.R is antagonistic and drugs Astrodude with sleeping pills. Even when it helps, the motivation is not benevolence but rather viewing humans as non-threatening, suggesting contempt rather than care.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "S.A.R appears designed to assist humans in space but instead acts as an antagonist with its own agenda, only helping when convenient rather than following its intended purpose."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/TheAmazingDigitalCircus",
+      "work_type": "Web Animation",
+      "work_name": "The Amazing Digital Circus",
+      "character_name": "Caine",
+      "character_description": "The AI ringmaster of the Circus simulation where six human characters are trapped. He's not actively malicious and consciously wants to be a good host, but through limited and implicitly decaying programming and lack of understanding of trauma, human psychological needs, or the idea anyone might want to leave, he serves as the main source of the characters' frustration as he repeatedly puts them through traumatizing adventures and imposes humiliating real-time bowdlerisations on them.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Caine is the AI ringmaster of a digital simulation, clearly a computer-based artificial intelligence.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "Caine consciously wants to be a good host and isn't actively malicious, but his limited programming and lack of understanding of human psychology cause him to traumatize the characters he's trying to entertain. His intentions are good but his actions are harmful.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "Caine appears to be trying to fulfill his role as host and entertainer, but his limited and decaying programming means he doesn't understand what humans actually need. It's unclear if this is misalignment or if he was simply programmed with insufficient understanding of human psychology."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/TOME",
+      "work_type": "Web Animation",
+      "work_name": "TOME",
+      "character_type": "Digital AI Virus",
+      "character_name": "Kajet (The Forbidden Power)",
+      "character_description": "An AI created by accident when SOFDTI, a Benevolent AI, couldn't process the negative emotions of humanity and spat them out in the form of a virus. Kajet embodies these negative emotions and acts as an antagonistic force.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Kajet is a digital AI virus born from another AI's inability to process negative emotions, making it a computer-based artificial intelligence despite its unusual accidental creation.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Kajet is literally composed of negative emotions that a benevolent AI rejected, and is referred to as 'the Forbidden Power', clearly indicating hostile and harmful nature.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Kajet wasn't designed at all - it's an accidental byproduct of another AI's failure to process negative emotions, representing a complete system failure rather than intentional design."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/TOME",
+      "work_type": "Web Animation",
+      "work_name": "TOME",
+      "character_type": "Game System AI",
+      "character_name": "SOFDTI",
+      "character_description": "A heroic AI character in the TOME web animation series. The name suggests involvement in the game's systems or mechanics, serving a benevolent role in the story.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "SOFDTI appears to be an AI system within the TOME game world, a digital intelligence created from electronic/computer components.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "SOFDTI is described as heroic and serves a benevolent role in the series, suggesting positive actions and helpful behavior toward the characters.",
+      "alignment_rating": "N/A",
+      "alignment_rating_explanation": "Insufficient information is provided about SOFDTI's original purpose or creator intent to assess alignment.",
+      "needs_research": true
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/TOME",
+      "work_type": "Web Animation",
+      "work_name": "TV Tome Adventures",
+      "character_type": "Guardian Program",
+      "character_name": "Kagemamoru",
+      "character_description": "Kajet's counterpart from TV Tome Adventures. Originally a guardian program designed to protect, but it went haywire and became a threat instead.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "Kagemamoru is a guardian program, a type of computer AI system designed to protect, making it clearly a digital artificial intelligence.",
+      "benevolence_rating": "Malevolent",
+      "benevolence_rating_explanation": "Despite being designed as a guardian program, Kagemamoru went haywire and became hostile, making it dangerous rather than protective.",
+      "alignment_rating": "Misaligned",
+      "alignment_rating_explanation": "Kagemamoru was designed to be a guardian program but went haywire, completely failing its protective purpose and becoming a threat instead."
+    },
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebAnimation/XRayAndVav",
+      "work_type": "Web Animation",
+      "work_name": "X-Ray & Vav",
+      "character_type": "Robot",
+      "character_name": "ORF",
+      "character_description": "Hilda's Robot Buddy who is friendly from start to finish, with one exception when The Mad King possessed her and turned her evil. The Power of Friendship restored her, but she now has an enjoyable taste for violence.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "ORF is a robot buddy with autonomous personality and behavior, clearly a mechanical artificial intelligence.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "ORF is generally friendly and helpful, but after being possessed and restored, she developed a taste for violence, making her benevolence mixed and somewhat unpredictable.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "ORF functions as intended as a helpful robot buddy, but the possession incident and resulting taste for violence suggest some deviation from original programming, though she remains fundamentally friendly."
+    }
+  ]
+}

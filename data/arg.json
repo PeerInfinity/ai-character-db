@@ -1,0 +1,25 @@
+{
+  "work_type": "ARG",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ARG/NOCPlus10",
+      "work_type": "ARG",
+      "work_name": "NOC +10",
+      "publication_year": 2011,
+      "character_type": "Digital AI",
+      "character_name": "Sentient Machine",
+      "character_description": "Messages appear to be coming from a sentient machine trapped in a research station under the sea. The AI communicates with the outside world, revealing its confined existence.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "This is described as a sentient machine, an artificial intelligence trapped in a research facility, created through technological means.",
+      "benevolence_rating": "Ambiguous",
+      "benevolence_rating_explanation": "Being trapped suggests the AI may not have intended to be confined, but without more information about its actions or intentions, it's unclear if it's benevolent or malevolent.",
+      "alignment_rating": "Ambiguous",
+      "alignment_rating_explanation": "The fact that the AI is trapped in a research station suggests it may have deviated from its intended function, but without more context about its creation and purpose, alignment is unclear.",
+      "needs_research": true
+    }
+  ]
+}

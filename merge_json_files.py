@@ -464,4 +464,26 @@ def main():
 
 
 if __name__ == "__main__":
+    import subprocess
+    import sys
+
     main()
+
+    # After merging, automatically split the JSON by work type
+    print("\n=== Splitting JSON by work type ===")
+    try:
+        result = subprocess.run(
+            [sys.executable, "split_json_by_work_type.py"],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+        print(result.stdout)
+        if result.stderr:
+            print("Warnings:", result.stderr, file=sys.stderr)
+    except subprocess.CalledProcessError as e:
+        print(f"Error running split script: {e}", file=sys.stderr)
+        print(e.stdout)
+        print(e.stderr, file=sys.stderr)
+    except FileNotFoundError:
+        print("Warning: split_json_by_work_type.py not found. Skipping split step.", file=sys.stderr)

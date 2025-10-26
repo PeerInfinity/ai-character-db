@@ -1,0 +1,23 @@
+{
+  "work_type": "Theme Park Attraction",
+  "character_count": 1,
+  "characters": [
+    {
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
+      "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Ride/StarTrekTheExperience",
+      "work_type": "Theme Park Attraction",
+      "work_name": "Star Trek: The Experience",
+      "character_type": "Holographic AI",
+      "character_name": "Emergency Holographic Doctor",
+      "character_description": "A digital AI featured in the 'Borg Invasion 4D' attraction. The fact that this doctor is a digital AI (rather than a biological being) proves to be very important to the plot of the attraction.",
+      "ai_qualification": "Pass",
+      "ai_qualification_explanation": "The Emergency Holographic Doctor is a computer-based holographic AI system, created from electronic/digital components.",
+      "benevolence_rating": "Benevolent",
+      "benevolence_rating_explanation": "As an Emergency Medical Hologram designed to help people, the Doctor is helpful and caring toward patients and crew.",
+      "alignment_rating": "Aligned",
+      "alignment_rating_explanation": "The Doctor functions as intended, providing medical assistance to those who need it during the Borg invasion scenario."
+    }
+  ]
+}

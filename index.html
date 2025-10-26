@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Character Database</title>
     <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" id="main-stylesheet">
 </head>
 <body class="dark-mode">
     <div class="container">
@@ -15,11 +15,22 @@
             <p class="subtitle">For more information, see the <a href="https://github.com/PeerInfinity/ai-character-db" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline;">GitHub project page</a></p>
         </header>
 
-        <div class="stats-container" id="stats">
+        <div class="loading" id="chart-loading">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">Loading data...</div>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="chart-progress-fill"></div>
+                </div>
+                <div class="progress-text" id="chart-progress-text">0%</div>
+            </div>
+        </div>
+
+        <div class="stats-container" id="stats" style="display: none;">
             <div class="stat-row-label">Character Alignment Chart</div>
 
-            <!-- Header Row -->
-            <div class="stats-row">
+                <!-- Header Row -->
+                <div class="stats-row">
                 <div class="stat-card stat-header">
                     <div class="stat-label"></div>
                 </div>
@@ -238,7 +249,16 @@
         </div>
 
         <div class="entries-container" id="entries">
-            <div class="loading">Loading data...</div>
+            <div class="loading">
+                <div class="loading-spinner"></div>
+                <div class="loading-text">Loading data...</div>
+                <div class="loading-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-text" id="progress-text">0%</div>
+                </div>
+            </div>
         </div>
 
         <footer>
