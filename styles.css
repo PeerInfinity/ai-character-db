@@ -20,6 +20,7 @@
     --ambiguous: #f59e0b;
     --aligned: #3b82f6;
     --misaligned: #8b5cf6;
+    --na: #6b7280;
 }
 
 body.light-mode {
@@ -97,7 +98,7 @@ h1 {
 
 .stats-container {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     padding: 20px;
     background: var(--bg-tertiary);
@@ -107,7 +108,7 @@ h1 {
 .stats-row {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
 }
 
@@ -180,6 +181,7 @@ h1 {
 .chart-cell-malevolent { color: var(--malevolent); }
 .chart-cell-aligned { color: var(--aligned); }
 .chart-cell-misaligned { color: var(--misaligned); }
+.chart-cell-na { color: var(--na); }
 .chart-cell-neutral { color: var(--text-secondary); }
 
 /* Chart cell clickable and filtered state */
@@ -189,12 +191,29 @@ h1 {
 
 .chart-cell-filtered-out {
     opacity: 0.3;
-    text-decoration: line-through;
 }
 
 .chart-clickable:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Hide N/A chart cells when chart is in normal mode */
+.stats-container:not(.show-na) .chart-na-column {
+    display: none;
+}
+
+.stats-container:not(.show-na) .chart-na-row {
+    display: none;
+}
+
+/* Adjust grid columns based on whether N/A is shown */
+.stats-container:not(.show-na) {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.stats-container:not(.show-na) .stats-row {
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .controls {
@@ -284,10 +303,22 @@ h1 {
     border-color: var(--malevolent);
 }
 
+.filter-btn.na.active {
+    background: var(--na);
+    border-color: var(--na);
+}
+
 .filter-btn.shuffle-btn.active {
     background: var(--accent-primary);
     border-color: var(--accent-primary);
     color: white;
+}
+
+.button-separator {
+    width: 2px;
+    height: 30px;
+    background: var(--border-color);
+    align-self: center;
 }
 
 .search-box {

@@ -1,9 +1,30 @@
 let allCharacters = [];
 let filters = {
     sortBy: 'benevolence',
-    aiQualification: 'any',
-    benevolence: 'any',
-    alignment: 'any',
+    aiQualification: {
+        pass: true,
+        ambiguous: true,
+        fail: true,
+        na: true
+    },
+    aiQualificationTotals: {
+        pass: true,
+        ambiguous: false,
+        fail: false,
+        na: false
+    },
+    benevolence: {
+        benevolent: true,
+        ambiguous: true,
+        malevolent: true,
+        na: true
+    },
+    alignment: {
+        aligned: true,
+        ambiguous: true,
+        misaligned: true,
+        na: true
+    },
     search: ''
 };
 let shuffleState = {
@@ -73,7 +94,7 @@ function updateChartColors() {
     chartCells.forEach(cell => {
         // Remove all color classes
         cell.classList.remove('chart-cell-benevolent', 'chart-cell-ambiguous', 'chart-cell-malevolent',
-                              'chart-cell-aligned', 'chart-cell-misaligned');
+                              'chart-cell-aligned', 'chart-cell-misaligned', 'chart-cell-na');
 
         // Add appropriate color class based on sort mode
         if (filters.sortBy === 'benevolence') {
@@ -98,17 +119,27 @@ function updateChartFilterState() {
         let isFilteredOut = false;
 
         // Check benevolence filter
-        if (filters.benevolence !== 'any') {
-            const filterValue = filters.benevolence === 'ambiguous-only' ? 'ambiguous' : filters.benevolence;
-            if (benevolence !== filterValue && benevolence !== 'any') {
+        if (benevolence !== 'any') {
+            if (benevolence === 'benevolent' && !filters.benevolence.benevolent) {
+                isFilteredOut = true;
+            } else if (benevolence === 'ambiguous' && !filters.benevolence.ambiguous) {
+                isFilteredOut = true;
+            } else if (benevolence === 'malevolent' && !filters.benevolence.malevolent) {
+                isFilteredOut = true;
+            } else if (benevolence === 'na' && !filters.benevolence.na) {
                 isFilteredOut = true;
             }
         }
 
         // Check alignment filter
-        if (filters.alignment !== 'any') {
-            const filterValue = filters.alignment === 'ambiguous-only' ? 'ambiguous' : filters.alignment;
-            if (alignment !== filterValue && alignment !== 'any') {
+        if (alignment !== 'any') {
+            if (alignment === 'aligned' && !filters.alignment.aligned) {
+                isFilteredOut = true;
+            } else if (alignment === 'ambiguous' && !filters.alignment.ambiguous) {
+                isFilteredOut = true;
+            } else if (alignment === 'misaligned' && !filters.alignment.misaligned) {
+                isFilteredOut = true;
+            } else if (alignment === 'na' && !filters.alignment.na) {
                 isFilteredOut = true;
             }
         }
@@ -130,18 +161,34 @@ function handleChartCellClick(event) {
     const benevolence = cell.getAttribute('data-benevolence');
     const alignment = cell.getAttribute('data-alignment');
 
-    // Update benevolence filter
+    // Update benevolence filter - enable only the clicked category
     if (benevolence === 'any') {
-        filters.benevolence = 'any';
+        // Enable all benevolence categories
+        filters.benevolence.benevolent = true;
+        filters.benevolence.ambiguous = true;
+        filters.benevolence.malevolent = true;
+        filters.benevolence.na = true;
     } else {
-        filters.benevolence = benevolence === 'ambiguous' ? 'ambiguous-only' : benevolence;
+        // Enable only the clicked category
+        filters.benevolence.benevolent = (benevolence === 'benevolent');
+        filters.benevolence.ambiguous = (benevolence === 'ambiguous');
+        filters.benevolence.malevolent = (benevolence === 'malevolent');
+        filters.benevolence.na = false;
     }
 
-    // Update alignment filter
+    // Update alignment filter - enable only the clicked category
     if (alignment === 'any') {
-        filters.alignment = 'any';
+        // Enable all alignment categories
+        filters.alignment.aligned = true;
+        filters.alignment.ambiguous = true;
+        filters.alignment.misaligned = true;
+        filters.alignment.na = true;
     } else {
-        filters.alignment = alignment === 'ambiguous' ? 'ambiguous-only' : alignment;
+        // Enable only the clicked category
+        filters.alignment.aligned = (alignment === 'aligned');
+        filters.alignment.ambiguous = (alignment === 'ambiguous');
+        filters.alignment.misaligned = (alignment === 'misaligned');
+        filters.alignment.na = false;
     }
 
     // Update the filter button states
@@ -159,94 +206,144 @@ function updateFilterButtons() {
     // Update benevolence filter buttons
     const benevolenceButtons = document.querySelectorAll('[data-filter-type="benevolence"]');
     benevolenceButtons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.dataset.filter === filters.benevolence) {
-            btn.classList.add('active');
+        const filterValue = btn.dataset.filter;
+        if (filterValue === 'any') {
+            // Check if all are enabled
+            const allActive = Object.values(filters.benevolence).every(v => v === true);
+            btn.classList.toggle('active', allActive);
+        } else {
+            btn.classList.toggle('active', filters.benevolence[filterValue]);
         }
     });
 
     // Update alignment filter buttons
     const alignmentButtons = document.querySelectorAll('[data-filter-type="alignment"]');
     alignmentButtons.forEach(btn => {
-        btn.classList.remove('active');
-        if (btn.dataset.filter === filters.alignment) {
-            btn.classList.add('active');
+        const filterValue = btn.dataset.filter;
+        if (filterValue === 'any') {
+            // Check if all are enabled
+            const allActive = Object.values(filters.alignment).every(v => v === true);
+            btn.classList.toggle('active', allActive);
+        } else {
+            btn.classList.toggle('active', filters.alignment[filterValue]);
         }
     });
 }
 
 // Update statistics
 function updateStatistics() {
-    // Filter to only include characters with both benevolence and alignment ratings
-    const ratedCharacters = allCharacters.filter(c =>
-        getBenevolence(c) !== 'N/A' && getAlignment(c) !== 'N/A'
-    );
+    // Filter characters matching the AI qualification totals filter
+    const filteredCharacters = allCharacters.filter(c => {
+        // Check AI qualification totals filter
+        const aiQual = c.ai_qualification;
+        if (aiQual === 'Pass' && !filters.aiQualificationTotals.pass) return false;
+        if (aiQual === 'Ambiguous' && !filters.aiQualificationTotals.ambiguous) return false;
+        if (aiQual === 'Fail' && !filters.aiQualificationTotals.fail) return false;
+        if ((!aiQual || aiQual === 'N/A') && !filters.aiQualificationTotals.na) return false;
+
+        return true;
+    });
 
     // Benevolent row
-    const benevolentAligned = ratedCharacters.filter(c =>
+    const benevolentAligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Benevolent' && getAlignment(c) === 'Aligned'
     ).length;
-    const benevolentNeutral = ratedCharacters.filter(c =>
+    const benevolentNeutral = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Benevolent' && getAlignment(c) === 'Ambiguous'
     ).length;
-    const benevolentMisaligned = ratedCharacters.filter(c =>
+    const benevolentMisaligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Benevolent' && getAlignment(c) === 'Misaligned'
     ).length;
+    const benevolentNA = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'Benevolent' && getAlignment(c) === 'N/A'
+    ).length;
 
-    // Neutral row
-    const neutralAligned = ratedCharacters.filter(c =>
+    // Ambiguous benevolence row
+    const neutralAligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Ambiguous' && getAlignment(c) === 'Aligned'
     ).length;
-    const neutralNeutral = ratedCharacters.filter(c =>
+    const neutralNeutral = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Ambiguous' && getAlignment(c) === 'Ambiguous'
     ).length;
-    const neutralMisaligned = ratedCharacters.filter(c =>
+    const neutralMisaligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Ambiguous' && getAlignment(c) === 'Misaligned'
+    ).length;
+    const neutralNA = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'Ambiguous' && getAlignment(c) === 'N/A'
     ).length;
 
     // Malevolent row
-    const malevolentAligned = ratedCharacters.filter(c =>
+    const malevolentAligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Malevolent' && getAlignment(c) === 'Aligned'
     ).length;
-    const malevolentNeutral = ratedCharacters.filter(c =>
+    const malevolentNeutral = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Malevolent' && getAlignment(c) === 'Ambiguous'
     ).length;
-    const malevolentMisaligned = ratedCharacters.filter(c =>
+    const malevolentMisaligned = filteredCharacters.filter(c =>
         getBenevolence(c) === 'Malevolent' && getAlignment(c) === 'Misaligned'
+    ).length;
+    const malevolentNA = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'Malevolent' && getAlignment(c) === 'N/A'
+    ).length;
+
+    // N/A benevolence row
+    const naAligned = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'N/A' && getAlignment(c) === 'Aligned'
+    ).length;
+    const naNeutral = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'N/A' && getAlignment(c) === 'Ambiguous'
+    ).length;
+    const naMisaligned = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'N/A' && getAlignment(c) === 'Misaligned'
+    ).length;
+    const naNA = filteredCharacters.filter(c =>
+        getBenevolence(c) === 'N/A' && getAlignment(c) === 'N/A'
     ).length;
 
     // Column totals
-    const totalAligned = benevolentAligned + neutralAligned + malevolentAligned;
-    const totalNeutral = benevolentNeutral + neutralNeutral + malevolentNeutral;
-    const totalMisaligned = benevolentMisaligned + neutralMisaligned + malevolentMisaligned;
+    const totalAligned = benevolentAligned + neutralAligned + malevolentAligned + naAligned;
+    const totalNeutral = benevolentNeutral + neutralNeutral + malevolentNeutral + naNeutral;
+    const totalMisaligned = benevolentMisaligned + neutralMisaligned + malevolentMisaligned + naMisaligned;
+    const totalNA = benevolentNA + neutralNA + malevolentNA + naNA;
 
     // Row totals
-    const totalBenevolent = benevolentAligned + benevolentNeutral + benevolentMisaligned;
-    const totalNeutralBenev = neutralAligned + neutralNeutral + neutralMisaligned;
-    const totalMalevolent = malevolentAligned + malevolentNeutral + malevolentMisaligned;
+    const totalBenevolent = benevolentAligned + benevolentNeutral + benevolentMisaligned + benevolentNA;
+    const totalNeutralBenev = neutralAligned + neutralNeutral + neutralMisaligned + neutralNA;
+    const totalMalevolent = malevolentAligned + malevolentNeutral + malevolentMisaligned + malevolentNA;
+    const totalNABenev = naAligned + naNeutral + naMisaligned + naNA;
 
     // Grand total
-    const grandTotal = totalAligned + totalNeutral + totalMisaligned;
+    const grandTotal = totalAligned + totalNeutral + totalMisaligned + totalNA;
 
     // Update the DOM
     document.getElementById('benevolent-aligned').textContent = benevolentAligned;
     document.getElementById('benevolent-neutral').textContent = benevolentNeutral;
     document.getElementById('benevolent-misaligned').textContent = benevolentMisaligned;
+    document.getElementById('benevolent-na').textContent = benevolentNA;
     document.getElementById('total-benevolent').textContent = totalBenevolent;
 
     document.getElementById('neutral-aligned').textContent = neutralAligned;
     document.getElementById('neutral-neutral').textContent = neutralNeutral;
     document.getElementById('neutral-misaligned').textContent = neutralMisaligned;
+    document.getElementById('neutral-na').textContent = neutralNA;
     document.getElementById('total-neutral-benev').textContent = totalNeutralBenev;
 
     document.getElementById('malevolent-aligned').textContent = malevolentAligned;
     document.getElementById('malevolent-neutral').textContent = malevolentNeutral;
     document.getElementById('malevolent-misaligned').textContent = malevolentMisaligned;
+    document.getElementById('malevolent-na').textContent = malevolentNA;
     document.getElementById('total-malevolent').textContent = totalMalevolent;
+
+    document.getElementById('na-aligned').textContent = naAligned;
+    document.getElementById('na-neutral').textContent = naNeutral;
+    document.getElementById('na-misaligned').textContent = naMisaligned;
+    document.getElementById('na-na').textContent = naNA;
+    document.getElementById('total-na-benev').textContent = totalNABenev;
 
     document.getElementById('total-aligned').textContent = totalAligned;
     document.getElementById('total-neutral').textContent = totalNeutral;
     document.getElementById('total-misaligned').textContent = totalMisaligned;
+    document.getElementById('total-na-align').textContent = totalNA;
     document.getElementById('grand-total').textContent = grandTotal;
 }
 
@@ -257,37 +354,34 @@ function displayEntries() {
     let entries = allCharacters;
 
     // Apply AI qualification filter
-    if (filters.aiQualification !== 'any') {
-        if (filters.aiQualification === 'ambiguous-only') {
-            entries = entries.filter(e => e.ai_qualification === 'Ambiguous');
-        } else {
-            entries = entries.filter(e =>
-                e.ai_qualification.toLowerCase() === filters.aiQualification
-            );
-        }
-    }
+    entries = entries.filter(e => {
+        const aiQual = e.ai_qualification;
+        if (aiQual === 'Pass' && filters.aiQualification.pass) return true;
+        if (aiQual === 'Ambiguous' && filters.aiQualification.ambiguous) return true;
+        if (aiQual === 'Fail' && filters.aiQualification.fail) return true;
+        if ((!aiQual || aiQual === 'N/A') && filters.aiQualification.na) return true;
+        return false;
+    });
 
     // Apply benevolence filter
-    if (filters.benevolence !== 'any') {
-        if (filters.benevolence === 'ambiguous-only') {
-            entries = entries.filter(e => getBenevolence(e) === 'Ambiguous');
-        } else {
-            entries = entries.filter(e =>
-                getBenevolence(e).toLowerCase() === filters.benevolence
-            );
-        }
-    }
+    entries = entries.filter(e => {
+        const benev = getBenevolence(e);
+        if (benev === 'Benevolent' && filters.benevolence.benevolent) return true;
+        if (benev === 'Ambiguous' && filters.benevolence.ambiguous) return true;
+        if (benev === 'Malevolent' && filters.benevolence.malevolent) return true;
+        if (benev === 'N/A' && filters.benevolence.na) return true;
+        return false;
+    });
 
     // Apply alignment filter
-    if (filters.alignment !== 'any') {
-        if (filters.alignment === 'ambiguous-only') {
-            entries = entries.filter(e => getAlignment(e) === 'Ambiguous');
-        } else {
-            entries = entries.filter(e =>
-                getAlignment(e).toLowerCase() === filters.alignment
-            );
-        }
-    }
+    entries = entries.filter(e => {
+        const align = getAlignment(e);
+        if (align === 'Aligned' && filters.alignment.aligned) return true;
+        if (align === 'Ambiguous' && filters.alignment.ambiguous) return true;
+        if (align === 'Misaligned' && filters.alignment.misaligned) return true;
+        if (align === 'N/A' && filters.alignment.na) return true;
+        return false;
+    });
 
     // Apply search filter
     if (filters.search) {
@@ -520,26 +614,74 @@ document.querySelectorAll('.filter-btn:not(.shuffle-btn)').forEach(btn => {
         const filterType = btn.dataset.filterType;
         const filterValue = btn.dataset.filter;
 
-        // Update active button within the same filter group
+        // Handle toggle filters (ai-qualification-totals, ai-qualification, benevolence, alignment)
+        if (filterType === 'ai-qualification-totals' || filterType === 'ai-qualification' ||
+            filterType === 'benevolence' || filterType === 'alignment') {
+
+            const filterObj = filterType === 'ai-qualification-totals' ? filters.aiQualificationTotals :
+                             filterType === 'ai-qualification' ? filters.aiQualification :
+                             filterType === 'benevolence' ? filters.benevolence :
+                             filters.alignment;
+
+            if (filterValue === 'any') {
+                // Check if all are currently enabled
+                const allActive = Object.values(filterObj).every(v => v === true);
+
+                if (allActive) {
+                    // Toggle all off
+                    Object.keys(filterObj).forEach(key => {
+                        filterObj[key] = false;
+                    });
+                } else {
+                    // Toggle all on
+                    Object.keys(filterObj).forEach(key => {
+                        filterObj[key] = true;
+                    });
+                }
+
+                // Update all button states
+                const filterGroup = btn.closest('.filter-section');
+                filterGroup.querySelectorAll('.filter-btn:not(.shuffle-btn)').forEach(b => {
+                    const bFilterValue = b.dataset.filter;
+                    if (bFilterValue === 'any') {
+                        b.classList.toggle('active', !allActive);
+                    } else {
+                        b.classList.toggle('active', !allActive);
+                    }
+                });
+            } else {
+                // Toggle individual button
+                btn.classList.toggle('active');
+                filterObj[filterValue] = !filterObj[filterValue];
+
+                // Update "Any" button state
+                const filterGroup = btn.closest('.filter-section');
+                const anyBtn = filterGroup.querySelector('[data-filter="any"]');
+                const allActive = Object.values(filterObj).every(v => v === true);
+                if (allActive) {
+                    anyBtn.classList.add('active');
+                } else {
+                    anyBtn.classList.remove('active');
+                }
+            }
+
+            if (filterType === 'ai-qualification-totals') {
+                updateStatistics();
+            } else {
+                updateChartFilterState();
+                displayEntries();
+            }
+            return;
+        }
+
+        // Handle sort-by filter (radio buttons)
         const filterGroup = btn.closest('.filter-section');
         filterGroup.querySelectorAll('.filter-btn:not(.shuffle-btn)').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
 
-        // Update filter
         if (filterType === 'sort-by') {
             filters.sortBy = filterValue;
             updateChartColors();
-            displayEntries();
-        } else if (filterType === 'ai-qualification') {
-            filters.aiQualification = filterValue;
-            displayEntries();
-        } else if (filterType === 'benevolence') {
-            filters.benevolence = filterValue;
-            updateChartFilterState();
-            displayEntries();
-        } else if (filterType === 'alignment') {
-            filters.alignment = filterValue;
-            updateChartFilterState();
             displayEntries();
         }
     });
@@ -580,6 +722,22 @@ function collapseAllWorkTypes() {
     document.querySelectorAll('.work-type-folder').forEach(folder => {
         folder.classList.add('collapsed');
     });
+}
+
+// Toggle N/A row and column in chart
+function toggleNAInChart() {
+    const btn = document.getElementById('toggle-na-chart-btn');
+    const statsContainer = document.getElementById('stats');
+
+    statsContainer.classList.toggle('show-na');
+
+    if (statsContainer.classList.contains('show-na')) {
+        btn.textContent = 'Hide N/A in Chart';
+        btn.classList.add('active');
+    } else {
+        btn.textContent = 'Show N/A in Chart';
+        btn.classList.remove('active');
+    }
 }
 
 // Shuffle array using Fisher-Yates algorithm

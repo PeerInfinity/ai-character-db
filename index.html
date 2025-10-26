@@ -32,6 +32,9 @@
                 <div class="stat-card stat-header">
                     <div class="stat-label">Misaligned</div>
                 </div>
+                <div class="stat-card stat-header chart-na-column">
+                    <div class="stat-label">N/A</div>
+                </div>
                 <div class="stat-card stat-header">
                     <div class="stat-label">Total</div>
                 </div>
@@ -50,6 +53,9 @@
                 </div>
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell" data-benevolence="benevolent" data-alignment="misaligned" id="benevolent-misaligned">0</div>
+                </div>
+                <div class="stat-card chart-clickable chart-na-column">
+                    <div class="stat-number chart-cell" data-benevolence="benevolent" data-alignment="na" id="benevolent-na">0</div>
                 </div>
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="benevolent" data-alignment="any" id="total-benevolent">0</div>
@@ -70,6 +76,9 @@
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell" data-benevolence="ambiguous" data-alignment="misaligned" id="neutral-misaligned">0</div>
                 </div>
+                <div class="stat-card chart-clickable chart-na-column">
+                    <div class="stat-number chart-cell" data-benevolence="ambiguous" data-alignment="na" id="neutral-na">0</div>
+                </div>
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="ambiguous" data-alignment="any" id="total-neutral-benev">0</div>
                 </div>
@@ -89,8 +98,33 @@
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell" data-benevolence="malevolent" data-alignment="misaligned" id="malevolent-misaligned">0</div>
                 </div>
+                <div class="stat-card chart-clickable chart-na-column">
+                    <div class="stat-number chart-cell" data-benevolence="malevolent" data-alignment="na" id="malevolent-na">0</div>
+                </div>
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="malevolent" data-alignment="any" id="total-malevolent">0</div>
+                </div>
+            </div>
+
+            <!-- N/A Row -->
+            <div class="stats-row chart-na-row">
+                <div class="stat-card stat-header">
+                    <div class="stat-label">N/A</div>
+                </div>
+                <div class="stat-card chart-clickable">
+                    <div class="stat-number chart-cell" data-benevolence="na" data-alignment="aligned" id="na-aligned">0</div>
+                </div>
+                <div class="stat-card chart-clickable">
+                    <div class="stat-number chart-cell" data-benevolence="na" data-alignment="ambiguous" id="na-neutral">0</div>
+                </div>
+                <div class="stat-card chart-clickable">
+                    <div class="stat-number chart-cell" data-benevolence="na" data-alignment="misaligned" id="na-misaligned">0</div>
+                </div>
+                <div class="stat-card chart-clickable chart-na-column">
+                    <div class="stat-number chart-cell" data-benevolence="na" data-alignment="na" id="na-na">0</div>
+                </div>
+                <div class="stat-card chart-clickable">
+                    <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="na" data-alignment="any" id="total-na-benev">0</div>
                 </div>
             </div>
 
@@ -108,6 +142,9 @@
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="any" data-alignment="misaligned" id="total-misaligned">0</div>
                 </div>
+                <div class="stat-card chart-clickable chart-na-column">
+                    <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="any" data-alignment="na" id="total-na-align">0</div>
+                </div>
                 <div class="stat-card chart-clickable">
                     <div class="stat-number chart-cell-neutral chart-cell-total" data-benevolence="any" data-alignment="any" id="grand-total">0</div>
                 </div>
@@ -120,36 +157,52 @@
                 <div class="filter-container">
                     <button class="filter-btn any active" data-filter-type="sort-by" data-filter="benevolence">Benevolence</button>
                     <button class="filter-btn any" data-filter-type="sort-by" data-filter="alignment">Alignment</button>
+                    <span class="button-separator"></span>
+                    <button class="filter-btn shuffle-btn" id="toggle-na-chart-btn" onclick="toggleNAInChart()">Show N/A in Chart</button>
                 </div>
             </div>
 
             <div class="filter-section">
-                <div class="filter-section-title">AI Qualification Filter</div>
+                <div class="filter-section-title">AI Qualification Filter for Totals</div>
+                <div class="filter-container">
+                    <button class="filter-btn any" data-filter-type="ai-qualification-totals" data-filter="any">Any</button>
+                    <button class="filter-btn pass active" data-filter-type="ai-qualification-totals" data-filter="pass">Include Pass</button>
+                    <button class="filter-btn ambiguous" data-filter-type="ai-qualification-totals" data-filter="ambiguous">Include Ambiguous</button>
+                    <button class="filter-btn fail" data-filter-type="ai-qualification-totals" data-filter="fail">Include Fail</button>
+                    <button class="filter-btn na" data-filter-type="ai-qualification-totals" data-filter="na">Include N/A</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-section-title">AI Qualification Filter for Display</div>
                 <div class="filter-container">
                     <button class="filter-btn any active" data-filter-type="ai-qualification" data-filter="any">Any</button>
-                    <button class="filter-btn pass" data-filter-type="ai-qualification" data-filter="pass">Pass Only</button>
-                    <button class="filter-btn ambiguous" data-filter-type="ai-qualification" data-filter="ambiguous-only">Ambiguous Only</button>
-                    <button class="filter-btn fail" data-filter-type="ai-qualification" data-filter="fail">Fail Only</button>
+                    <button class="filter-btn pass active" data-filter-type="ai-qualification" data-filter="pass">Include Pass</button>
+                    <button class="filter-btn ambiguous active" data-filter-type="ai-qualification" data-filter="ambiguous">Include Ambiguous</button>
+                    <button class="filter-btn fail active" data-filter-type="ai-qualification" data-filter="fail">Include Fail</button>
+                    <button class="filter-btn na active" data-filter-type="ai-qualification" data-filter="na">Include N/A</button>
                 </div>
             </div>
 
             <div class="filter-section">
-                <div class="filter-section-title">Benevolence Filter</div>
+                <div class="filter-section-title">Benevolence Filter for Display</div>
                 <div class="filter-container">
                     <button class="filter-btn any active" data-filter-type="benevolence" data-filter="any">Any</button>
-                    <button class="filter-btn benevolent" data-filter-type="benevolence" data-filter="benevolent">Benevolent Only</button>
-                    <button class="filter-btn ambiguous" data-filter-type="benevolence" data-filter="ambiguous-only">Ambiguous Only</button>
-                    <button class="filter-btn malevolent" data-filter-type="benevolence" data-filter="malevolent">Malevolent Only</button>
+                    <button class="filter-btn benevolent active" data-filter-type="benevolence" data-filter="benevolent">Include Benevolent</button>
+                    <button class="filter-btn ambiguous active" data-filter-type="benevolence" data-filter="ambiguous">Include Ambiguous</button>
+                    <button class="filter-btn malevolent active" data-filter-type="benevolence" data-filter="malevolent">Include Malevolent</button>
+                    <button class="filter-btn na active" data-filter-type="benevolence" data-filter="na">Include N/A</button>
                 </div>
             </div>
 
             <div class="filter-section">
-                <div class="filter-section-title">Alignment Filter</div>
+                <div class="filter-section-title">Alignment Filter for Display</div>
                 <div class="filter-container">
                     <button class="filter-btn any active" data-filter-type="alignment" data-filter="any">Any</button>
-                    <button class="filter-btn aligned" data-filter-type="alignment" data-filter="aligned">Aligned Only</button>
-                    <button class="filter-btn ambiguous" data-filter-type="alignment" data-filter="ambiguous-only">Ambiguous Only</button>
-                    <button class="filter-btn misaligned" data-filter-type="alignment" data-filter="misaligned">Misaligned Only</button>
+                    <button class="filter-btn aligned active" data-filter-type="alignment" data-filter="aligned">Include Aligned</button>
+                    <button class="filter-btn ambiguous active" data-filter-type="alignment" data-filter="ambiguous">Include Ambiguous</button>
+                    <button class="filter-btn misaligned active" data-filter-type="alignment" data-filter="misaligned">Include Misaligned</button>
+                    <button class="filter-btn na active" data-filter-type="alignment" data-filter="na">Include N/A</button>
                 </div>
             </div>
 
