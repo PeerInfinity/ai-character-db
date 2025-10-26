@@ -901,3 +901,103 @@ footer a:hover {
         margin-top: 10px;
     }
 }
+
+/* Floating processing indicators */
+.processing-indicators {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.action-queued-indicator {
+    background: var(--card-bg);
+    border: 2px solid var(--accent-primary);
+    border-radius: 8px;
+    padding: 12px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.action-queued-indicator.visible {
+    visibility: visible;
+}
+
+.indicator-icon {
+    font-size: 1.2em;
+}
+
+.indicator-text {
+    font-size: 0.95em;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.progress-indicator {
+    background: var(--card-bg);
+    border: 2px solid var(--accent-primary);
+    border-radius: 8px;
+    padding: 15px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    min-width: 280px;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-indicator.visible {
+    visibility: visible;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: var(--bg-tertiary);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+    width: 0%;
+    border-radius: 4px;
+}
+
+.progress-status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9em;
+    min-width: 320px;
+}
+
+#processing-status-text {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+#processing-percentage {
+    color: var(--accent-primary);
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .processing-indicators {
+        bottom: 10px;
+        right: 10px;
+        left: 10px;
+    }
+
+    .progress-indicator {
+        min-width: auto;
+    }
+}

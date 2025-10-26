@@ -17,6 +17,10 @@ This project collects and analyzes AI characters from various fictional works, e
 
 ### Data Files
 - **ai-character-db.json** - Main character database (1,198 entries, schema v4.0)
+- **data/** - Directory containing split data files by work type (37 files)
+  - **manifest.json** - Index of all work type files with metadata
+  - Individual work type files (e.g., `movie.json`, `tv-show.json`, `book.json`)
+- **version.json** - Cache busting version file with timestamp
 - **duplicate-entries.json** - Duplicate character entries identified by merge script
 - **incomplete-entries.json** - Entries missing required fields
 - **invalid-entries.json** - Entries with incorrect field names
@@ -24,15 +28,19 @@ This project collects and analyzes AI characters from various fictional works, e
 
 ### Display
 - **index.html** - Interactive web interface
+  - Progressive loading with visual progress indicator
   - Toggle between Benevolence and Alignment views
   - Filter by benevolence, alignment, and AI qualification
   - Search functionality
   - Work type folders with rating breakdowns
   - Collapsible sections for descriptions and assessments
   - Expand/collapse all controls
+  - Dark/Light theme toggle
+  - Automatic cache busting for fresh data
 
 ### Scripts
-- **merge_json_files.py** - Merges JSON files and filters by quality
+- **merge_json_files.py** - Merges JSON files and filters by quality (now automatically runs split script)
+- **split_json_by_work_type.py** - Splits main database into work type files for progressive loading
 - **fix_invalid_entries.py** - Fixes entries with old/invalid field names
 - **resolve_duplicates.py** - Intelligently merges duplicate entries
 - **split_tvtropes_html.py** - Extracts character entries from TVTropes HTML
@@ -88,6 +96,8 @@ Data can be collected from various sources:
 ## Features
 
 ### Web Interface
+- **Progressive Loading**: Data loads incrementally by work type with visual progress bar
+- **Cache Busting**: Automatic versioning ensures fresh data without manual cache clearing
 - **Benevolence/Alignment Toggle**: Switch between viewing by Benevolence or Alignment ratings
 - **Statistics Dashboard**: Character and work counts by rating category
 - **Advanced Filtering**: By benevolence, alignment, and AI qualification
@@ -98,6 +108,7 @@ Data can be collected from various sources:
 - **Search**: Free-text search across all fields
 - **Source URLs**: Numbered links to source pages for each character
 - **Dark/Light Mode**: Theme toggle for comfortable viewing
+- **Processing Indicators**: Visual feedback during filtering and display operations
 
 ### Data Quality
 - Detailed explanations for every rating
@@ -144,10 +155,25 @@ The project uses a multi-script pipeline for processing character data:
 2. **merge_json_files.py** - Merges all JSON files and filters by quality
    - Use `--batches` flag to include files from `/batches/` subdirectories
    - Produces: `ai-character-db.json`, `duplicate-entries.json`, `incomplete-entries.json`, `invalid-entries.json`, `multi-work-entries.json`
-3. **fix_invalid_entries.py** - Converts old field names to schema v4.0 format
-4. **resolve_duplicates.py** - Intelligently merges duplicate entries
+   - Automatically runs `split_json_by_work_type.py` after merging
+3. **split_json_by_work_type.py** - Splits the main database into work type files
+   - Creates `data/` directory with individual JSON files for each work type
+   - Generates `data/manifest.json` with file index and metadata
+   - Creates `version.json` for cache busting
+4. **fix_invalid_entries.py** - Converts old field names to schema v4.0 format
+5. **resolve_duplicates.py** - Intelligently merges duplicate entries
 
 See [scripts.md](scripts.md) for detailed usage instructions.
+
+### Cache Busting System
+
+The application uses a version-based cache busting strategy:
+
+- **version.json** is always loaded fresh (bypasses cache with timestamp parameter)
+- All other resources (CSS, data files) use the version from `version.json` as a query parameter
+- When data is updated and `split_json_by_work_type.py` runs, a new version hash is generated
+- Browsers automatically fetch fresh files because the version parameter changes
+- No manual cache clearing needed by users
 
 ## Rating Guidance
 

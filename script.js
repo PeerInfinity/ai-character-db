@@ -35,6 +35,14 @@ let shuffleState = {
     workTypesShuffled: false
 };
 
+// Processing state management
+let processingState = {
+    debounceTimer: null,
+    isProcessing: false,
+    hasQueuedChanges: false,
+    currentProgress: 0
+};
+
 // Theme toggle
 function toggleTheme() {
     const body = document.body;
@@ -49,6 +57,53 @@ function toggleTheme() {
         body.classList.add('dark-mode');
         btn.textContent = '☀️ Light Mode';
     }
+}
+
+// Helper functions to control indicators
+function showActionQueued() {
+    const indicator = document.getElementById('action-queued-indicator');
+    if (indicator) {
+        indicator.classList.add('visible');
+    }
+}
+
+function hideActionQueued() {
+    const indicator = document.getElementById('action-queued-indicator');
+    if (indicator) {
+        indicator.classList.remove('visible');
+    }
+}
+
+function showProgressIndicator() {
+    const indicator = document.getElementById('progress-indicator');
+    if (indicator) {
+        indicator.classList.add('visible');
+    }
+}
+
+function hideProgressIndicator() {
+    const indicator = document.getElementById('progress-indicator');
+    if (indicator) {
+        indicator.classList.remove('visible');
+    }
+}
+
+function updateProgress(percentage, statusText = 'Processing entries...') {
+    const progressFill = document.getElementById('processing-progress-fill');
+    const progressPercentage = document.getElementById('processing-percentage');
+    const statusTextElement = document.getElementById('processing-status-text');
+
+    if (progressFill) {
+        progressFill.style.width = percentage + '%';
+    }
+    if (progressPercentage) {
+        progressPercentage.textContent = Math.round(percentage) + '%';
+    }
+    if (statusTextElement) {
+        statusTextElement.textContent = statusText;
+    }
+
+    processingState.currentProgress = percentage;
 }
 
 // Helper functions to get ratings
@@ -183,7 +238,7 @@ async function loadData() {
         updateStatistics();
         updateChartColors();
         updateChartFilterState();
-        displayEntries();
+        await displayEntries();
 
         // Hide loading indicator and show chart
         const chartLoading = document.getElementById('chart-loading');
@@ -320,7 +375,7 @@ function handleChartCellClick(event) {
     updateChartFilterState();
 
     // Display filtered entries
-    displayEntries();
+    triggerProcessing();
 }
 
 // Update filter button states to match current filters
@@ -472,13 +527,15 @@ function updateStatistics() {
     document.getElementById('grand-total').textContent = grandTotal;
 }
 
-// Display filtered entries
-function displayEntries() {
+// Display filtered entries (async with progress reporting)
+async function displayEntries() {
     entryCounter = 0;
     const container = document.getElementById('entries');
     let entries = allCharacters;
 
     // Apply AI qualification filter
+    updateProgress(5, 'Filtering by AI qualification...');
+    await sleep(0); // Yield to browser
     entries = entries.filter(e => {
         const aiQual = e.ai_qualification;
         if (aiQual === 'Pass' && filters.aiQualification.pass) return true;
@@ -489,12 +546,16 @@ function displayEntries() {
     });
 
     // Apply unresearched filter
+    updateProgress(10, 'Filtering unresearched entries...');
+    await sleep(0); // Yield to browser
     entries = entries.filter(e => {
         if (e.needs_research === true && !filters.aiQualification.unresearched) return false;
         return true;
     });
 
     // Apply benevolence filter
+    updateProgress(15, 'Filtering by benevolence...');
+    await sleep(0); // Yield to browser
     entries = entries.filter(e => {
         const benev = getBenevolence(e);
         if (benev === 'Benevolent' && filters.benevolence.benevolent) return true;
@@ -505,6 +566,8 @@ function displayEntries() {
     });
 
     // Apply alignment filter
+    updateProgress(20, 'Filtering by alignment...');
+    await sleep(0); // Yield to browser
     entries = entries.filter(e => {
         const align = getAlignment(e);
         if (align === 'Aligned' && filters.alignment.aligned) return true;
@@ -515,6 +578,8 @@ function displayEntries() {
     });
 
     // Apply search filter
+    updateProgress(25, 'Applying search filter...');
+    await sleep(0); // Yield to browser
     if (filters.search) {
         const query = filters.search.toLowerCase();
         entries = entries.filter(entry =>
@@ -534,6 +599,8 @@ function displayEntries() {
     }
 
     // Group by work type
+    updateProgress(30, 'Grouping entries...');
+    await sleep(0); // Yield to browser
     const grouped = groupByWorkType(entries);
     let sortedWorkTypes = Object.keys(grouped).sort();
 
@@ -542,9 +609,18 @@ function displayEntries() {
         sortedWorkTypes = shuffleArray(sortedWorkTypes);
     }
 
+    // Generate HTML with progress reporting
     let html = '';
-    sortedWorkTypes.forEach(workType => {
+    const totalWorkTypes = sortedWorkTypes.length;
+
+    for (let i = 0; i < sortedWorkTypes.length; i++) {
+        const workType = sortedWorkTypes[i];
         let workTypeEntries = grouped[workType];
+
+        // Calculate progress (30% to 90% for HTML generation)
+        const progress = 30 + (60 * (i / totalWorkTypes));
+        updateProgress(progress, `Generating HTML for ${workType}...`);
+        await sleep(0); // Yield to browser
 
         // Apply character shuffle if active
         if (shuffleState.charactersShuffled) {
@@ -583,9 +659,83 @@ function displayEntries() {
                 </div>
             </div>
         `;
-    });
+    }
 
+    // Update DOM
+    updateProgress(95, 'Updating display...');
+    await sleep(0); // Yield to browser
     container.innerHTML = html;
+
+    updateProgress(100, 'Complete!');
+}
+
+// Helper function to sleep for async operations
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Debounced processing trigger
+function triggerProcessing() {
+    // Clear any existing debounce timer
+    if (processingState.debounceTimer) {
+        clearTimeout(processingState.debounceTimer);
+    }
+
+    // If currently processing, mark that we have queued changes
+    if (processingState.isProcessing) {
+        processingState.hasQueuedChanges = true;
+        showActionQueued();
+        return;
+    }
+
+    // Show "Action queued" indicator and start debounce
+    showActionQueued();
+
+    // Start debounce timer
+    processingState.debounceTimer = setTimeout(async () => {
+        // Debounce period finished, start processing
+        hideActionQueued();
+        await processEntries();
+    }, 350); // 350ms debounce
+}
+
+// Process entries with progress tracking and queue handling
+async function processEntries() {
+    processingState.isProcessing = true;
+    hideActionQueued(); // Always hide "Action queued" when processing starts
+    showProgressIndicator();
+    updateProgress(0, 'Starting...');
+
+    try {
+        // Display entries
+        await displayEntries();
+
+        // Check if there are queued changes
+        if (processingState.hasQueuedChanges) {
+            processingState.hasQueuedChanges = false;
+            hideActionQueued(); // Hide the "Action queued" indicator
+            // Reset progress and restart processing
+            updateProgress(0, 'Processing queued changes...');
+            await sleep(100); // Brief pause for visual feedback
+            await displayEntries();
+        }
+
+        // All done
+        await sleep(200); // Brief pause to show 100% completion
+        hideProgressIndicator();
+    } catch (error) {
+        console.error('Error processing entries:', error);
+        hideProgressIndicator();
+    } finally {
+        processingState.isProcessing = false;
+
+        // Check one more time if changes were queued while we were finishing up
+        if (processingState.hasQueuedChanges) {
+            processingState.hasQueuedChanges = false;
+            hideActionQueued();
+            await processEntries();
+        }
+    }
 }
 
 // Group entries by work type
@@ -805,7 +955,7 @@ document.querySelectorAll('.filter-btn:not(.shuffle-btn)').forEach(btn => {
                 updateStatistics();
             } else {
                 updateChartFilterState();
-                displayEntries();
+                triggerProcessing();
             }
             return;
         }
@@ -818,7 +968,7 @@ document.querySelectorAll('.filter-btn:not(.shuffle-btn)').forEach(btn => {
         if (filterType === 'sort-by') {
             filters.sortBy = filterValue;
             updateChartColors();
-            displayEntries();
+            triggerProcessing();
         }
     });
 });
@@ -831,7 +981,7 @@ document.querySelectorAll('.chart-clickable').forEach(cell => {
 // Search box event listener
 document.getElementById('search').addEventListener('input', (e) => {
     filters.search = e.target.value;
-    displayEntries();
+    triggerProcessing();
 });
 
 // Expand/collapse functions for character details
@@ -894,12 +1044,12 @@ function toggleShuffleCharacters() {
         // Turn off shuffle - restore original order
         shuffleState.charactersShuffled = false;
         btn.classList.remove('active');
-        displayEntries(); // Re-render with original order
+        triggerProcessing(); // Re-render with original order
     } else {
         // Turn on shuffle
         shuffleState.charactersShuffled = true;
         btn.classList.add('active');
-        shuffleCharacters();
+        triggerProcessing();
     }
 }
 
@@ -911,12 +1061,12 @@ function toggleShuffleWorkTypes() {
         // Turn off shuffle - restore original order
         shuffleState.workTypesShuffled = false;
         btn.classList.remove('active');
-        displayEntries(); // Re-render with original order
+        triggerProcessing(); // Re-render with original order
     } else {
         // Turn on shuffle
         shuffleState.workTypesShuffled = true;
         btn.classList.add('active');
-        shuffleWorkTypes();
+        triggerProcessing();
     }
 }
 

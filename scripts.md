@@ -4,11 +4,12 @@ This document explains how to use the scripts for managing and merging AI charac
 
 ## Overview
 
-The database uses three main scripts:
+The database uses four main scripts:
 
 1. **merge_json_files.py** - Merges all JSON files and filters entries by quality
-2. **fix_invalid_entries.py** - Fixes entries with old/invalid field names
-3. **resolve_duplicates.py** - Resolves duplicate entries by intelligently merging them
+2. **split_json_by_work_type.py** - Splits the database into work type files for progressive loading
+3. **fix_invalid_entries.py** - Fixes entries with old/invalid field names
+4. **resolve_duplicates.py** - Resolves duplicate entries by intelligently merging them
 
 ## Script 1: merge_json_files.py
 
@@ -56,6 +57,11 @@ The script processes entries in this order:
 5. **Final Output** - Valid, complete, unique entries
    - Output: `ai-character-db.json`
    - These entries pass all validation checks
+
+6. **Automatic Split** - Splits database into work type files
+   - Automatically runs `split_json_by_work_type.py` after merging
+   - Creates `data/` directory with individual work type files
+   - Generates `version.json` for cache busting
 
 ### Sorting
 
@@ -128,7 +134,142 @@ Multi-work entries: 0
 Duplicate entries: 0
 ```
 
-## Script 2: fix_invalid_entries.py
+## Script 2: split_json_by_work_type.py
+
+### Purpose
+
+Splits the main `ai-character-db.json` file into separate JSON files by work type for progressive loading in the web interface. This enables:
+- Faster initial page load (loads data incrementally)
+- Visual progress indicator showing which work type is loading
+- Better cache management for large datasets
+
+### Usage
+
+```bash
+# Run manually (also runs automatically after merge_json_files.py)
+python3 split_json_by_work_type.py
+```
+
+### What It Does
+
+1. Reads `ai-character-db.json`
+2. Groups characters by `work_type` field
+3. Creates a `data/` directory if it doesn't exist
+4. Writes separate JSON files for each work type:
+   - `data/movie.json` (112 characters)
+   - `data/tv-show.json` (217 characters)
+   - `data/video-game.json` (280 characters)
+   - etc. (37 files total)
+5. Generates `data/manifest.json` with:
+   - List of all work type files
+   - Character counts per file
+   - Content hashes for each file
+   - Metadata from original database
+6. Creates `version.json` in root directory for cache busting:
+   - Version hash (MD5 of manifest)
+   - Timestamp
+   - Last updated date from metadata
+
+### Output Files
+
+| File | Description |
+|------|-------------|
+| `data/manifest.json` | Index of all work type files with metadata |
+| `data/{work-type}.json` | Individual work type data files (37 files) |
+| `version.json` | Cache busting version file |
+
+### Example Output
+
+```
+Loading ai-character-db.json...
+Total characters: 1198
+
+Splitting into 37 work type files...
+  ✓ Movie: 112 characters → movie.json
+  ✓ TV Show: 217 characters → tv-show.json
+  ✓ Video Game: 280 characters → video-game.json
+  ✓ Book: 138 characters → book.json
+  ...
+
+✓ Manifest written to data/manifest.json
+✓ Version file written to version.json
+
+Cache busting version: 61193944
+
+Done! Split 1198 characters into 37 files.
+```
+
+### Work Type File Format
+
+Each work type file contains:
+
+```json
+{
+  "work_type": "Movie",
+  "character_count": 112,
+  "characters": [
+    { /* character entry */ },
+    { /* character entry */ },
+    ...
+  ]
+}
+```
+
+### Manifest Format
+
+The `data/manifest.json` file contains:
+
+```json
+{
+  "metadata": {
+    "total_entries": 1198,
+    "generated_by": "apply_work_type_standardization.py",
+    "work_types_standardized": true
+  },
+  "generated_at": "2025-10-25T21:44:02.441649",
+  "total_characters": 1198,
+  "work_types": [
+    {
+      "work_type": "Movie",
+      "filename": "movie.json",
+      "character_count": 112,
+      "hash": "a1b2c3d4"
+    },
+    ...
+  ]
+}
+```
+
+### Version File Format
+
+The `version.json` file contains:
+
+```json
+{
+  "version": "61193944",
+  "timestamp": "2025-10-25T21:44:02.475003",
+  "last_updated": "",
+  "data_version": "2025-10-25T21:44:02.441649"
+}
+```
+
+### Cache Busting
+
+The version file enables automatic cache busting:
+1. Web app loads `version.json?t={timestamp}` (always fresh)
+2. Extracts version hash from the file
+3. Loads all other resources with `?v={version}` parameter
+4. When data updates, new version hash is generated
+5. Browsers fetch fresh files automatically (no manual cache clearing)
+
+### When to Run
+
+This script runs automatically after `merge_json_files.py`, but you can also run it manually:
+- After manually editing `ai-character-db.json`
+- To regenerate version hash for cache busting
+- To rebuild the `data/` directory
+
+## Script 3: fix_invalid_entries.py
 
 ### Purpose
 
@@ -215,7 +356,7 @@ Fields removed (not in schema):
   benevolence_rating_explanation_additional
 ```
 
-## Script 3: resolve_duplicates.py
+## Script 4: resolve_duplicates.py
 
 ### Purpose
 
