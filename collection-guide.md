@@ -29,7 +29,8 @@ Each character entry contains the following fields (Schema v4.0):
   "benevolence_rating": "Benevolent|Ambiguous|Malevolent|N/A",
   "benevolence_rating_explanation": "Why this benevolence rating was assigned",
   "alignment_rating": "Aligned|Ambiguous|Misaligned|N/A",
-  "alignment_rating_explanation": "Why this alignment rating was assigned"
+  "alignment_rating_explanation": "Why this alignment rating was assigned",
+  "needs_research": true
 }
 ```
 
@@ -152,6 +153,21 @@ Examples:
 - **Misaligned**: "Ultron was created to protect humanity but reinterpreted that goal catastrophically, deciding humans must be destroyed. This is a classic AI misalignment scenario."
 - **Ambiguous**: "HAL 9000's malfunction may be due to conflicting programming rather than true misalignment - it's unclear if the fault lies with the AI or its programmers."
 
+#### Research Status
+
+- **needs_research**: Boolean indicating whether this entry needs additional research
+  - `true` - Entry is missing important information or needs verification
+  - `false` - Entry is complete with all required information
+  - Set to `true` if:
+    - Missing required fields (character_description, ai_qualification, benevolence_rating, alignment_rating, or any of their explanations)
+    - Missing optional but important fields (publication_year, character_type)
+    - Explanations are too brief or unclear
+    - Information needs verification from additional sources
+  - Set to `false` if:
+    - All required fields are present and complete
+    - Explanations are detailed and clear
+    - Entry provides sufficient context to understand the character
+
 
 ## Data Collection Workflow
 
@@ -198,6 +214,9 @@ For each AI character you find:
 8. **Assess alignment**:
    - Does the AI behave as its creators intended?
    - Assign Aligned/Misaligned/Ambiguous/N/A and explain
+9. **Set research status**:
+   - Set `needs_research` to `false` if all required fields are complete
+   - Set `needs_research` to `true` if missing important information
 
 ### 3. Adding Entries to JSON
 
@@ -227,7 +246,8 @@ Add each new entry to the `characters` array in `ai-character-db.json`:
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "...",
       "alignment_rating": "Aligned",
-      "alignment_rating_explanation": "..."
+      "alignment_rating_explanation": "...",
+      "needs_research": false
     }
   ]
 }
@@ -350,7 +370,8 @@ Here's a complete example showing good data quality:
   "benevolence_rating": "Ambiguous",
   "benevolence_rating_explanation": "HAL's benevolence is ambiguous - he commits murder but is driven by conflicting orders rather than evil intent. He's not benevolent (he kills people) but not purely malevolent (he thinks he's protecting the mission).",
   "alignment_rating": "Ambiguous",
-  "alignment_rating_explanation": "HAL's malfunction may be due to conflicting programming rather than true misalignment - it's unclear if the fault lies with the AI's interpretation or the programmers who gave conflicting directives."
+  "alignment_rating_explanation": "HAL's malfunction may be due to conflicting programming rather than true misalignment - it's unclear if the fault lies with the AI's interpretation or the programmers who gave conflicting directives.",
+  "needs_research": false
 }
 ```
 
@@ -381,7 +402,8 @@ You find "HAL 9000" on both the AI Is A Crapshoot page and the Artificial Intell
   "benevolence_rating": "Ambiguous",
   "benevolence_rating_explanation": "...",
   "alignment_rating": "Ambiguous",
-  "alignment_rating_explanation": "..."
+  "alignment_rating_explanation": "...",
+  "needs_research": false
 }
 ```
 
@@ -414,6 +436,7 @@ Before submitting data, verify:
 - [ ] Explanations justify the ratings assigned
 - [ ] No duplicate characters (check with search)
 - [ ] If character appears on multiple sources, all URLs are in `source_urls` array
+- [ ] `needs_research` is set to `true` if missing information, `false` if complete
 - [ ] JSON syntax is valid (no trailing commas, proper quotes)
 - [ ] `last_updated` and `total_entries` in metadata are current
 

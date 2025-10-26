@@ -44,7 +44,8 @@ def get_valid_fields() -> List[str]:
     """
     return get_required_fields() + [
         "publication_year",
-        "character_type"
+        "character_type",
+        "needs_research"
     ]
 
 

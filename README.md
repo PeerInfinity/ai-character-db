@@ -65,7 +65,8 @@ Each character entry includes:
   "benevolence_rating": "Benevolent|Malevolent|Ambiguous|N/A",
   "benevolence_rating_explanation": "Why this rating was assigned",
   "alignment_rating": "Aligned|Misaligned|Ambiguous|N/A",
-  "alignment_rating_explanation": "Why this rating was assigned"
+  "alignment_rating_explanation": "Why this rating was assigned",
+  "needs_research": false
 }
 ```
 

@@ -21,6 +21,8 @@
     --aligned: #3b82f6;
     --misaligned: #8b5cf6;
     --na: #6b7280;
+    --unresearched: #f59e0b;
+    --unresearched-text: #1a1a2e;
 }
 
 body.light-mode {
@@ -32,6 +34,8 @@ body.light-mode {
     --border-color: #e5e7eb;
     --card-bg: #ffffff;
     --card-hover: #f9fafb;
+    --unresearched: #fbbf24;
+    --unresearched-text: #78350f;
 }
 
 body {
@@ -308,6 +312,11 @@ h1 {
     border-color: var(--na);
 }
 
+.filter-btn.unresearched.active {
+    background: var(--unresearched);
+    border-color: var(--unresearched);
+}
+
 .filter-btn.shuffle-btn.active {
     background: var(--accent-primary);
     border-color: var(--accent-primary);
@@ -399,6 +408,19 @@ h1 {
     font-weight: normal;
     color: var(--text-secondary);
     opacity: 0.8;
+}
+
+.needs-research-badge {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 2px 8px;
+    font-size: 0.65em;
+    font-weight: 600;
+    background-color: var(--unresearched);
+    color: var(--unresearched-text);
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .entry-badge {

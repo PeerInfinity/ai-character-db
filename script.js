@@ -5,13 +5,15 @@ let filters = {
         pass: true,
         ambiguous: true,
         fail: true,
-        na: true
+        na: true,
+        unresearched: true
     },
     aiQualificationTotals: {
         pass: true,
         ambiguous: false,
         fail: false,
-        na: false
+        na: false,
+        unresearched: true
     },
     benevolence: {
         benevolent: true,
@@ -241,6 +243,9 @@ function updateStatistics() {
         if (aiQual === 'Fail' && !filters.aiQualificationTotals.fail) return false;
         if ((!aiQual || aiQual === 'N/A') && !filters.aiQualificationTotals.na) return false;
 
+        // Check unresearched filter
+        if (c.needs_research === true && !filters.aiQualificationTotals.unresearched) return false;
+
         return true;
     });
 
@@ -361,6 +366,12 @@ function displayEntries() {
         if (aiQual === 'Fail' && filters.aiQualification.fail) return true;
         if ((!aiQual || aiQual === 'N/A') && filters.aiQualification.na) return true;
         return false;
+    });
+
+    // Apply unresearched filter
+    entries = entries.filter(e => {
+        if (e.needs_research === true && !filters.aiQualification.unresearched) return false;
+        return true;
     });
 
     // Apply benevolence filter
@@ -520,10 +531,15 @@ function generateEntryHTML(entry) {
         ? `${entry.character_name} <span class="character-type">(${entry.character_type})</span>`
         : entry.character_name;
 
+    // Add research note if needed
+    const researchNote = entry.needs_research
+        ? '<span class="needs-research-badge">Needs More Research</span>'
+        : '';
+
     return `
         <div class="entry ${ratingClass}">
             <div class="entry-header">
-                <div class="entry-title">${characterNameWithType}</div>
+                <div class="entry-title">${characterNameWithType}${researchNote}</div>
                 <div class="entry-badge ${ratingClass}">${ratingValue}</div>
             </div>
 
