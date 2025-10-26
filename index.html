@@ -267,6 +267,23 @@
         </footer>
     </div>
 
+    <!-- Floating processing indicators -->
+    <div class="processing-indicators">
+        <div class="action-queued-indicator" id="action-queued-indicator">
+            <span class="indicator-icon">⏳</span>
+            <span class="indicator-text">Action queued</span>
+        </div>
+        <div class="progress-indicator" id="progress-indicator">
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="processing-progress-fill"></div>
+            </div>
+            <div class="progress-status">
+                <span id="processing-status-text">Processing entries...</span>
+                <span id="processing-percentage">0%</span>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
