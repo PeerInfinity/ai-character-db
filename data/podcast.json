@@ -88,5 +88,9 @@
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Podcast/Wolf359",
       "benevolence_rating": "Benevolent"
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 5
+  }
 }

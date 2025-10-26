@@ -352,5 +352,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "Starwalker functions as a ship AI should, operating the vessel and working with the crew as designed, with no indication of deviation from intended purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 20
+  }
 }

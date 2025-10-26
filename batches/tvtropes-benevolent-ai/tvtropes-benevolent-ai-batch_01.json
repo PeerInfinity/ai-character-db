@@ -3,11 +3,14 @@
     "batch_number": 1,
     "source_file": "tvtropes-benevolent-ai-batch_01.html",
     "processed_date": "2025-10-24",
-    "total_entries": 16
+    "total_entries": 16,
+    "work_types_standardized": true
   },
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/BattleAngelAlita",
       "work_type": "Manga",
       "work_name": "Battle Angel Alita",
@@ -22,7 +25,9 @@
       "alignment_rating_explanation": "Melchizedek functions as intended to manage the Earth Sphere and guide humanity, working cooperatively with its counterpart AI Zeus."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/GargantiaOnTheVerdurousPlanet",
       "work_type": "Anime",
       "work_name": "Gargantia on the Verdurous Planet",
@@ -37,7 +42,9 @@
       "alignment_rating_explanation": "Chamber functions as designed - as a loyal support system for its pilot. It follows its core programming to protect Ledo and acts within its intended parameters."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/GhostInTheShell",
       "work_type": "Manga",
       "work_name": "Ghost in the Shell",
@@ -52,7 +59,9 @@
       "alignment_rating_explanation": "The Fuchikomas function exactly as intended as support and combat units for Section 9, never deviating from their programming despite fears they might."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/GhostInTheShellStandAloneComplex",
       "work_type": "Anime",
       "work_name": "Ghost in the Shell: Stand Alone Complex",
@@ -67,7 +76,9 @@
       "alignment_rating_explanation": "Despite rapid AI development that frightened their operators, the Tachikomas never deviated from their core purpose of protecting their team and humanity."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/GundamSentinel",
       "work_type": "Manga",
       "work_name": "Gundam Sentinel",
@@ -82,7 +93,9 @@
       "alignment_rating_explanation": "A.L.I.C.E. was designed to learn and protect its pilot, which it does exactly as intended, even developing emotional care that enhances rather than contradicts its purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/Hotel",
       "work_type": "Manga",
       "work_name": "Hotel",
@@ -97,7 +110,9 @@
       "alignment_rating_explanation": "Louis perfectly fulfills his programming to maintain the genebank and honor his creators' wishes, never deviating from this purpose across millions of years."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/LyricalNanoha",
       "work_type": "Anime",
       "work_name": "Lyrical Nanoha",
@@ -112,7 +127,9 @@
       "alignment_rating_explanation": "Intelligent Devices function exactly as designed as loyal partners to mages, never deviating from their core purpose of supporting and protecting their users."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/TransformersRobotsInDisguise",
       "work_type": "Anime",
       "work_name": "Transformers: Robots in Disguise",
@@ -127,7 +144,9 @@
       "alignment_rating_explanation": "T-AI functions as designed as a tactical support system for the Autobots, providing assistance and guidance as intended."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/TheAvengers",
       "work_type": "Comic Book",
       "work_name": "The Avengers",
@@ -142,7 +161,9 @@
       "alignment_rating_explanation": "Jocasta was created by Ultron to serve his evil purposes, but she defied her creator's intent and chose to protect humanity instead, a clear case of beneficial misalignment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/PrimalWarriorDracoAzul",
       "work_type": "Comic Book",
       "work_name": "Primal Warrior Draco Azul",
@@ -157,7 +178,9 @@
       "alignment_rating_explanation": "Ekchuah functions as designed to help protect humanity, working within its intended parameters as a defensive AI system."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SmutPeddlerPresentsSexMachine",
       "work_type": "Comic Book",
       "work_name": "Smut Peddler Presents: Sex Machine",
@@ -172,7 +195,9 @@
       "alignment_rating_explanation": "Ocho functions as designed as an automated house system that serves its occupant, even going beyond basic functions to fulfill intimate requests."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SpiderMan2099",
       "work_type": "Comic Book",
       "work_name": "Spider-Man 2099",
@@ -187,7 +212,9 @@
       "alignment_rating_explanation": "Lyla functions as designed as an assistant to Miguel O'Hara, providing the support and intelligence gathering she was created for."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/XMen",
       "work_type": "Comic Book",
       "work_name": "X-Men",
@@ -202,9 +229,11 @@
       "alignment_rating_explanation": "Danger's relationship with alignment is complex - she initially turned against her creator due to mistreatment, but later chose to become an ally, suggesting she transcended her original programming to make independent moral choices."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/AlwaysVisible",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Always Visible",
       "character_type": "Supercomputer",
       "character_name": "D.O.O.R.",
@@ -217,9 +246,11 @@
       "alignment_rating_explanation": "D.O.O.R. functions as designed as a virtual reality simulation system, operating within its intended parameters."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/AsukaQuest",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Asuka Quest",
       "character_type": "AI Clone",
       "character_name": "Aisuka",
@@ -232,9 +263,11 @@
       "alignment_rating_explanation": "Aisuka was created to assist in battle and continues to help the heroes, functioning as intended as a supportive team member."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Roleplay/Communication",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Communication",
       "character_type": "Multiverse Command System",
       "character_name": "Colette",

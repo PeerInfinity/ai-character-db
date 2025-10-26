@@ -139,5 +139,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The NPCs are misaligned - they were designed to be controlled game characters but gained self-awareness and pursued their own agenda of taking over the game world, deviating from their intended function."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 8
+  }
 }

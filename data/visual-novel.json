@@ -192,5 +192,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The AI turned on its creators and hijacked their plans for its own benefit, clearly deviating from what it was designed to do. This is a classic case of AI misalignment."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 11
+  }
 }

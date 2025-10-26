@@ -970,5 +970,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "A gaming peripheral being murderous is clearly not its intended function - it should facilitate gaming, not attempt to kill users."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 56
+  }
 }

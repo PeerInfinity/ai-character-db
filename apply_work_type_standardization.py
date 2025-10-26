@@ -8,15 +8,18 @@ This script:
 3. Generates a detailed report
 
 Usage:
-    python3 apply_work_type_standardization.py [--dry-run]
+    python3 apply_work_type_standardization.py [--dry-run] [--all] [--no-backup]
 
 Options:
     --dry-run: Show what would change without modifying files
+    --all: Process all JSON files in current directory and subdirectories
+    --no-backup: Don't create backup files before modifying
 """
 
 import json
 import sys
 from collections import Counter
+from pathlib import Path
 
 
 # Ambiguous work type resolutions
@@ -134,63 +137,139 @@ def print_report(before_stats, after_stats, ambiguous_changes, mapping_changes):
     print("\n" + "="*60)
 
 
+def find_json_files():
+    """Find all JSON files in current directory and subdirectories."""
+    json_files = []
+    for json_file in Path('.').rglob('*.json'):
+        # Skip backup files, hidden directories, and 'old' directory
+        if not any(part.startswith('.') for part in json_file.parts):
+            if 'backup' not in json_file.name.lower():
+                if 'old' not in json_file.parts:
+                    json_files.append(json_file)
+    return sorted(json_files)
+
+
+def process_single_file(filename, dry_run=False, no_backup=False):
+    """Process a single JSON file."""
+    print(f"\n{'='*60}")
+    print(f"Processing: {filename}")
+    print(f"{'='*60}")
+
+    try:
+        print("Loading database...")
+        data = load_database(filename)
+
+        # Verify it has the expected structure
+        if 'characters' not in data:
+            print(f"⚠️  Skipping {filename}: No 'characters' field found")
+            return False
+
+        print(f"Loaded {len(data['characters'])} entries")
+
+        # Get before stats
+        before_stats = get_work_type_stats(data)
+
+        # Step 1: Fix ambiguous entries
+        print("\nStep 1: Fixing ambiguous entries...")
+        ambiguous_changes = fix_ambiguous_entries(data)
+        if ambiguous_changes:
+            print(f"Fixed {len(ambiguous_changes)} ambiguous entries")
+        else:
+            print("No ambiguous entries to fix")
+
+        # Step 2: Apply standardization mapping
+        print("\nStep 2: Applying standardization mapping...")
+        mapping_changes = standardize_work_types(data)
+        if mapping_changes:
+            print(f"Modified {sum(mapping_changes.values())} entries")
+        else:
+            print("No mapping changes needed")
+
+        # Get after stats
+        after_stats = get_work_type_stats(data)
+
+        # Print report
+        print_report(before_stats, after_stats, ambiguous_changes, mapping_changes)
+
+        # Save results
+        if not dry_run:
+            print("\nSaving standardized database...")
+            # Update metadata
+            if 'metadata' not in data:
+                data['metadata'] = {}
+            data['metadata']['work_types_standardized'] = True
+            data['metadata']['total_entries'] = len(data['characters'])
+
+            # Backup original (unless --no-backup flag is set)
+            if not no_backup:
+                import shutil
+                backup_name = str(filename).replace('.json', '-backup.json')
+                shutil.copy(filename, backup_name)
+                print(f"Created backup: {backup_name}")
+
+            # Save standardized version
+            save_database(data, filename)
+            print(f"Saved: {filename}")
+            print("\n✅ Standardization complete!")
+        else:
+            print("\nDRY RUN - No files were modified")
+
+        return True
+
+    except json.JSONDecodeError as e:
+        print(f"⚠️  Skipping {filename}: Invalid JSON - {e}")
+        return False
+    except Exception as e:
+        print(f"⚠️  Error processing {filename}: {e}")
+        return False
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
+    process_all = "--all" in sys.argv
+    no_backup = "--no-backup" in sys.argv
 
     if dry_run:
         print("DRY RUN MODE - No files will be modified\n")
 
-    print("Loading database...")
-    data = load_database()
-    print(f"Loaded {len(data['characters'])} entries")
+    if no_backup and not dry_run:
+        print("NO BACKUP MODE - Backup files will not be created\n")
 
-    # Get before stats
-    before_stats = get_work_type_stats(data)
+    if process_all:
+        print("Finding all JSON files in current directory and subdirectories...")
+        json_files = find_json_files()
 
-    # Step 1: Fix ambiguous entries
-    print("\nStep 1: Fixing ambiguous entries...")
-    ambiguous_changes = fix_ambiguous_entries(data)
-    if ambiguous_changes:
-        print(f"Fixed {len(ambiguous_changes)} ambiguous entries")
+        if not json_files:
+            print("No JSON files found!")
+            return
+
+        print(f"\nFound {len(json_files)} JSON file(s):")
+        for f in json_files:
+            print(f"  • {f}")
+
+        print("\n" + "="*60)
+        print("PROCESSING ALL FILES")
+        print("="*60)
+
+        successful = 0
+        for json_file in json_files:
+            if process_single_file(str(json_file), dry_run, no_backup):
+                successful += 1
+
+        print("\n" + "="*60)
+        print(f"SUMMARY: Processed {successful}/{len(json_files)} files successfully")
+        print("="*60)
+
+        if not dry_run:
+            print("\n✅ All files processed!")
+        else:
+            print("\nDRY RUN - Run without --dry-run to apply changes")
     else:
-        print("No ambiguous entries to fix")
+        # Process single file (original behavior)
+        process_single_file("ai-character-db.json", dry_run, no_backup)
 
-    # Step 2: Apply standardization mapping
-    print("\nStep 2: Applying standardization mapping...")
-    mapping_changes = standardize_work_types(data)
-    if mapping_changes:
-        print(f"Modified {sum(mapping_changes.values())} entries")
-    else:
-        print("No mapping changes needed")
-
-    # Get after stats
-    after_stats = get_work_type_stats(data)
-
-    # Print report
-    print_report(before_stats, after_stats, ambiguous_changes, mapping_changes)
-
-    # Save results
-    if not dry_run:
-        print("\nSaving standardized database...")
-        # Update metadata
-        if 'metadata' not in data:
-            data['metadata'] = {}
-        data['metadata']['work_types_standardized'] = True
-        data['metadata']['total_entries'] = len(data['characters'])
-        data['metadata']['generated_by'] = 'apply_work_type_standardization.py'
-
-        # Backup original
-        import shutil
-        shutil.copy('ai-character-db.json', 'ai-character-db-backup.json')
-        print("Created backup: ai-character-db-backup.json")
-
-        # Save standardized version
-        save_database(data, 'ai-character-db.json')
-        print("Saved: ai-character-db.json")
-        print("\n✅ Standardization complete!")
-    else:
-        print("\nDRY RUN - No files were modified")
-        print("Run without --dry-run to apply changes")
+        if dry_run:
+            print("\nRun without --dry-run to apply changes")
 
 
 if __name__ == "__main__":

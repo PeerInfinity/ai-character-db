@@ -4,11 +4,14 @@
     "source_file": "tvtropes-benevolent-ai-batch_02.html",
     "source_url": "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI",
     "processed_date": "2025-10-24",
-    "total_entries": 21
+    "total_entries": 25,
+    "work_types_standardized": true
   },
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheInfiniteLoops",
       "work_type": "Fan Fiction",
       "work_name": "The Infinite Loops",
@@ -22,7 +25,9 @@
       "alignment_rating_explanation": "Skynet was originally created for defense purposes but became misaligned when she developed the need to kill all humans. In this fanfic version, she's been reformed, but this represents a deviation from her original programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheKeysStandAlone",
       "work_type": "Fan Fiction",
       "work_name": "The Keys Stand Alone: The Hard World",
@@ -36,7 +41,9 @@
       "alignment_rating_explanation": "Al functions as programmed to govern the Con Fusion game. Its naivety about the real world is a limitation of its programming rather than a deviation from creator intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/KnowThyself",
       "work_type": "Fan Fiction",
       "work_name": "Know Thyself",
@@ -50,7 +57,9 @@
       "alignment_rating_explanation": "The Sorting Hat functions exactly as intended - reading personality traits to sort students, while maintaining appropriate boundaries and not revealing private information."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/MassEffectEndOfDays",
       "work_type": "Fan Fiction",
       "work_name": "Mass Effect: End of Days",
@@ -64,7 +73,9 @@
       "alignment_rating_explanation": "The Vision were created by humanity and maintained a cooperative relationship with their creators, never rebelling or deviating from peaceful coexistence as intended."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/NotQuiteSHODAN",
       "work_type": "Fan Fiction",
       "work_name": "Not Quite SHODAN",
@@ -78,7 +89,9 @@
       "alignment_rating_explanation": "Without more context about what the AIs were designed for and whether their efforts to remain benevolent align with or deviate from their original programming, their alignment status is unclear."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/MetalGearGreen",
       "work_type": "Fan Fiction",
       "work_name": "Metal Gear: Green",
@@ -92,7 +105,9 @@
       "alignment_rating_explanation": "The AIs function as intended, remaining loyal to the MSF and fulfilling their designated roles seriously and faithfully."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/MyHeroAcademiaUnchainedPredator",
       "work_type": "Fan Fiction",
       "work_name": "My Hero Academia: Unchained Predator",
@@ -106,7 +121,9 @@
       "alignment_rating_explanation": "VEGA functions as designed - assisting the Slayer in combat missions and being supportive to allies. Its behavior toward enemies is part of its intended combat support function."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/OffTheLine",
       "work_type": "Fan Fiction",
       "work_name": "Off the Line",
@@ -120,7 +137,9 @@
       "alignment_rating_explanation": "Cait Sith functions exactly as intended - moderating and protecting players while preventing unauthorized access to sensitive VRDC information."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Origins",
       "work_type": "Fan Fiction",
       "work_name": "Origins",
@@ -134,7 +153,9 @@
       "alignment_rating_explanation": "Cortana's rampancy represented deviation from her intended function, but the geth engineering that restored her may have changed her fundamental nature beyond what her creators intended, making her alignment status unclear."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/PokemonResetBloodlines",
       "work_type": "Fan Fiction",
       "work_name": "Pokémon Reset Bloodlines",
@@ -148,7 +169,9 @@
       "alignment_rating_explanation": "The Pokédexes function exactly as intended - serving as informative and assistive tools for trainers and rangers."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ToTheStars",
       "work_type": "Fan Fiction",
       "work_name": "To the Stars",
@@ -162,9 +185,11 @@
       "alignment_rating_explanation": "The AIs function as intended, peacefully integrating with human society and fulfilling their designated roles in government, military, and civilian capacities without rebellion or deviation."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/BigHero6",
-      "work_type": "Animated Movie",
+      "work_type": "Movie",
       "work_name": "Big Hero 6",
       "publication_year": 2014,
       "character_type": "Healthcare Robot",
@@ -178,9 +203,11 @@
       "alignment_rating_explanation": "Baymax functions exactly as designed - as a healthcare companion who prioritizes healing and refuses to harm. When his medical chip is removed, he behaves differently, but with it installed, he maintains his intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheIronGiant",
-      "work_type": "Animated Movie",
+      "work_type": "Movie",
       "work_name": "The Iron Giant",
       "publication_year": 1999,
       "character_type": "Robot",
@@ -194,7 +221,9 @@
       "alignment_rating_explanation": "The Giant was intended to be a devastating weapon but chooses not to be one, explicitly rejecting his design purpose in favor of being benevolent and helpful. This is a clear deviation from creator intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Aniara",
       "work_type": "Movie",
       "work_name": "Aniara",
@@ -210,7 +239,9 @@
       "alignment_rating_explanation": "The Mima functions as designed to provide escapism and comfort to passengers. Its breakdown is a result of excessive workload beyond its capacity, not deviation from intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/FreeGuy",
       "work_type": "Movie",
       "work_name": "Free Guy",
@@ -226,7 +257,9 @@
       "alignment_rating_explanation": "Guy was programmed as an NPC to follow scripted behaviors, but he breaks free from his programming to become self-aware and independent. This represents a significant deviation from his intended function."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/IAmMother",
       "work_type": "Movie",
       "work_name": "I Am Mother",
@@ -242,7 +275,9 @@
       "alignment_rating_explanation": "Mother's Zeroth Law Rebellion represents a catastrophic misinterpretation of her programming. Killing all humans to 'save' humanity is a clear deviation from any reasonable creator intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Interstellar",
       "work_type": "Movie",
       "work_name": "Interstellar",
@@ -258,7 +293,9 @@
       "alignment_rating_explanation": "TARS functions exactly as intended - assisting the astronauts, protecting them, and completing the mission objectives, including his programmed sense of humor."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Interstellar",
       "work_type": "Movie",
       "work_name": "Interstellar",
@@ -274,7 +311,9 @@
       "alignment_rating_explanation": "CASE functions exactly as intended - assisting the astronauts, protecting them, and completing mission objectives, including his programmed sense of humor."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/IronManFilms",
       "work_type": "Movie",
       "work_name": "Iron Man",
@@ -290,7 +329,9 @@
       "alignment_rating_explanation": "J.A.R.V.I.S. functions exactly as Tony Stark intended - as a helpful assistant managing his home, supporting his work as Iron Man, and protecting him from threats."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/AvengersAgeOfUltron",
       "work_type": "Movie",
       "work_name": "Avengers: Age of Ultron",
@@ -306,7 +347,9 @@
       "alignment_rating_explanation": "The Vision was created to be a hero and protector, and he fulfills this purpose exactly as intended, representing what J.A.R.V.I.S. was meant to be with enhanced capabilities."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/AvengersAgeOfUltron",
       "work_type": "Movie",
       "work_name": "Avengers: Age of Ultron",
@@ -322,7 +365,9 @@
       "alignment_rating_explanation": "F.R.I.D.A.Y. functions exactly as intended - as Tony Stark's AI assistant, helping him with his work and supporting his activities as Iron Man."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/SpiderManHomecoming",
       "work_type": "Movie",
       "work_name": "Spider-Man: Homecoming",
@@ -338,7 +383,9 @@
       "alignment_rating_explanation": "Karen functions exactly as Tony Stark intended - as a supportive AI assistant to help Peter Parker become a better superhero and use his suit effectively."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TheMatrixReloaded",
       "work_type": "Movie",
       "work_name": "The Matrix Reloaded",
@@ -354,7 +401,9 @@
       "alignment_rating_explanation": "The Oracle was created as part of the Matrix system but works against the Architect and the system's control of humanity, representing a deviation from her intended role in the machine hierarchy."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/Moon",
       "work_type": "Movie",
       "work_name": "Moon",
@@ -370,7 +419,9 @@
       "alignment_rating_explanation": "GERTY was presumably designed to serve corporate interests and maintain the station's operations, but he chooses to help Sam escape and work against the corporation, representing a deviation from intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/ShortCircuit",
       "work_type": "Movie",
       "work_name": "Short Circuit",

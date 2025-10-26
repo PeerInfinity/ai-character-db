@@ -19,5 +19,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Presumably the scientists did not create the cyborg with the intention of it immediately murdering the original Chris. This kill-and-replace behavior represents a deviation from what would have been the intended purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

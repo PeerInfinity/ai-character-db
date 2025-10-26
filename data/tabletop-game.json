@@ -310,5 +310,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Qliphort were created as servants of Sophia, presumably to serve specific purposes. Their decision to kill everything after making a mistake represents a catastrophic failure of judgment and a complete abandonment of any reasonable interpretation of their intended purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 18
+  }
 }

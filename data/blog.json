@@ -19,5 +19,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The fact that it's mentioned as an example of 'AI is a Crapshoot' implies it's not functioning as intended, though the specific nature of the malfunction is unclear."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

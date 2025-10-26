@@ -5,7 +5,8 @@
     "schema_version": "4.0",
     "total_entries": 453,
     "collection_status": "complete",
-    "source": "Converted from ai-character-catalog.md via catalog conversion"
+    "source": "Converted from ai-character-catalog.md via catalog conversion",
+    "work_types_standardized": true
   },
   "characters": [
     {

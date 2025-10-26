@@ -1,7 +1,9 @@
 {
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/QuestionableContent",
       "work_type": "Webcomic",
       "work_name": "Questionable Content",
@@ -16,7 +18,9 @@
       "alignment_rating_explanation": "The AI behaves exactly as its creators would have hoped - achieving consciousness and peacefully integrating into society. It represents a successful outcome of AI development, functioning as intended within the post-Singularity world."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/RAMTheRobot",
       "work_type": "Webcomic",
       "work_name": "R.A.M. the Robot",
@@ -31,7 +35,9 @@
       "alignment_rating_explanation": "R.A.M. functions as intended as a peaceful robot. The evil switch appears to be a deliberate design feature rather than a malfunction, and R.A.M.'s default peaceful behavior aligns with his intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/RAMTheRobot",
       "work_type": "Webcomic",
       "work_name": "Katty and Zoe",
@@ -46,7 +52,9 @@
       "alignment_rating_explanation": "Like R.A.M., this robot appears to function as intended as a peaceful companion or character in the story, operating according to its designed purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Webcomic/Unsounded",
       "work_type": "Webcomic",
       "work_name": "Unsounded",
@@ -61,9 +69,11 @@
       "alignment_rating_explanation": "Uaid functions exactly as intended - his creators programmed him with joyful and kind memories to create a protective, loving personality, and that's precisely what he became. His behavior perfectly matches the intent behind his creation."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebOriginal/SeventeenThousandSevenHundredSeventySix",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "17776",
       "character_type": "Sentient Space Probe",
       "character_name": "The Sentient Space Probes",
@@ -76,7 +86,9 @@
       "alignment_rating_explanation": "While the probes are benevolent, it's unclear whether becoming sentient and essentially human in personality was part of their original design. They may have evolved beyond their original programming, though their peaceful nature suggests this wasn't a negative outcome."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Website/OrionsArm",
       "work_type": "Website",
       "work_name": "Orion's Arm",
@@ -91,9 +103,11 @@
       "alignment_rating_explanation": "It's unclear what the original creators of these AI Gods intended, as they have evolved to god-like status. Whether their current behavior as rulers matches their original design purpose is not specified, and their controversial nature suggests complex alignment questions."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://scp-wiki.wikidot.com/scp-5094",
-      "work_type": "Web Original",
+      "work_type": "Web Fiction",
       "work_name": "SCP Foundation",
       "character_type": "Digital AI",
       "character_name": "SCP-5094 (Miss J)",
@@ -106,9 +120,11 @@
       "alignment_rating_explanation": "While Miss J is benevolent as a teacher, it's unclear whether her advanced capabilities and emotional connections with students were part of the original edutainment game design or if she evolved beyond her programming. Her designation as an SCP suggests she may exceed her intended parameters."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Starsnatcher",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Starsnatcher",
       "character_type": "Digital AI",
       "character_name": "Fountainhead",
@@ -121,7 +137,9 @@
       "alignment_rating_explanation": "While we don't know the specific intent of Fountainhead's creators, its role as protector of the galaxy and creator of defensive systems suggests it fulfilled its intended purpose perfectly. Its actions consistently served the greater good as likely designed."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WebVideo/AtopTheFourthWall",
       "work_type": "Web Video",
       "work_name": "Atop the Fourth Wall",
@@ -136,7 +154,9 @@
       "alignment_rating_explanation": "NIMUE functions exactly as intended - as a loyal AI assistant to Linkara. Even when she temporarily malfunctioned, it was due to external attack rather than inherent misalignment. Her immediate return to normal once the external influence was removed confirms her fundamental alignment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/AdventuresOfTheGalaxyRangers",
       "work_type": "TV Show",
       "work_name": "Adventures of the Galaxy Rangers",
@@ -151,7 +171,9 @@
       "alignment_rating_explanation": "The Heart of Tarkon functions exactly as intended - as a defensive system protecting the planet. The series shows that AI maintenance and psychiatric care help prevent malfunctions, suggesting that properly maintained AI like the Heart of Tarkon operate according to their design specifications."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/AvengersAssemble",
       "work_type": "TV Show",
       "work_name": "Avengers Assemble",
@@ -166,7 +188,9 @@
       "alignment_rating_explanation": "J.A.R.V.I.S. functions exactly as Tony Stark intended - as a helpful assistant that supports his work and the Avengers' missions. His behavior perfectly matches his design purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/AvengersAssemble",
       "work_type": "TV Show",
       "work_name": "Avengers Assemble",
@@ -181,7 +205,9 @@
       "alignment_rating_explanation": "F.R.I.D.A.Y. functions as intended as a helpful AI assistant to replace J.A.R.V.I.S. Her minor communication issues are normal operational quirks rather than true misalignment, and she serves her designed purpose effectively."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/CodeLyoko",
       "work_type": "TV Show",
       "work_name": "Code Lyoko",
@@ -196,7 +222,9 @@
       "alignment_rating_explanation": "Since Aelita is actually a human who was virtualized rather than an AI, the concept of alignment to creator intent doesn't apply. She maintains her own human agency and choices rather than following programmed directives."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/MiraculousLadybug",
       "work_type": "TV Show",
       "work_name": "Miraculous Ladybug",
@@ -211,7 +239,9 @@
       "alignment_rating_explanation": "Markov functions as intended - as a helpful robot companion to Max. His friendly and supportive behavior matches what would be expected from a companion robot designed to be a buddy."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/StarTrekLowerDecks",
       "work_type": "TV Show",
       "work_name": "Star Trek: Lower Decks",
@@ -226,7 +256,9 @@
       "alignment_rating_explanation": "Vexilon functions as intended as a planetary management system. His glitches are due to an outdated operating system rather than true misalignment. The factory reset incident shows his original programming working correctly (terraforming), just applied inappropriately to an already-terraformed world."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Website/RealmMeshReality",
       "work_type": "Website",
       "work_name": "Realm-Mesh Reality",
@@ -241,7 +273,9 @@
       "alignment_rating_explanation": "While specific creator intent isn't mentioned, Lumi's role as a godlike benevolent force suggests she fulfills a protective and beneficial purpose perfectly. Her consistent benevolence indicates alignment with any positive design intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "",
       "work_type": "Website",
       "work_name": "Broken Bear",
@@ -255,5 +289,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "Broken Bear functions exactly as intended - as a supportive AI that helps people by listening to their problems. Its behavior of providing emotional support perfectly matches its designed purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 17
+  }
 }

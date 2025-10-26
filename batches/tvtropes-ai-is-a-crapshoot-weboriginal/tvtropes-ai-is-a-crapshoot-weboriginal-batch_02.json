@@ -1,3 +1,7 @@
 {
-  "characters": []
+  "characters": [],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 0
+  }
 }

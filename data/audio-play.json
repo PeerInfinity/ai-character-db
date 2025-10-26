@@ -172,5 +172,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The AI is listed on the AI Is A Crapshoot page, which by definition means it has deviated from its intended purpose. Self-driving cars are meant to safely transport people, but this AI has clearly gone wrong."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 10
+  }
 }

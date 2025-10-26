@@ -1,7 +1,9 @@
 {
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/TheZetaProject",
       "work_type": "TV Show",
       "work_name": "The Zeta Project",
@@ -16,5 +18,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Zeta was designed and programmed to be an infiltration and assassination weapon for the government. By developing a conscience and refusing to kill, he completely deviated from his creators' intended purpose, making this a clear case of misalignment (albeit positive misalignment)."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

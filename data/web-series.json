@@ -56,5 +56,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Sigma was designed to assist Freelancers as the ambition fragment, but he reinterpreted his purpose, deciding to hunt other AIs to achieve Metastability - a complete deviation from his intended function."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 3
+  }
 }

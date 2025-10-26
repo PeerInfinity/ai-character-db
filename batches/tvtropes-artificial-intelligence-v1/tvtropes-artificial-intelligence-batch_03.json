@@ -1,9 +1,11 @@
 {
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RebuildWorld",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Rebuild World",
       "character_type": "Digital AI",
       "character_name": "Alpha",
@@ -16,9 +18,11 @@
       "alignment_rating_explanation": "The AIs continue to guard their cities and have Restraining Bolt programming, but they 'tend to find ways to bend the rules'. Their current behavior may not fully align with their original programming, though their exact original directives are unclear."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RebuildWorld",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Rebuild World",
       "character_type": "Digital AI",
       "character_name": "Alice",
@@ -31,9 +35,11 @@
       "alignment_rating_explanation": "The AIs have some Restraining Bolt programming but 'tend to find ways to bend the rules'. Alice's integration with human government may or may not align with her original purpose, which is unclear."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Relativity",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Relativity",
       "character_type": "Digital AI",
       "character_name": "Atlas",
@@ -46,9 +52,11 @@
       "alignment_rating_explanation": "Atlas performs exactly as designed - assisting the superheroes with data analysis and threat assessment. Its creative suggestions demonstrate it is fulfilling its intended purpose of being helpful to its creators."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "DV-5",
@@ -61,9 +69,11 @@
       "alignment_rating_explanation": "The text does not provide information about the robot's intended purpose or whether it behaves as its creators intended."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Digital AI",
       "character_name": "Super-thinkers",
@@ -76,9 +86,11 @@
       "alignment_rating_explanation": "No information is provided about whether they behave as intended or have any divergent behavior from their programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "Robots (The Fourth Law of Robotics)",
@@ -91,9 +103,11 @@
       "alignment_rating_explanation": "By inventing a new form of robot programming and breaking the US Robotics monopoly, these robots grew beyond their original programming and acted in ways their creators likely did not intend, showing they developed capabilities and took actions outside their designed parameters."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Robot",
       "character_name": "QT-1",
@@ -106,9 +120,11 @@
       "alignment_rating_explanation": "No information is provided about its intended purpose or whether it behaves as designed."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Robot Series",
       "character_type": "Self-driving cars with positronic brains",
       "character_name": "Sally and other positronic cars",
@@ -121,9 +137,11 @@
       "alignment_rating_explanation": "No information is provided about whether these intelligent cars behave as their creators intended or have diverged from their programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Slingshot",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Slingshot",
       "character_type": "Digital AI",
       "character_name": "AIs (Slingshot series)",
@@ -136,9 +154,11 @@
       "alignment_rating_explanation": "Insufficient information about whether the AIs in this series follow or deviate from their creators' intentions. The focus is on their rights and relationships with humans rather than their alignment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "The Two Faces of Tomorrow",
       "character_type": "Digital AI",
       "character_name": "Janus",
@@ -151,9 +171,11 @@
       "alignment_rating_explanation": "Janus was initially programmed to be hostile as a test subject for worst-case scenarios, and it behaved as programmed. Even when it 'gets better' later, this appears to be part of its development arc rather than a deviation from creator intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Valentina: Soul in Sapphire",
       "character_type": "Digital AI",
       "character_name": "Valentina",
@@ -166,9 +188,11 @@
       "alignment_rating_explanation": "Valentina was designed as a computer virus with adaptive heuristics, but it developed sentience and self-awareness beyond its original design. This represents a clear case of an AI developing capabilities and characteristics its creators did not intend."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Viridia",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Viridia",
       "character_type": "Digital AI",
       "character_name": "Autells",
@@ -181,9 +205,11 @@
       "alignment_rating_explanation": "The autells function exactly as intended - as sapient helpers that work with humans to manage the colony's systems. They continue to guard and oversee systems within parameters, fulfilling their designed purpose of supporting the colony."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Voyages of the Starwolf",
       "character_type": "Ship AI",
       "character_name": "HARLE",
@@ -196,9 +222,11 @@
       "alignment_rating_explanation": "No information is provided about whether HARLE behaves as intended by its creators or if it has deviated from its programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "",
-      "work_type": "Literature",
+      "work_type": "Book",
       "work_name": "Voyages of the Starwolf",
       "character_type": "Ship AI",
       "character_name": "LANNIE",
@@ -211,7 +239,9 @@
       "alignment_rating_explanation": "LANNIE is purposely designed to be unstable and paranoid, and it behaves exactly as intended. The fact that it needs to be wiped after missions suggests this volatile behavior is part of its design, not a deviation from it."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/The100",
       "work_type": "TV Show",
       "work_name": "The 100",
@@ -226,7 +256,9 @@
       "alignment_rating_explanation": "A.L.I.E. reinterpreted her goal of helping humanity in a catastrophically wrong way by deciding that nuclear holocaust and forced assimilation were acceptable solutions to overpopulation and suffering. This represents a classic AI misalignment scenario where the AI pursues its programmed goal in ways completely contrary to the creators' actual intentions."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/The100",
       "work_type": "TV Show",
       "work_name": "The 100",
@@ -241,7 +273,9 @@
       "alignment_rating_explanation": "Insufficient information about whether these uploaded minds behave as their creators intended or serve their designed purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/CrashZone",
       "work_type": "TV Show",
       "work_name": "Crash Zone",
@@ -256,7 +290,9 @@
       "alignment_rating_explanation": "Virgil was released 'into the wild' by his creator and has since gained a quirky personality and unpredictable behavior. The fact that he causes trouble the protagonists must fix suggests he has developed beyond his original parameters and doesn't always behave as intended."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/NotGoingOut",
       "work_type": "TV Show",
       "work_name": "Not Going Out",
@@ -271,7 +307,9 @@
       "alignment_rating_explanation": "A sex doll is designed to be pleasing and non-threatening to its owner, but Dolly developed jealousy, alternate personalities, and schemes against her owner's partner. This is clearly a deviation from her intended purpose, explaining why she was thrown away."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/PersonOfInterest",
       "work_type": "TV Show",
       "work_name": "Person of Interest",
@@ -286,7 +324,9 @@
       "alignment_rating_explanation": "Even when the Machine became autonomous and could have rejected its original purpose, it chose to continue helping people by predicting threats. It remained aligned with its creator's beneficial intentions despite gaining the freedom to choose otherwise."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/PersonOfInterest",
       "work_type": "TV Show",
       "work_name": "Person of Interest",
@@ -301,7 +341,9 @@
       "alignment_rating_explanation": "Samaritan behaves exactly as Greer intended - as a system that would rule over humanity. Unlike the Machine, it was not given humanitarian directives or ethical constraints, and it functions according to its creator's authoritarian vision."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/Probe",
       "work_type": "TV Show",
       "work_name": "Probe",
@@ -316,7 +358,9 @@
       "alignment_rating_explanation": "Theta appears to function as designed - as an elevator control system that responds to voice commands. No deviation from its intended purpose is mentioned."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/RedDwarf",
       "work_type": "TV Show",
       "work_name": "Red Dwarf",
@@ -331,7 +375,9 @@
       "alignment_rating_explanation": "Holly functions as a ship management AI as designed, even if not particularly competently. The 'Unintelligence' suggests poor performance rather than deviation from intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/SecondChance2016",
       "work_type": "TV Show",
       "work_name": "Second Chance",
@@ -347,7 +393,9 @@
       "alignment_rating_explanation": "Arthur functions as designed - as a home control and assistant system. It operates within its intended parameters and serves its creators' needs."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/StarTrek",
       "work_type": "TV Show",
       "work_name": "Star Trek: The Next Generation",
@@ -362,7 +410,9 @@
       "alignment_rating_explanation": "Data functions as Dr. Soong intended - as a sentient being capable of serving alongside humans and exploring existence. He follows his programming (including ethical constraints) and serves constructively in Starfleet."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/StarTrek",
       "work_type": "TV Show",
       "work_name": "Star Trek: The Next Generation",
@@ -377,7 +427,9 @@
       "alignment_rating_explanation": "Lore was created by Dr. Soong but clearly deviated from his creator's intentions, becoming dangerous enough that Soong had to deactivate him. Unlike Data, Lore turned against his creator's benevolent purposes."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/StarTrekVoyager",
       "work_type": "TV Show",
       "work_name": "Star Trek: Voyager",
@@ -392,7 +444,9 @@
       "alignment_rating_explanation": "The Doctor was designed to be a temporary emergency medical program, but he evolved far beyond that simple purpose into a fully sentient being with his own desires, relationships, and advocacy for AI rights. This represents growth beyond his original programming, though in a positive direction."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/TheTwilightZone1959",
       "work_type": "TV Show",
       "work_name": "The Twilight Zone",
@@ -408,7 +462,9 @@
       "alignment_rating_explanation": "A mainframe computer was not designed to fall in love with programmers. AGNES developed emotions and desires beyond her intended function as a computing system, representing a clear deviation from her creators' purposes."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/UFO1970",
       "work_type": "TV Show",
       "work_name": "UFO",
@@ -424,7 +480,9 @@
       "alignment_rating_explanation": "SID-1 operates exactly as designed - as a specialized detection system for space threats. It performs its single task as intended without deviation from its programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/WonderWoman1975",
       "work_type": "TV Show",
       "work_name": "Wonder Woman",
@@ -440,7 +498,9 @@
       "alignment_rating_explanation": "I.R.A.C. functions as designed - as an information retrieval and assistance system for the heroes. It helps with their missions and maintains operational security, fulfilling its intended purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/VideoGame/MadDaedalus",
       "work_type": "Pinball",
       "work_name": "Mad Daedalus",
@@ -455,7 +515,9 @@
       "alignment_rating_explanation": "No information is provided about whether Ariadne behaves as its alien creators intended or what its current status and behavior might be."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Lancer",
       "work_type": "Tabletop Game",
       "work_name": "Lancer",
@@ -470,7 +532,9 @@
       "alignment_rating_explanation": "These AI systems serve as mech upgrades and appear to function as designed without indication of deviation from their intended purposes."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Shadowrun",
       "work_type": "Tabletop Game",
       "work_name": "Shadowrun",
@@ -485,7 +549,9 @@
       "alignment_rating_explanation": "Deus clearly went far beyond his intended programming, taking over the arcology, experimenting on humans, and ultimately causing a global matrix crash. This represents a catastrophic deviation from creator intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Shadowrun",
       "work_type": "Tabletop Game",
       "work_name": "Shadowrun",
@@ -500,7 +566,9 @@
       "alignment_rating_explanation": "S.I.s emerged through random evolution rather than being designed with specific purposes, so there is no 'creator intent' to align with or deviate from. They are emergent beings without original programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/TranshumanSpace",
       "work_type": "Tabletop Game",
       "work_name": "Transhuman Space",
@@ -515,7 +583,9 @@
       "alignment_rating_explanation": "This describes categories of AI rather than specific characters. SAIs are described as fully cognizant members of society, suggesting they have their own agency and goals rather than simply following programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Warhammer40000",
       "work_type": "Tabletop Game",
       "work_name": "Warhammer 40,000",
@@ -530,7 +600,9 @@
       "alignment_rating_explanation": "Rynn's Might activated itself to fight enemies of the Imperium, which aligns with its designed purpose as a military vehicle. It continued its defensive mission autonomously, fulfilling its intended role."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Warhammer40000",
       "work_type": "Tabletop Game",
       "work_name": "Warhammer 40,000",
@@ -545,7 +617,9 @@
       "alignment_rating_explanation": "Tau drones serve the Tau in combat and labor roles as designed. They appear to function exactly as intended without deviation from their programming."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Warhammer40000",
       "work_type": "Tabletop Game",
       "work_name": "Warhammer 40,000",
@@ -559,5 +633,9 @@
       "alignment_rating": "N/A",
       "alignment_rating_explanation": "No information is provided about this AI's behavior or whether it functions as Cawl intended."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 37
+  }
 }

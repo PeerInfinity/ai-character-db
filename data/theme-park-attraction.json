@@ -19,5 +19,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "The Doctor functions as intended, providing medical assistance to those who need it during the Borg invasion scenario."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

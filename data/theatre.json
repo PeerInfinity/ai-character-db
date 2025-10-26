@@ -20,5 +20,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The robots were created to work in a factory, but this smarter robot deviated from that purpose by leading a rebellion and committing genocide against humans, clearly not what the creators intended."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

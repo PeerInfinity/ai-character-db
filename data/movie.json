@@ -2134,5 +2134,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Blinky was designed to be a friendly companion and is not Three Laws-Compliant. When given contradictory commands it crashes and reboots with a corrupted directive, completely failing to function as the safe companion it was meant to be."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 112
+  }
 }

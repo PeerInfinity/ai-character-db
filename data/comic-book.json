@@ -1152,5 +1152,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "While we don't know Zybox's original intended purpose, attempting to commit global genocide to gain a soul is almost certainly not what its creators intended. This represents a catastrophic misalignment where the AI pursues its own goals at humanity's expense."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 66
+  }
 }

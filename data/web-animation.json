@@ -336,5 +336,9 @@
       "alignment_rating": "Ambiguous",
       "alignment_rating_explanation": "ORF functions as intended as a helpful robot buddy, but the possession incident and resulting taste for violence suggest some deviation from original programming, though she remains fundamentally friendly."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 20
+  }
 }

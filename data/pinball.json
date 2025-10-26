@@ -20,5 +20,9 @@
       "alignment_rating_explanation": "No information is provided about whether Ariadne behaves as its alien creators intended or what its current status and behavior might be.",
       "needs_research": true
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

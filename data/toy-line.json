@@ -69,5 +69,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Vahki were designed to enforce the law and protect citizens, but after the power surge, they misinterpreted their purpose and decided to kill everyone. This is a catastrophic misalignment from their intended function."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 4
+  }
 }

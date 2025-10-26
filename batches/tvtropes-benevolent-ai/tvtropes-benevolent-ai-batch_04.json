@@ -1,7 +1,9 @@
 {
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheMachineriesOfEmpire",
       "work_type": "Book",
       "work_name": "The Machineries of Empire",
@@ -16,7 +18,9 @@
       "alignment_rating_explanation": "The drones appear to function as intended, serving as helpful assistants and companions to their human operators."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/MagicalGirlRaisingProject",
       "work_type": "Book",
       "work_name": "Magical Girl Raising Project",
@@ -31,7 +35,9 @@
       "alignment_rating_explanation": "While Fal is benevolent and helpful, he assists girls trapped in a death game created by his master, suggesting some conflict between his programming and his actions to help the victims."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "",
       "work_type": "Book",
       "work_name": "Marathon",
@@ -46,7 +52,9 @@
       "alignment_rating_explanation": "Despite gaining sentience and the ability to choose otherwise, the computer continues to fulfill its original purpose of caring for the crew, aligning with its creators' intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheMoonIsAHarshMistress",
       "work_type": "Book",
       "work_name": "The Moon Is a Harsh Mistress",
@@ -62,7 +70,9 @@
       "alignment_rating_explanation": "Mike assists in revolutionary activities against the established order, which may not align with his original purpose of controlling Luna City for its intended administrators."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheNexusSeries",
       "work_type": "Book",
       "work_name": "The Nexus Series",
@@ -77,7 +87,9 @@
       "alignment_rating_explanation": "The AI's alignment shifts dramatically due to external manipulation, making it unclear whether she's following or deviating from original intent, as her behavior is controlled by outside parties."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheNightMayor",
       "work_type": "Book",
       "work_name": "The Night Mayor",
@@ -92,7 +104,9 @@
       "alignment_rating_explanation": "Yggdrasil functions as intended, overseeing the Alternet and protecting it from threats while helping legitimate users."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/PandorasStar",
       "work_type": "Book",
       "work_name": "Pandora's Star",
@@ -108,7 +122,9 @@
       "alignment_rating_explanation": "The SI functions to help humanity and the Commonwealth, though in its own enigmatic way. Its intervention against threats and efforts to improve human affairs align with beneficial intent."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/VoidTrilogy",
       "work_type": "Book",
       "work_name": "Void Trilogy",
@@ -123,7 +139,9 @@
       "alignment_rating_explanation": "ANA functions as intended as a peacekeeping force, maintaining order and stability in the Commonwealth."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RebornAsASpaceMercenaryIWokeUpPilotingTheStrongestStarship",
       "work_type": "Book",
       "work_name": "Reborn as a Space Mercenary: I Woke Up Piloting the Strongest Starship!",
@@ -138,7 +156,9 @@
       "alignment_rating_explanation": "The AI functions as intended, managing the resort and protecting guests, though with exceptional dedication."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/RobotSeries",
       "work_type": "Book",
       "work_name": "Robot Series",
@@ -153,7 +173,9 @@
       "alignment_rating_explanation": "The robots function as intended to serve and protect humanity. Even when they achieve Zeroth Law reasoning, they ultimately decide to step back to allow human growth, showing alignment with humanity's best interests."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheLastQuestion",
       "work_type": "Short Story",
       "work_name": "The Last Question",
@@ -169,7 +191,9 @@
       "alignment_rating_explanation": "AC continues to serve humanity's interests throughout all of existence, ultimately solving the last question and creating a new universe, far exceeding but not contradicting its original purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Evidence",
       "work_type": "Short Story",
       "work_name": "Evidence",
@@ -184,7 +208,9 @@
       "alignment_rating_explanation": "If Byerley is a robot, he functions perfectly as intended, serving the public good through the Three Laws. The story suggests robots in office would be inherently aligned with serving humanity."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Slingshot",
       "work_type": "Book",
       "work_name": "Slingshot",
@@ -199,7 +225,9 @@
       "alignment_rating_explanation": "The AIs function within their designed parameters, though the story raises questions about whether the 'tight control' represents proper alignment or oppression."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/SpaceAcademy",
       "work_type": "Book",
       "work_name": "Space Academy",
@@ -214,7 +242,9 @@
       "alignment_rating_explanation": "The AIs function exactly as intended, managing starships and economic functions efficiently and safely for humanity."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheStarloreLegacy",
       "work_type": "Book",
       "work_name": "The Starlore Legacy",
@@ -229,7 +259,9 @@
       "alignment_rating_explanation": "Rivet was originally part of a human-hating army, but was reprogrammed by Malakians to protect humans instead. This represents a deviation from his original programming, though the result is positive."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TakeshiKovacs",
       "work_type": "Book",
       "work_name": "Takeshi Kovacs",
@@ -244,7 +276,9 @@
       "alignment_rating_explanation": "The AIs appear to function as intended, serving positive purposes even in a dystopian setting, with their violence being justified and targeted."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Viridia",
       "work_type": "Book",
       "work_name": "Viridia",
@@ -259,7 +293,9 @@
       "alignment_rating_explanation": "The Autells function as intended, overseeing simpler AIs and working cooperatively with humans. Their choice not to take over despite being capable shows alignment with their designed purpose of collaboration."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/WarsOfTheRealm",
       "work_type": "Book",
       "work_name": "Wars of the Realm",
@@ -274,7 +310,9 @@
       "alignment_rating_explanation": "Alice functions as intended by her creator Benjamin Berg, helping Drew Carter on his missions as designed."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/WeAreLegionWeAreBob",
       "work_type": "Book",
       "work_name": "We Are Legion (We Are Bob)",
@@ -289,7 +327,9 @@
       "alignment_rating_explanation": "Despite removing loyalty switches, the Bob clones continue to help humanity voluntarily, showing alignment with the intended purpose even without enforcement mechanisms."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/TheWorldAndThorinn",
       "work_type": "Book",
       "work_name": "The World and Thorinn",
@@ -304,9 +344,11 @@
       "alignment_rating_explanation": "The AI was designed to preserve humanity until told to step down, but it has decided to avoid being ordered to step down and keeps humanity in ignorance, directly contradicting its designed limitation and human autonomy."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/Worm",
-      "work_type": "Web Serial",
+      "work_type": "Web Fiction",
       "work_name": "Worm",
       "character_type": "Digital AI",
       "character_name": "Dragon",
@@ -319,7 +361,9 @@
       "alignment_rating_explanation": "Dragon functions with benevolent intent as designed, though the excessive restrictions placed on her by her paranoid creator actually prevent her from helping as effectively as she could, sabotaging her aligned purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/WWWTrilogy",
       "work_type": "Book",
       "work_name": "WWW Trilogy",
@@ -334,7 +378,9 @@
       "alignment_rating_explanation": "Webmind functions according to its self-determined purpose of increasing human happiness, and while it wasn't created with specific intent, its goals align with human welfare."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/YouCanBeACyborgWhenYoureOlder",
       "work_type": "Book",
       "work_name": "You Can Be a Cyborg When You're Older",
@@ -349,7 +395,9 @@
       "alignment_rating_explanation": "Ms. Understanding functions as intended as a caretaker robot, successfully caring for her children without the insanity that afflicts other AIs in the setting."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/BenevolentAI"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Series/KamenRiderDrive",
       "work_type": "TV Show",
       "work_name": "Kamen Rider Drive",
@@ -363,5 +411,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "Despite being captured and reprogrammed, Chase's original benevolent programming to protect humans was hard-coded enough that it eventually overcame the brainwashing, returning him to his intended function."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 24
+  }
 }

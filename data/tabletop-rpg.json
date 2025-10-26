@@ -534,5 +534,9 @@
       "alignment_rating": "Ambiguous",
       "alignment_rating_explanation": "Virus was designed as an anti-navigational weapon to infect and destroy, and it does exactly that. However, its exponential evolution and split personalities mean it may be executing its intended function (destruction) but in ways far beyond what was planned. It's both aligned (it destroys) and misaligned (it evolved far beyond control)."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 31
+  }
 }

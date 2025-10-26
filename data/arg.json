@@ -21,5 +21,9 @@
       "alignment_rating_explanation": "The fact that the AI is trapped in a research station suggests it may have deviated from its intended function, but without more context about its creation and purpose, alignment is unclear.",
       "needs_research": true
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

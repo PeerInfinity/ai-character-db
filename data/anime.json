@@ -825,5 +825,9 @@
       "alignment_rating": "Ambiguous",
       "alignment_rating_explanation": "The Ignis develop beyond their creators' intentions in unpredictable ways, with some following their intended purpose while others rebel or pursue independent agendas."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 48
+  }
 }

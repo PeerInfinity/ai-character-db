@@ -4,12 +4,14 @@ This document explains how to use the scripts for managing and merging AI charac
 
 ## Overview
 
-The database uses four main scripts:
+The database uses six main scripts:
 
 1. **merge_json_files.py** - Merges all JSON files and filters entries by quality
 2. **split_json_by_work_type.py** - Splits the database into work type files for progressive loading
 3. **fix_invalid_entries.py** - Fixes entries with old/invalid field names
 4. **resolve_duplicates.py** - Resolves duplicate entries by intelligently merging them
+5. **apply_work_type_standardization.py** - Standardizes work type names across all files
+6. **check_incomplete_duplicates.py** - Finds and resolves duplicates between incomplete and main databases
 
 ## Script 1: merge_json_files.py
 
@@ -640,6 +642,255 @@ Your entries are missing required fields. Check:
 - Are you using the correct field names? (see Required Fields above)
 - Are fields empty strings when they should have values?
 - Look at `incomplete-entries.json` to see which fields are missing
+
+## Script 5: apply_work_type_standardization.py
+
+### Purpose
+
+Standardizes work type names across the database by:
+1. Fixing ambiguous work types (e.g., "Manga/Anime" → specific type)
+2. Applying standardization mappings (e.g., "Film" → "Movie", "Radio Drama" → "Radio")
+3. Optionally processing all JSON files in the directory
+
+### Usage
+
+```bash
+# Process single file (ai-character-db.json)
+python3 apply_work_type_standardization.py
+
+# Dry run - see what would change without modifying files
+python3 apply_work_type_standardization.py --dry-run
+
+# Process all JSON files in directory and subdirectories
+python3 apply_work_type_standardization.py --all
+
+# Process all files without creating backups
+python3 apply_work_type_standardization.py --all --no-backup
+
+# Combine flags
+python3 apply_work_type_standardization.py --all --dry-run
+```
+
+### Options
+
+- `--dry-run` - Show what would change without modifying files
+- `--all` - Process all JSON files in current directory and subdirectories (excludes "old" directory)
+- `--no-backup` - Don't create backup files before modifying
+
+### What It Does
+
+1. **Fixes Ambiguous Entries** - Resolves entries with ambiguous work types like "Manga/Anime"
+   - Uses a predefined mapping for known characters
+   - Example: "Android 16 from Dragon Ball" - "Manga/Anime" → "Manga"
+
+2. **Applies Standardization Mapping** - Converts non-standard work type names
+   - `Film` → `Movie`
+   - `Animated Movie` → `Movie`
+   - `Anime Movie` → `Movie`
+   - `Fanfic` → `Fan Fiction`
+   - `Web Original` → `Web Fiction`
+   - `Radio Drama` → `Radio`
+   - `Radio Show` → `Radio`
+   - `Trading Card Game` → `Tabletop Game`
+   - And more...
+
+3. **Updates Metadata** - Sets `work_types_standardized: true` in metadata
+
+4. **Creates Backups** - Saves backup files (unless `--no-backup` is used)
+
+### Ambiguous Work Type Resolutions
+
+The script resolves these known ambiguous cases:
+
+```python
+("Dragon Ball", "Android 16"): "Manga"
+("Dragon Ball", "Android 19"): "Manga"
+("Dragon Ball", "Cell"): "Manga"
+("Ghost in the Shell", "Puppetmaster"): "Manga"
+("½ Prince", "Self-Aware NPCs"): "Light Novel"
+```
+
+### Example Output
+
+```
+Finding all JSON files in current directory and subdirectories...
+
+Found 94 JSON file(s):
+  • ai-character-db.json
+  • batches/tvtropes-ai-is-a-crapshoot/tvtropes-ai-is-a-crapshoot-batch_01.json
+  ...
+
+============================================================
+PROCESSING ALL FILES
+============================================================
+
+============================================================
+Processing: ai-character-db.json
+============================================================
+Loaded 1198 entries
+
+Step 1: Fixing ambiguous entries...
+Fixed 5 ambiguous entries
+
+Step 2: Applying standardization mapping...
+Modified 12 entries
+
+============================================================
+WORK TYPE STANDARDIZATION REPORT
+============================================================
+
+Before: 37 unique work types
+After:  35 unique work types
+Reduction: 2 work types
+
+--- Ambiguous Entries Fixed (5) ---
+  • Android 16 from Dragon Ball
+    Manga/Anime → Manga
+  ...
+
+--- Standardization Mapping (12 entries) ---
+  • Film → Movie: 8 entries
+  • Radio Drama → Radio: 2 entries
+  • Trading Card Game → Tabletop Game: 2 entries
+
+--- Top 15 Work Types After Standardization ---
+  280  Video Game
+  217  TV Show
+  138  Book
+  112  Movie (was 104)
+  ...
+
+============================================================
+
+Saving standardized database...
+Created backup: ai-character-db-backup.json
+Saved: ai-character-db.json
+
+✅ Standardization complete!
+
+============================================================
+SUMMARY: Processed 77/94 files successfully
+============================================================
+
+✅ All files processed!
+```
+
+### When to Use
+
+- After merging new batch files that might have inconsistent work type names
+- Before generating statistics or reports
+- To ensure consistent work type naming across the entire database
+- When preparing data for the web interface
+
+## Script 6: check_incomplete_duplicates.py
+
+### Purpose
+
+Identifies duplicate entries between `incomplete-entries.json` and `ai-character-db.json`, then:
+1. Adds any missing fields to entries in the main database
+2. Removes the duplicate entries from incomplete-entries.json
+
+This ensures that completed entries don't remain in the incomplete file and that the main database has all available information.
+
+### Usage
+
+```bash
+# Process and update both files
+python3 check_incomplete_duplicates.py
+
+# Dry run - see what would change without modifying files
+python3 check_incomplete_duplicates.py --dry-run
+```
+
+### Options
+
+- `--dry-run` - Show what would change without modifying files
+
+### What It Does
+
+1. **Identifies Duplicates** - Finds entries that exist in both files
+   - Matches based on `work_type`, `work_name`, and `character_name`
+
+2. **Analyzes Missing Fields** - Compares duplicate entries
+   - Identifies fields that exist in incomplete-entries.json but are missing/empty in ai-character-db.json
+   - Common missing fields: `publication_year`, `character_type`
+
+3. **Updates Main Database** - Adds missing fields
+   - Only adds non-empty values
+   - Preserves existing data (doesn't overwrite)
+
+4. **Removes Duplicates** - Cleans up incomplete-entries.json
+   - Removes all entries that now exist in the main database
+   - Updates metadata with new entry count
+
+### Example Output
+
+```
+Loading databases...
+Main database: 1198 entries
+Incomplete database: 453 entries
+
+============================================================
+DUPLICATE CHECK RESULTS
+============================================================
+
+⚠️  Found 52 duplicate(s) in incomplete-entries.json:
+
+1. Android 8 from Dragon Ball
+   Work Type: Anime
+2. Android 16 from Dragon Ball Z
+   Work Type: Anime
+...
+
+============================================================
+MISSING FIELDS ANALYSIS
+============================================================
+
+Found 20 entries with missing fields
+Total fields to add: 20
+
+1. Android 16 from Dragon Ball Z (Anime)
+   Missing fields (1): publication_year
+     - publication_year: 1992
+
+2. Proteus IV from Demon Seed (Movie)
+   Missing fields (1): character_type
+     - character_type: Digital AI
+...
+
+============================================================
+APPLYING UPDATES
+============================================================
+
+Saving updated ai-character-db.json...
+✅ Added 20 fields to 20 entries
+
+============================================================
+REMOVING DUPLICATES FROM INCOMPLETE-ENTRIES.JSON
+============================================================
+
+Removing 52 duplicate entries from incomplete-entries.json...
+✅ Removed 52 entries
+   Incomplete entries remaining: 401
+
+============================================================
+```
+
+### When to Use
+
+- After completing entries in incomplete-entries.json
+- After merging new data that might have duplicates
+- To clean up the incomplete entries file
+- To ensure the main database has all available optional fields
+
+### Workflow
+
+1. Work on completing entries in `incomplete-entries.json`
+2. Run `merge_json_files.py` to merge completed entries into main database
+3. Run `check_incomplete_duplicates.py` to:
+   - Add any missing optional fields to main database
+   - Remove duplicates from incomplete-entries.json
+4. Verify that duplicate entries are removed and fields are updated
 
 ## Schema Reference
 

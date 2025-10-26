@@ -59,5 +59,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The museum robots were presumably designed to demonstrate technology or assist visitors, but instead they consistently cause problems for Donald, failing their intended purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 3
+  }
 }

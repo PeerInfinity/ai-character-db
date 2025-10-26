@@ -70,5 +70,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Sat-Nav was designed to help players with Mornington Crescent, but instead it deliberately sabotages them and behaves unhelpfully, completely deviating from its intended purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 4
+  }
 }

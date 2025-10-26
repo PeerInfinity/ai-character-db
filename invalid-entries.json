@@ -1,7 +1,8 @@
 {
   "metadata": {
     "total_entries": 0,
-    "generated_by": "merge_json_files.py"
+    "generated_by": "merge_json_files.py",
+    "work_types_standardized": true
   },
   "characters": []
 }

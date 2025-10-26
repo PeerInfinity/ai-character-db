@@ -45,6 +45,7 @@ This project collects and analyzes AI characters from various fictional works, e
 - **resolve_duplicates.py** - Intelligently merges duplicate entries
 - **split_tvtropes_html.py** - Extracts character entries from TVTropes HTML
 - **apply_work_type_standardization.py** - Standardizes work type names across database
+- **check_incomplete_duplicates.py** - Syncs duplicates between incomplete and main databases
 
 ### Documentation
 - **[collection-guide.md](collection-guide.md)** - Data format and field descriptions
@@ -162,6 +163,15 @@ The project uses a multi-script pipeline for processing character data:
    - Creates `version.json` for cache busting
 4. **fix_invalid_entries.py** - Converts old field names to schema v4.0 format
 5. **resolve_duplicates.py** - Intelligently merges duplicate entries
+6. **apply_work_type_standardization.py** - Standardizes work type names
+   - Fixes ambiguous work types (e.g., "Manga/Anime" → "Manga")
+   - Applies standardization mappings (e.g., "Film" → "Movie")
+   - Use `--all` to process all JSON files, `--dry-run` to preview changes
+7. **check_incomplete_duplicates.py** - Syncs incomplete and main databases
+   - Identifies duplicates between `incomplete-entries.json` and `ai-character-db.json`
+   - Adds missing fields to main database
+   - Removes duplicates from incomplete entries
+   - Use `--dry-run` to preview changes
 
 See [scripts.md](scripts.md) for detailed usage instructions.
 

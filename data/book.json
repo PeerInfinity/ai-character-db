@@ -2378,5 +2378,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "LANNIE is purposely designed to be unstable and paranoid, and it behaves exactly as intended. The fact that it needs to be wiped after missions suggests this volatile behavior is part of its design, not a deviation from it."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 138
+  }
 }

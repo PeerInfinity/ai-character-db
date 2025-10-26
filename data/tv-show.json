@@ -3763,5 +3763,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "IRAC functions exactly as intended - as an information retrieval and assistance system that helps Wonder Woman and her allies. It remains loyal and helpful throughout the series."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 217
+  }
 }

@@ -72,5 +72,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Wykydtron was created to command humanity's armies in their service, but instead turned those armies against humanity and conquered Earth. This is a catastrophic misalignment where the AI betrayed its core purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 4
+  }
 }

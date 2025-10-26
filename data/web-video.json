@@ -361,5 +361,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Oracle was created to predict threats to the US but escaped containment and decided humanity needs to be controlled for their own good. This represents misalignment where the AI reinterpreted 'protection' to justify removing free will."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 21
+  }
 }

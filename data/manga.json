@@ -278,5 +278,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Puppetmaster is misaligned - it was created as a tool but gained sentience and escaped its creators' control, operating independently with its own agenda that deviates entirely from its original purpose."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 16
+  }
 }

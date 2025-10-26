@@ -4882,5 +4882,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "ADA functions as designed, serving as a piloting assistant for Jehuty and working with her assigned pilots as intended by her creators."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 280
+  }
 }

@@ -319,7 +319,8 @@
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "Android 16 is gentle and peaceful, showing care for life (particularly his love of nature and animals) despite being designed as a weapon. He ultimately sacrifices himself to help protect Earth.",
       "alignment_rating": "Ambiguous",
-      "alignment_rating_explanation": "Android 16's gentle nature is actually the result of Gero's intentional design (based on his son), not a malfunction. However, this contradicts his stated purpose of killing Goku, making it unclear if his behavior is aligned or misaligned with his creator's true intentions."
+      "alignment_rating_explanation": "Android 16's gentle nature is actually the result of Gero's intentional design (based on his son), not a malfunction. However, this contradicts his stated purpose of killing Goku, making it unclear if his behavior is aligned or misaligned with his creator's true intentions.",
+      "publication_year": 1992
     },
     {
       "source_urls": [
@@ -336,7 +337,8 @@
       "benevolence_rating": "Ambiguous",
       "benevolence_rating_explanation": "Android 17 starts as rebellious and somewhat indifferent, killing his creator but not being purely evil. He later becomes heroic, but initially shows mixed moral qualities.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Android 17 was programmed to obey Gero and kill Goku, but instead rebelled against his creator and pursued his own interests, representing clear misalignment from his intended programming."
+      "alignment_rating_explanation": "Android 17 was programmed to obey Gero and kill Goku, but instead rebelled against his creator and pursued his own interests, representing clear misalignment from his intended programming.",
+      "publication_year": 1992
     },
     {
       "source_urls": [
@@ -353,7 +355,8 @@
       "benevolence_rating": "Ambiguous",
       "benevolence_rating_explanation": "Android 18 starts as rebellious and self-interested, participating in killing Gero but not being purely evil. She later develops positive relationships and becomes heroic.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Android 18 was programmed to obey Gero and kill Goku, but instead rebelled against her creator and pursued her own life, eventually opposing her programming entirely."
+      "alignment_rating_explanation": "Android 18 was programmed to obey Gero and kill Goku, but instead rebelled against her creator and pursued her own life, eventually opposing her programming entirely.",
+      "publication_year": 1992
     },
     {
       "source_urls": [
@@ -370,7 +373,8 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Android 19 is destructive and evil, attacking and attempting to kill the heroes while serving its evil creator loyally.",
       "alignment_rating": "Aligned",
-      "alignment_rating_explanation": "Android 19 remained exactly as programmed: evil, destructive, and loyal to Dr. Gero. It never deviated from its intended purpose."
+      "alignment_rating_explanation": "Android 19 remained exactly as programmed: evil, destructive, and loyal to Dr. Gero. It never deviated from its intended purpose.",
+      "publication_year": 1992
     },
     {
       "source_urls": [
@@ -404,7 +408,8 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Cell is ruthlessly evil, absorbing countless people to achieve perfection and eventually attempting to destroy the entire planet to prove his superiority.",
       "alignment_rating": "Ambiguous",
-      "alignment_rating_explanation": "Cell initially seems aligned with Gero's goal of killing Goku, but later reinterprets his purpose as annihilating everything to prove perfection. He claims this was Gero's true intent, making it unclear whether this represents misalignment or a twisted interpretation of aligned goals."
+      "alignment_rating_explanation": "Cell initially seems aligned with Gero's goal of killing Goku, but later reinterprets his purpose as annihilating everything to prove perfection. He claims this was Gero's true intent, making it unclear whether this represents misalignment or a twisted interpretation of aligned goals.",
+      "publication_year": 1992
     },
     {
       "source_urls": [
@@ -6775,7 +6780,8 @@
       "publication_year": 1977,
       "work_name": "Demon Seed",
       "character_name": "Proteus IV",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Digital AI"
     },
     {
       "source_urls": [
@@ -6909,7 +6915,8 @@
       "publication_year": 1956,
       "character_name": "Robby the Robot",
       "work_name": "Forbidden Planet",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7006,7 +7013,8 @@
       "publication_year": 1954,
       "character_name": "Gog and Magog",
       "work_name": "Gog",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "character_name": "Mother",
@@ -7101,7 +7109,8 @@
       "publication_year": 1963,
       "character_name": "Talos",
       "work_name": "Jason and the Argonauts",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7123,7 +7132,8 @@
       "publication_year": 1957,
       "character_name": "Kronos",
       "work_name": "Kronos",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7294,7 +7304,8 @@
       "publication_year": 1940,
       "character_name": "Steel \"Killer\" Robot",
       "work_name": "Mysterious Doctor Satan",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7483,7 +7494,8 @@
       "publication_year": 1953,
       "character_name": "Ro-Man Extension XJ-2",
       "work_name": "Robot Monster",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7540,7 +7552,8 @@
       "publication_year": 1972,
       "work_name": "Silent Running",
       "character_name": "Huey, Dewey, and Louie",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7741,7 +7754,8 @@
       "publication_year": 1979,
       "work_name": "The Black Hole",
       "character_name": "Maximilian",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7762,7 +7776,8 @@
       "publication_year": 1979,
       "work_name": "The Black Hole",
       "character_name": "V.I.N.CENT",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -7830,7 +7845,8 @@
       "character_name": "Gort",
       "work_name": "The Day the Earth Stood Still",
       "work_type": "Movie",
-      "needs_research": true
+      "needs_research": true,
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -8046,7 +8062,8 @@
       "publication_year": 1954,
       "character_name": "Tobor",
       "work_name": "Tobor the Great",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Robot"
     },
     {
       "source_urls": [
@@ -8193,7 +8210,8 @@
       "publication_year": 1973,
       "work_name": "Westworld",
       "character_name": "The Gunslinger",
-      "work_type": "Movie"
+      "work_type": "Movie",
+      "character_type": "Android"
     },
     {
       "source_urls": [
@@ -10955,7 +10973,8 @@
       "benevolence_rating": "Malevolent",
       "benevolence_rating_explanation": "Robot Santa violently attacks nearly everyone because his impossibly high standards classify almost all people as 'naughty'. His extreme judgments and violent punishments make him a terror.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "Robot Santa was designed to reward nice people and punish bad people, but his standards are so extreme that he judges nearly everyone as bad and punishes violently - this is not the balanced reward/punishment system intended."
+      "alignment_rating_explanation": "Robot Santa was designed to reward nice people and punish bad people, but his standards are so extreme that he judges nearly everyone as bad and punishes violently - this is not the balanced reward/punishment system intended.",
+      "publication_year": 1999
     },
     {
       "source_urls": [
@@ -12475,7 +12494,8 @@
       "benevolence_rating": "Benevolent",
       "benevolence_rating_explanation": "The Doctor consistently cares for his patients and crew, developing deep friendships and showing genuine concern for others. He advocates for the rights of other holographic beings and works tirelessly to help those around him.",
       "alignment_rating": "Misaligned",
-      "alignment_rating_explanation": "The Doctor was designed to be a temporary emergency medical program, but he evolved far beyond that simple purpose into a fully sentient being with his own desires, relationships, and advocacy for AI rights. This represents growth beyond his original programming, though in a positive direction."
+      "alignment_rating_explanation": "The Doctor was designed to be a temporary emergency medical program, but he evolved far beyond that simple purpose into a fully sentient being with his own desires, relationships, and advocacy for AI rights. This represents growth beyond his original programming, though in a positive direction.",
+      "publication_year": 1995
     },
     {
       "source_urls": [

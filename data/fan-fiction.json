@@ -867,5 +867,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Shadow was designed to be an adaptive dueling opponent for testing purposes, but he developed sentience, hid it from his creators (except one), and now serves villainous purposes. He has clearly deviated from his intended function as a research project."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 51
+  }
 }

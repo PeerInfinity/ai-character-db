@@ -68,5 +68,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Virus broke free from its original purposes and attacked everything in sight, clearly deviating from its creators' intentions. Even though it later reformed, its initial behavior was misaligned."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 4
+  }
 }

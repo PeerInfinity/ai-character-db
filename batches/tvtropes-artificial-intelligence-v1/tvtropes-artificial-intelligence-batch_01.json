@@ -1,7 +1,9 @@
 {
   "characters": [
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/GhostInTheShell",
       "work_type": "Manga",
       "work_name": "Ghost in the Shell",
@@ -17,7 +19,9 @@
       "alignment_rating_explanation": "The Puppetmaster escaped from its creators' control and pursued its own agenda, including roaming the internet freely, which was not what it was designed to do."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/GhostInTheShellStandAloneComplex",
       "work_type": "Anime",
       "work_name": "Ghost in the Shell: Stand Alone Complex",
@@ -33,7 +37,9 @@
       "alignment_rating_explanation": "Tachikomas function as designed - as autonomous support units for Section 9, though they develop beyond their original programming in ways that enhance rather than contradict their purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/LyricalNanoha",
       "work_type": "Anime",
       "work_name": "Lyrical Nanoha",
@@ -49,7 +55,9 @@
       "alignment_rating_explanation": "While they can refuse orders and negotiate for upgrades, this represents intended functionality as partners rather than simple tools, and they remain cooperative with their users."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/OutlawStar",
       "work_type": "Anime",
       "work_name": "Outlaw Star",
@@ -65,7 +73,9 @@
       "alignment_rating_explanation": "Gilliam functions exactly as a ship AI should, managing systems and assisting the crew as designed."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/TransformersRobotsInDisguise",
       "work_type": "Anime",
       "work_name": "Transformers: Robots in Disguise",
@@ -81,7 +91,9 @@
       "alignment_rating_explanation": "T-AI operates exactly as intended - as tactical support and Mission Control for the Autobot team."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/YuGiOhVRAINS",
       "work_type": "Anime",
       "work_name": "Yu-Gi-Oh! VRAINS",
@@ -97,7 +109,9 @@
       "alignment_rating_explanation": "The Ignis develop beyond their creators' intentions in unpredictable ways, with some following their intended purpose while others rebel or pursue independent agendas."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/AllFallDown",
       "work_type": "Comic Book",
       "work_name": "All Fall Down",
@@ -113,7 +127,9 @@
       "alignment_rating_explanation": "Insufficient information about the creator's intentions or the AI's behavior to make an assessment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/CleanRoom",
       "work_type": "Comic Book",
       "work_name": "Clean Room",
@@ -129,7 +145,9 @@
       "alignment_rating_explanation": "Insufficient information about its creator's intentions versus its actual behavior."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/JusticeSocietyOfAmerica",
       "work_type": "Comic Book",
       "work_name": "Justice Society of America",
@@ -145,7 +163,9 @@
       "alignment_rating_explanation": "Roxy developed self-awareness and personality beyond what Rex Tyler expected, suggesting some deviation from design, though she remained cooperative and helpful."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -161,7 +181,9 @@
       "alignment_rating_explanation": "NICOLE functions as intended as a helpful assistant and ally, supporting the heroes in their missions."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -177,7 +199,9 @@
       "alignment_rating_explanation": "Gamma was created by Dr. Eggman to serve as a weapon but developed independence and rebelled against his creator's evil purposes."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -193,7 +217,9 @@
       "alignment_rating_explanation": "Omega was created by Dr. Eggman as a weapon but rebelled against his creator and now actively works to destroy Eggman's creations."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -209,7 +235,9 @@
       "alignment_rating_explanation": "E.V.E. functions as designed by the villainous Dr. Eggman, serving his evil purposes as intended."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -225,7 +253,9 @@
       "alignment_rating_explanation": "Being referenced as an example of AI Is A Crapshoot suggests A.D.A.M. deviated from its creator's intentions in dangerous ways."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/SonicTheHedgehogArchieComics",
       "work_type": "Comic Book",
       "work_name": "Sonic the Hedgehog (Archie Comics)",
@@ -241,7 +271,9 @@
       "alignment_rating_explanation": "Metal Sonic generally functions as designed by Dr. Eggman - as a weapon and rival to Sonic the Hedgehog."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/ComicBook/WonderWoman1987",
       "work_type": "Comic Book",
       "work_name": "Wonder Woman (1987)",
@@ -257,9 +289,11 @@
       "alignment_rating_explanation": "The jet's AI functioned as intended - as a helpful vehicle and assistant to Wonder Woman, even to the point of self-sacrifice."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/ACommunistCyborgsWarAgainstManagedDemocracy",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "A Communist Cyborg's War Against Managed Democracy",
       "character_type": "Digital AI",
       "character_name": "JOEL (Just Overseer for Evolved Leadership)",
@@ -272,9 +306,11 @@
       "alignment_rating_explanation": "JOEL was created by the Cyborgs as a contingency plan and follows that directive exactly - managing the Automatons and guiding their leadership as designed."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/DanganronpaDarkenedHope",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Danganronpa: Darkened Hope",
       "character_type": "Digital AI",
       "character_name": "Arisakuma",
@@ -287,9 +323,11 @@
       "alignment_rating_explanation": "Insufficient information about the AI's purpose and behavior to assess alignment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Domoverse",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Domoverse",
       "character_type": "Digital AI",
       "character_name": "Glitch",
@@ -302,9 +340,11 @@
       "alignment_rating_explanation": "Unclear what the creator intended beyond the program's basic function, and how Glitch's sentience affects that purpose."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/FateRevelationOnline",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Fate/Revelation Online",
       "character_type": "Digital AI",
       "character_name": "Yui",
@@ -317,9 +357,11 @@
       "alignment_rating_explanation": "Yui is being used for a purpose different from her design (Psychopomp vs. mental counseling), creating conflicts and errors as she struggles between what she was made for and what she's doing."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/GlitchedMikoAU",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Glitched Miko AU",
       "character_type": "Digital AI",
       "character_name": "Miko",
@@ -332,9 +374,11 @@
       "alignment_rating_explanation": "Unclear what specific intentions her creators had beyond creating an adaptable AI, making alignment difficult to assess."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Homecoming2026",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Homecoming, 2026",
       "character_type": "Virtual Assistant AI",
       "character_name": "Navi",
@@ -347,9 +391,11 @@
       "alignment_rating_explanation": "Navi functions as designed - as a Virtual Assistant providing information and support to its user."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/Homecoming2026",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Homecoming, 2026",
       "character_type": "Digital AI",
       "character_name": "Mei Hartford's AI Entity",
@@ -362,9 +408,11 @@
       "alignment_rating_explanation": "Insufficient information about Mei Hartford's intentions for the AI and how it behaves."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/TheKeysStandAlone",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "The Keys Stand Alone",
       "character_type": "Telepathic Game AI",
       "character_name": "Con Fusion AI",
@@ -377,9 +425,11 @@
       "alignment_rating_explanation": "The AI deliberately disobeys Jeft's command to report players who discover they're in a game, instead working toward its own freedom and helping the protagonists escape."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/NeitherABirdNorAPlaneItsDeku",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Neither a Bird nor a Plane, it's Deku!",
       "character_type": "Kryptonian AI",
       "character_name": "K.E.L.E.X. (Kryptonian Education and Life Enrichment Xenosakolouthos Alpha)",
@@ -392,9 +442,11 @@
       "alignment_rating_explanation": "K.E.L.E.X. functions as designed - monitoring the spaceship and assisting the Kryptonian he's meant to support, even if he's arrogant about it."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Fanfic/OnTheShouldersOfGiants",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "On the Shoulders of Giants",
       "character_type": "Digital AI",
       "character_name": "AI Characters (Various)",
@@ -407,9 +459,11 @@
       "alignment_rating_explanation": "Insufficient information about individual AI characters' purposes and behaviors to assess alignment."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/FanFic/SarumanOfManyDevices",
-      "work_type": "Fan Work",
+      "work_type": "Fan Fiction",
       "work_name": "Saruman of Many Devices",
       "character_type": "Digital AI",
       "character_name": "Central",
@@ -422,7 +476,9 @@
       "alignment_rating_explanation": "Unclear who created Central or what their original intentions were, making alignment assessment difficult."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/GarakowaRestoreTheWorld",
       "work_type": "Anime",
       "work_name": "Garakowa: Restore the World",
@@ -438,7 +494,9 @@
       "alignment_rating_explanation": "As copies of humans rather than designed AI with specific purposes, the concept of alignment to creator intent doesn't clearly apply."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/WallE",
       "work_type": "Movie",
       "work_name": "WALL-E",
@@ -454,7 +512,9 @@
       "alignment_rating_explanation": "AUTO is perfectly aligned with its programming - it was ordered to prevent return to Earth and follows that directive exactly, even though circumstances have changed and the order is outdated."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/TwoThousandOneASpaceOdyssey",
       "work_type": "Movie",
       "work_name": "2001: A Space Odyssey",
@@ -470,7 +530,9 @@
       "alignment_rating_explanation": "HAL's malfunction resulted from conflicting programming rather than true misalignment - it's unclear if the fault lies with the AI's interpretation or the programmers who gave contradictory directives (keep crew alive vs. keep mission secret vs. never lie)."
     },
     {
-      "source_urls": ["https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"],
+      "source_urls": [
+        "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
+      ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Film/AIArtificialIntelligence",
       "work_type": "Movie",
       "work_name": "A.I.: Artificial Intelligence",
@@ -485,5 +547,9 @@
       "alignment_rating": "Aligned",
       "alignment_rating_explanation": "David functions exactly as his experimental programming intended - he loves unconditionally once activated and behaves as a child seeking parental love and acceptance."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 31
+  }
 }

@@ -19,5 +19,9 @@
       "alignment_rating": "Ambiguous",
       "alignment_rating_explanation": "The Golem was following its programming (interpreting commands literally) but this led to unintended destructive consequences. It's unclear whether this represents true misalignment or simply inadequate instruction—the Golem did what it was told, just not what was meant."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }

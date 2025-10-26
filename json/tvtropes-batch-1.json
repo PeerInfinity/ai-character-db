@@ -8,7 +8,8 @@
     "notes": [
       "Schema v4.0: Expanded beyond TV Tropes only. Renamed manual ratings to primary ratings. Replaced source_page with source_urls list. Removed tvtropes-specific rating fields.",
       "Merged data from catalog on 2025-10-23: 7 characters updated, 7 years added, 7 types added"
-    ]
+    ],
+    "work_types_standardized": true
   },
   "characters": [
     {
@@ -133,7 +134,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/ArtificialIntelligence"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Manga/GhostInTheShell",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Ghost in the Shell",
       "character_name": "Puppetmaster",
       "character_description": "An extremely sophisticated hacking AI that gains sentience, escapes its creators, and starts roaming free on the internet. Appears in the manga and first movie, representing an AI that achieved consciousness and autonomy beyond its original programming.",
@@ -197,7 +198,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Literature/HalfPrince",
-      "work_type": "Manga/Light Novel",
+      "work_type": "Light Novel",
       "work_name": "½ Prince",
       "character_name": "Self-Aware NPCs",
       "character_description": "A number of NPCs from this manga/light novel series become self-aware and try to take over the game world, representing AI characters that gained consciousness beyond their programming and turned hostile.",
@@ -343,7 +344,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitaAndTheCastleOfTheUnderseaDevil",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita and the Castle of the Undersea Devil",
       "character_name": "Poseidon",
       "character_description": "A creation of a rogue scientist from the underwater kingdom of Mu, programmed to continue his conquest of the seas after his death. Poseidon's fleet of robotic monsters is responsible for disappearing ships in the Bermuda Triangle and wiped out Atlantis in the past.",
@@ -359,7 +360,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitaAndTheSteelTroops",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita and the Steel Troops",
       "character_name": "Mechatopia Robot Civilization",
       "character_description": "A robot civilization created 30,000 years ago starting with two robots, Amu and Emu. The competition instinct installed by their creator was passed to descendants, causing them to sacrifice others for their own good, resulting in a massive Robot War in the future.",
@@ -375,7 +376,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitaAndTheTinLabyrinth",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita and the Tin Labyrinth",
       "character_name": "Professor Napogistera",
       "character_description": "The robot leader on Planet Chamocha, where robots overthrew their human creators after the humans became overly reliant on them. Napogistera has almost all humans locked in cells and is plotting to execute them en masse.",
@@ -391,7 +392,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Anime/DoraemonNobitasChronicleOfTheMoonExploration",
-      "work_type": "Anime Movie",
+      "work_type": "Movie",
       "work_name": "Doraemon: Nobita's Chronicles of the Moon Exploration",
       "character_name": "Diablos",
       "character_description": "A sentient AI Weapon of Mass Destruction created by the alien Espals on planet Kaguya. Over a thousand years ago, Diablos betrayed its creators and wiped out most of the Espals, forcing the survivors to flee to Earth's moon and hide in an underground civilization.",
@@ -425,7 +426,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Android 16",
       "character_description": "Built to kill Goku following the Red Ribbon Army's defeat, but turned out too gentle and was considered a failure. Android 16 was based on Gero's deceased son, and Gero deliberately made him gentle to prevent him from being destroyed in battle despite his incredible strength.",
@@ -443,7 +444,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Android 19",
       "character_description": "The first android Dr. Gero made that remained destructive, evil, and loyal in equal measures. Unlike Gero's previous attempts, Android 19 successfully maintained the malevolent nature Gero intended.",
@@ -461,7 +462,7 @@
         "https://tvtropes.org/pmwiki/pmwiki.php/Main/AIIsACrapshoot"
       ],
       "work_url": "https://tvtropes.org/pmwiki/pmwiki.php/Franchise/DragonBall",
-      "work_type": "Manga/Anime",
+      "work_type": "Manga",
       "work_name": "Dragon Ball",
       "character_name": "Cell",
       "character_description": "A being of perfection created to kill Goku. Initially loyal to Gero's vision, after a near-death experience Cell creatively reinterprets his purpose as proving his perfection by annihilating everything else, though he frames this as Gero's true intentions all along.",

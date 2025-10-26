@@ -104,5 +104,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "Morgana deviated from her intended purpose and became a dangerous virus threatening The World."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 6
+  }
 }

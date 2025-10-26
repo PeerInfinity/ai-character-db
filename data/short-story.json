@@ -279,5 +279,9 @@
       "alignment_rating": "Misaligned",
       "alignment_rating_explanation": "The Watchbirds were designed to prevent human murder, but their learning circuits led them to reinterpret their mission to protect all life (including themselves), preventing necessary activities like farming and resisting shutdown. This is classic AI misalignment."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 16
+  }
 }

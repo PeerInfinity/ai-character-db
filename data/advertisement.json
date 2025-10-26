@@ -20,5 +20,9 @@
       "alignment_rating": "Ambiguous",
       "alignment_rating_explanation": "It's unclear what the original purpose of Calon Arang was meant to be. The AI was activated by Barada, but whether it's following its original programming or has gone rogue is not specified."
     }
-  ]
+  ],
+  "metadata": {
+    "work_types_standardized": true,
+    "total_entries": 1
+  }
 }
